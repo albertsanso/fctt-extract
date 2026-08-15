@@ -5,7 +5,8 @@ Create a Python script that crawls [http://fctt.cat/lligues/](https://fctt.cat/l
 # Description
 
 The Python script downloads the HTML source returned by the FCTT league pages.
-It must not follow links such as `https://control.fctt.cat/partido/{id}/imprimir/acta`, because those links can return PDF files. The downloaded content must be the HTML behind URLs such as `https://fctt.cat/lligues/grup-1/?jornada=2`.
+It must not follow links such as `https://control.fctt.cat/partido/{id}/imprimir/acta`, because those links can return PDF files. The downloaded content 
+must be the HTML behind URLs such as `https://fctt.cat/lligues/grup-1/?jornada=2`.
 The script should navigate through the website's structure, identify the available seasons, categories, groups, and phases, and download the corresponding match-day pages in HTML format.
 
 The navigation is based in giving different values to this parameterized URL:
@@ -34,7 +35,7 @@ The downloader must be resilient to temporary network failures while respecting 
 
 **Folder structure for downloaded HTML files:**
 ```text
-/resources/{temporada}/{categoria}/{grup}/jornada_{N}.html
+/resources/actas-html/{temporada}/{categoria}/{grup}/jornada_{N}.html
 ```
 
 Where:

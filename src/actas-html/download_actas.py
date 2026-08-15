@@ -32,6 +32,7 @@ LOGGER = logging.getLogger("fctt-actas")
 TRANSIENT_STATUS_CODES = {408, 425, 429, 500, 502, 503, 504}
 BLOCK_PAGE_MARKERS = ("access denied", "forbidden", "captcha", "cloudflare", "request blocked")
 
+DEFAULT_OUTPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-html"
 
 class RequestPacer:
     """Enforce a minimum interval between requests to the remote site."""
@@ -231,7 +232,7 @@ def download_actas(
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--output", type=Path, default=Path("resources"), help="Directori arrel de sortida")
+    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT, help="Directori arrel de sortida")
     parser.add_argument("--groups", nargs="+", choices=GROUPS, default=list(GROUPS))
     parser.add_argument("--jornadas", nargs="+", type=int, default=list(MATCH_DAYS), metavar="N")
     parser.add_argument("--overwrite", action="store_true", help="Tornar a descarregar fitxers existents")

@@ -20,7 +20,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 
-DEFAULT_INPUT = Path(__file__).resolve().parent / "resources"
+DEFAULT_INPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-html"
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-json"
 FEDERATION = "Federació Catalana de Tennis Taula"
 LOGGER = logging.getLogger("fctt-parser")
@@ -354,7 +354,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
-
-
-
