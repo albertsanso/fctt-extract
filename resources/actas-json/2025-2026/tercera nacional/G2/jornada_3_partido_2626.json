@@ -1,0 +1,358 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 3,
+  "fecha": "2025-10-18",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "LOCAL TENNIS TAULA PABELLÓ DE LES COMES. CARRER CARLES RIBA, S/N. ENTRADA PER LA PORTA DE L'ANFITEATRE,08700 IGUALADA"
+  },
+  "equipos": {
+    "local": {
+      "id": "74",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "73",
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "B": {
+        "nombre": "JIMENEZ FERNANDEZ, MARTI",
+        "licencia": "12904",
+        "id": "12904"
+      },
+      "C": {
+        "nombre": "RUITIAN ZHAO, ANGEL",
+        "licencia": "20829",
+        "id": "20829"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "X": {
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "Z": {
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "JIMENEZ FERNANDEZ, MARTI",
+        "licencia": "12904",
+        "id": "12904"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "RUITIAN ZHAO, ANGEL",
+        "licencia": "20829",
+        "id": "20829"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "RUITIAN ZHAO, ANGEL",
+        "licencia": "20829",
+        "id": "20829"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "JIMENEZ FERNANDEZ, MARTI",
+        "licencia": "12904",
+        "id": "12904"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CPP IGUALADA",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

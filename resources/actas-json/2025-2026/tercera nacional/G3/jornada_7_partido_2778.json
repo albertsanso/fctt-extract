@@ -1,0 +1,460 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 7,
+  "fecha": "2025-11-16",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PISCINES LA GARRIGA. C/BASSAL, S/N. CREUAMENT AMB AVINGUDA AVI MUSQUERA,08530 LA GARRIGA"
+  },
+  "equipos": {
+    "local": {
+      "id": "96",
+      "nombre": "TT ELS 8 LA GARRIGA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "103",
+      "nombre": "T.T.PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "CARLOS GARCIA MOMBLONA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "B": {
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "C": {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "GRAU DULCET, XAVIER",
+        "licencia": "6184",
+        "id": "6184"
+      },
+      "X": {
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "Z": {
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      {
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "GRAU DULCET, XAVIER",
+        "licencia": "6184",
+        "id": "6184"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "GRAU DULCET, XAVIER",
+        "licencia": "6184",
+        "id": "6184"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "RUIZ VAREA, AMADOR",
+            "licencia": "842",
+            "id": "842"
+          },
+          {
+            "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+            "licencia": "850",
+            "id": "850"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "MONTAGUT ARIN, JOAN",
+            "licencia": "11863",
+            "id": "11863"
+          },
+          {
+            "nombre": "COROMINAS FERNANDEZ, ALBERT",
+            "licencia": "12296",
+            "id": "12296"
+          }
+        ],
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT ELS 8 LA GARRIGA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

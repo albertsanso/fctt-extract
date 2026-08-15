@@ -1,0 +1,361 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 22,
+  "fecha": "2026-05-09",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CLUB TENNIS TAULA GANXETS DE REUS. CARRER D'EVARIST FÀBREGAS, 9. ,43205 REUS"
+  },
+  "equipos": {
+    "local": {
+      "id": "98",
+      "nombre": "MIRÓ GANXETS REUS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "69",
+      "nombre": "ACCESIA - TT JOVES",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "JOSEP CAMPANYA FIGUERES",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
+        "licencia": "15279",
+        "id": "15279"
+      },
+      "B": {
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "C": {
+        "nombre": "COMAS FARRÀS, JAN",
+        "licencia": "14526",
+        "id": "14526"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "FENG, ZHEN",
+        "licencia": "9152",
+        "id": "9152"
+      },
+      "X": {
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "Z": {
+        "nombre": "ARRIBAS CORTÈS, SERGI",
+        "licencia": "5045",
+        "id": "5045"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
+        "licencia": "15279",
+        "id": "15279"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "FENG, ZHEN",
+        "licencia": "9152",
+        "id": "9152"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "COMAS FARRÀS, JAN",
+        "licencia": "14526",
+        "id": "14526"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "ARRIBAS CORTÈS, SERGI",
+        "licencia": "5045",
+        "id": "5045"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
+        "licencia": "15279",
+        "id": "15279"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "COMAS FARRÀS, JAN",
+        "licencia": "14526",
+        "id": "14526"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "FENG, ZHEN",
+        "licencia": "9152",
+        "id": "9152"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "ARRIBAS CORTÈS, SERGI",
+        "licencia": "5045",
+        "id": "5045"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ACCESIA - TT JOVES",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

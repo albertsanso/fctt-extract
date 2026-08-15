@@ -1,0 +1,371 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 4,
+  "fecha": "2025-10-26",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "ESCOLA MONSERRAT . CARRER D'ANTONI GAUDÍ, 30. ,08330 PREMIÀ DE MAR"
+  },
+  "equipos": {
+    "local": {
+      "id": "71",
+      "nombre": "ATT PREMIA DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "95",
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "TOMÁS LEONE",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "GALTES SANZ, FRANCESC X.",
+        "licencia": "4276",
+        "id": "4276"
+      },
+      "B": {
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "C": {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "X": {
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "Z": {
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "GALTES SANZ, FRANCESC X.",
+        "licencia": "4276",
+        "id": "4276"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 1,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "GALTES SANZ, FRANCESC X.",
+        "licencia": "4276",
+        "id": "4276"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 14
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ATT PREMIA DE MAR",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

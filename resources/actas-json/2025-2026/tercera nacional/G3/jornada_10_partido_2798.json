@@ -1,0 +1,376 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 10,
+  "fecha": "2025-12-13",
+  "hora": "16:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE VILABLAREIX. MARROC S/N. ,17180 VILABLAREIX"
+  },
+  "equipos": {
+    "local": {
+      "id": "93",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "97",
+      "nombre": "FALCONS SBD - SMATSA AGORA GRUP",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "B": {
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "C": {
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "X": {
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "Z": {
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 15,
+          "visitante": 13
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 5,
+          "local": 15,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILABLAREIX SFY",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

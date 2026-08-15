@@ -1,0 +1,470 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 20,
+  "fecha": "2026-04-25",
+  "hora": "17:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "LA BADALONENSE. C. SANT ANASTASI, 14.,08911 BADALONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "76",
+      "nombre": "EUROCLIMA BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "91",
+      "nombre": "CTT TORTOSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "B": {
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
+      "C": {
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
+        "licencia": "11280",
+        "id": "11280"
+      },
+      "X": {
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "Z": {
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      {
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      {
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
+        "licencia": "11280",
+        "id": "11280"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
+        "licencia": "11280",
+        "id": "11280"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 13,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "QUEROL COLL, JAUME",
+            "licencia": "5578",
+            "id": "5578"
+          },
+          {
+            "nombre": "ROCA SAYAS, ERIC",
+            "licencia": "11323",
+            "id": "11323"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "GRANADOS GRÍFOL, JOAN",
+            "licencia": "14223",
+            "id": "14223"
+          },
+          {
+            "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+            "licencia": "11283",
+            "id": "11283"
+          }
+        ],
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EUROCLIMA BADALONA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

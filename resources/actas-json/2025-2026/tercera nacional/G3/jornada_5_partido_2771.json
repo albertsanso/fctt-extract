@@ -1,0 +1,450 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 5,
+  "fecha": "2025-11-02",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL D'ESPORTS DE LA BISBAL D'EMPORDÀ. AVINGUDA MAS CLARA S/N. ,17100 LA BISBAL D'EMPORDÀ"
+  },
+  "equipos": {
+    "local": {
+      "id": "86",
+      "nombre": "C.T.T. LA BISBAL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "97",
+      "nombre": "FALCONS SBD - SMATSA AGORA GRUP",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "IRINA KOZHUKHOVA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "B": {
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
+      },
+      "C": {
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "X": {
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "Z": {
+        "nombre": "CARRASCO REY, IVAN",
+        "licencia": "16404",
+        "id": "16404"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
+      },
+      {
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "CARRASCO REY, IVAN",
+        "licencia": "16404",
+        "id": "16404"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "CARRASCO REY, IVAN",
+        "licencia": "16404",
+        "id": "16404"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+            "licencia": "17614",
+            "id": "17614"
+          },
+          {
+            "nombre": "CAMPOS GUINOVART, RAMON",
+            "licencia": "7026",
+            "id": "7026"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+            "licencia": "701",
+            "id": "701"
+          },
+          {
+            "nombre": "FONTANET PÉREZ, FRANCESC",
+            "licencia": "1002",
+            "id": "1002"
+          }
+        ],
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. LA BISBAL",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

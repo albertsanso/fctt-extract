@@ -1,0 +1,366 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 17,
+  "fecha": "2026-03-21",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLO MUNICIPAL D´ESPORTS. PLAÇA CASERNES S/N. ,08800 VILANOVA I LA GELTRÚ"
+  },
+  "equipos": {
+    "local": {
+      "id": "94",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "95",
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "DAVID SANTOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "B": {
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "C": {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "X": {
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
+      "Z": {
+        "nombre": "MONZÓ MONTERO, RAFAEL",
+        "licencia": "982",
+        "id": "982"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "MONZÓ MONTERO, RAFAEL",
+        "licencia": "982",
+        "id": "982"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "MONZÓ MONTERO, RAFAEL",
+        "licencia": "982",
+        "id": "982"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T.VILANOVA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

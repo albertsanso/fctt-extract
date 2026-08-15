@@ -1,0 +1,356 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2025-11-09",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "ESCOLA MONSERRAT . CARRER D'ANTONI GAUDÍ, 30. ,08330 PREMIÀ DE MAR"
+  },
+  "equipos": {
+    "local": {
+      "id": "71",
+      "nombre": "ATT PREMIA DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "89",
+      "nombre": "CLINICA DENTAL VG. PILAR RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "B": {
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "C": {
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "X": {
+        "nombre": "MARTINEZ CARRACEDO, DANI",
+        "licencia": "1231",
+        "id": "1231"
+      },
+      "Z": {
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MARTINEZ CARRACEDO, DANI",
+        "licencia": "1231",
+        "id": "1231"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MARTINEZ CARRACEDO, DANI",
+        "licencia": "1231",
+        "id": "1231"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ATT PREMIA DE MAR",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

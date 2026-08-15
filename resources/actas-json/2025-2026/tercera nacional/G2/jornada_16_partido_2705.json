@@ -1,0 +1,376 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2026-03-01",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CN SABADELL ( CENTRE DE CAN LLONG). CARRER BUDAPEST S/N. ,08206 SABADELL"
+  },
+  "equipos": {
+    "local": {
+      "id": "73",
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "90",
+      "nombre": "CTTSALLENT.RESET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "JONATHAN CORTES BAZ",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "B": {
+        "nombre": "HUGUET LABRADOR, THIAGO",
+        "licencia": "16852",
+        "id": "16852"
+      },
+      "C": {
+        "nombre": "HUGUET TAGÜEÑA, FERRAN",
+        "licencia": "975",
+        "id": "975"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "X": {
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      },
+      "Z": {
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "HUGUET LABRADOR, THIAGO",
+        "licencia": "16852",
+        "id": "16852"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "HUGUET TAGÜEÑA, FERRAN",
+        "licencia": "975",
+        "id": "975"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 15,
+          "visitante": 13
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "HUGUET TAGÜEÑA, FERRAN",
+        "licencia": "975",
+        "id": "975"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "HUGUET LABRADOR, THIAGO",
+        "licencia": "16852",
+        "id": "16852"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN SABADELL",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

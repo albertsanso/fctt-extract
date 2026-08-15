@@ -1,0 +1,366 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 12,
+  "fecha": "2026-01-17",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CEIP PAU VILA. C/ DEL PARE JOAN RAMON IMBERT. ENTRADA PER AV. PEDRA DEL DIABLE S/N,08150 PARETS DEL VALLÈS"
+  },
+  "equipos": {
+    "local": {
+      "id": "102",
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "93",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "GIL ARUMI CROSAS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "B": {
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "C": {
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "LOPEZ MARTIN, MANOLO",
+        "licencia": "674",
+        "id": "674"
+      },
+      "X": {
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "Z": {
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LOPEZ MARTIN, MANOLO",
+        "licencia": "674",
+        "id": "674"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 5,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LOPEZ MARTIN, MANOLO",
+        "licencia": "674",
+        "id": "674"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILABLAREIX SFY",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

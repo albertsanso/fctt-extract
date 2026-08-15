@@ -1,0 +1,455 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 20,
+  "fecha": "2026-04-25",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ DEL CLUB GIMNÀSTIC DE TARRAGONA. PARTIDA BUDALLERA S/N . DEVANT DEL CAMP DE FUTBOL,43007 TARRAGONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "99",
+      "nombre": "CLUB GIMNÀSTIC DE TARRAGONA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "90",
+      "nombre": "CTTSALLENT.RESET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "JOSEP Mª SERRET G. DE CACERES",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
+      },
+      "B": {
+        "nombre": "SIBILA BUITRAGO, JOEL",
+        "licencia": "12139",
+        "id": "12139"
+      },
+      "C": {
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "X": {
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      },
+      "Z": {
+        "nombre": "VERDEJO RABASSO, JORDI",
+        "licencia": "6671",
+        "id": "6671"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
+      },
+      {
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      {
+        "nombre": "VERDEJO RABASSO, JORDI",
+        "licencia": "6671",
+        "id": "6671"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "SIBILA BUITRAGO, JOEL",
+        "licencia": "12139",
+        "id": "12139"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VERDEJO RABASSO, JORDI",
+        "licencia": "6671",
+        "id": "6671"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "SIBILA BUITRAGO, JOEL",
+        "licencia": "12139",
+        "id": "12139"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VERDEJO RABASSO, JORDI",
+        "licencia": "6671",
+        "id": "6671"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ROVIRA GIRABAL, ALBERT",
+            "licencia": "13893",
+            "id": "13893"
+          },
+          {
+            "nombre": "MONTANYÀ PUIG, ADRIÀ",
+            "licencia": "672",
+            "id": "672"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "DE BLAS FOIX, XAVIER",
+            "licencia": "2309",
+            "id": "2309"
+          },
+          {
+            "nombre": "VERDEJO RABASSO, JORDI",
+            "licencia": "6671",
+            "id": "6671"
+          }
+        ],
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB GIMNÀSTIC DE TARRAGONA \"A\"",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,460 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 8,
+  "fecha": "2025-11-23",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PABELLO JOAN BUSQUETS ( POLIESPORTIU ESTRUCH ). PARE ANDREU DE PALMA. POLIESPORTIU ESTRUCH,08820 EL PRAT DE LLOBREGAT"
+  },
+  "equipos": {
+    "local": {
+      "id": "103",
+      "nombre": "T.T.PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "101",
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "CARLOS GARCIA MOMBLONA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "B": {
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "C": {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      },
+      "X": {
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "Z": {
+        "nombre": "RAKVIASHVILI, GURAMI",
+        "licencia": "21167",
+        "id": "21167"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      {
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "RAKVIASHVILI, GURAMI",
+        "licencia": "21167",
+        "id": "21167"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "RAKVIASHVILI, GURAMI",
+        "licencia": "21167",
+        "id": "21167"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "RUIZ VAREA, AMADOR",
+            "licencia": "842",
+            "id": "842"
+          },
+          {
+            "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+            "licencia": "850",
+            "id": "850"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+            "licencia": "3912",
+            "id": "3912"
+          },
+          {
+            "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+            "licencia": "328",
+            "id": "328"
+          }
+        ],
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT POBLENOU",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,366 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 1,
+  "fecha": "2025-09-27",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PISCINES LA GARRIGA. C/BASSAL, S/N. CREUAMENT AMB AVINGUDA AVI MUSQUERA,08530 LA GARRIGA"
+  },
+  "equipos": {
+    "local": {
+      "id": "96",
+      "nombre": "TT ELS 8 LA GARRIGA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "97",
+      "nombre": "FALCONS SBD - SMATSA AGORA GRUP",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "EDUARDO VILLAR SILVESTRE",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "GRAU DULCET, XAVIER",
+        "licencia": "6184",
+        "id": "6184"
+      },
+      "B": {
+        "nombre": "CHICU, RADU",
+        "licencia": "8301",
+        "id": "8301"
+      },
+      "C": {
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "X": {
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "Z": {
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "GRAU DULCET, XAVIER",
+        "licencia": "6184",
+        "id": "6184"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CHICU, RADU",
+        "licencia": "8301",
+        "id": "8301"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "GRAU DULCET, XAVIER",
+        "licencia": "6184",
+        "id": "6184"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ORTUÑO JUÁREZ, JORDI",
+        "licencia": "12875",
+        "id": "12875"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "CHICU, RADU",
+        "licencia": "8301",
+        "id": "8301"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS SBD - SMATSA AGORA GRUP",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

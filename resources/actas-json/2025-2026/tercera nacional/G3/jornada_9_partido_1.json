@@ -1,0 +1,50 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 9,
+  "fecha": "2025-11-29",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "POLIESPORTIU MUNICIPAL CAN DELFÍ. C/ PRAT DE CAN DELFÍ S/N. A TOCAR DE LES PISCINES,17401 ARBÚCIES"
+  },
+  "equipos": {
+    "local": {
+      "id": "75",
+      "nombre": "CTT ARBÚCIES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "103",
+      "nombre": "T.T.PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "LLORENÇ VILARNAU SALIP",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": "CTT ARBÚCIES",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

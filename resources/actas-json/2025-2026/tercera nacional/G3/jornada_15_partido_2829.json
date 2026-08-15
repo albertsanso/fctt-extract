@@ -1,0 +1,470 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 15,
+  "fecha": "2026-02-07",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "POLIESPORTIU MUNICIPAL CAN DELFÍ. C/ PRAT DE CAN DELFÍ S/N. A TOCAR DE LES PISCINES,17401 ARBÚCIES"
+  },
+  "equipos": {
+    "local": {
+      "id": "75",
+      "nombre": "CTT ARBÚCIES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "102",
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "IRINA KOZHUKHOVA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "B": {
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "C": {
+        "nombre": "MOLINA NAVARRO, MIGUEL",
+        "licencia": "755",
+        "id": "755"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "X": {
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      },
+      "Z": {
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      {
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      {
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "MOLINA NAVARRO, MIGUEL",
+        "licencia": "755",
+        "id": "755"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 20,
+          "visitante": 22
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "MOLINA NAVARRO, MIGUEL",
+        "licencia": "755",
+        "id": "755"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 0,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 0,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 0,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "HUGUET MOLIST, SERGI",
+            "licencia": "7149",
+            "id": "7149"
+          },
+          {
+            "nombre": "GARRELL GARCIA, AMADOR",
+            "licencia": "10740",
+            "id": "10740"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CABRA SUREDA, BIEL",
+            "licencia": "15118",
+            "id": "15118"
+          },
+          {
+            "nombre": "TURA POCH, DANIEL",
+            "licencia": "10239",
+            "id": "10239"
+          }
+        ],
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ARBÚCIES",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

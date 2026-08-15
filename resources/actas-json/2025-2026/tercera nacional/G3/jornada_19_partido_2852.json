@@ -1,0 +1,386 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 19,
+  "fecha": "2026-04-18",
+  "hora": "16:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL D'ESPORTS PLA DE LLACS. AV. REPÚBLIC ARGENTINA, 8. ,17800 OLOT"
+  },
+  "equipos": {
+    "local": {
+      "id": "88",
+      "nombre": "CTT OLOT - FAIBO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "86",
+      "nombre": "C.T.T. LA BISBAL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "JORDI ARAGALL MUSACH",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "B": {
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "C": {
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "X": {
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "Z": {
+        "nombre": "TOLEDO FREIXAS, JOAN",
+        "licencia": "1266",
+        "id": "1266"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "TOLEDO FREIXAS, JOAN",
+        "licencia": "1266",
+        "id": "1266"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "TOLEDO FREIXAS, JOAN",
+        "licencia": "1266",
+        "id": "1266"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. LA BISBAL",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

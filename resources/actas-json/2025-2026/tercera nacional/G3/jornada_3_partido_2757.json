@@ -1,0 +1,366 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 3,
+  "fecha": "2025-10-18",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "POLIESPORTIU MUNICIPAL CAN DELFÍ. C/ PRAT DE CAN DELFÍ S/N. A TOCAR DE LES PISCINES,17401 ARBÚCIES"
+  },
+  "equipos": {
+    "local": {
+      "id": "75",
+      "nombre": "CTT ARBÚCIES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "101",
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "BIEL SUBIRANA VARGAS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "B": {
+        "nombre": "RIMBAU PLANAS, JOAQUIM",
+        "licencia": "5016",
+        "id": "5016"
+      },
+      "C": {
+        "nombre": "RAKVIASHVILI, GURAMI",
+        "licencia": "21167",
+        "id": "21167"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "X": {
+        "nombre": "LU, MING PU",
+        "licencia": "17889",
+        "id": "17889"
+      },
+      "Z": {
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "RIMBAU PLANAS, JOAQUIM",
+        "licencia": "5016",
+        "id": "5016"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LU, MING PU",
+        "licencia": "17889",
+        "id": "17889"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "RAKVIASHVILI, GURAMI",
+        "licencia": "21167",
+        "id": "21167"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LU, MING PU",
+        "licencia": "17889",
+        "id": "17889"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "RAKVIASHVILI, GURAMI",
+        "licencia": "21167",
+        "id": "21167"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CABRA SUREDA, BIEL",
+        "licencia": "15118",
+        "id": "15118"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "RIMBAU PLANAS, JOAQUIM",
+        "licencia": "5016",
+        "id": "5016"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT POBLENOU",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

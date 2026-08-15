@@ -1,0 +1,366 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 6,
+  "fecha": "2025-11-09",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323. ,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "84",
+      "nombre": "CTT ELS AMICS TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "73",
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ADRIÀ HERNÁNDEZ ORDOÑO",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "B": {
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "C": {
+        "nombre": "PONZ MORATO, ANTONIO",
+        "licencia": "7099",
+        "id": "7099"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "FERRERA MANCEBO, CARLOS AUGUSTO",
+        "licencia": "3484",
+        "id": "3484"
+      },
+      "X": {
+        "nombre": "AGUIRRE EGIDO, BIEL",
+        "licencia": "17128",
+        "id": "17128"
+      },
+      "Z": {
+        "nombre": "MAMPEL NIETO, RAMON",
+        "licencia": "10853",
+        "id": "10853"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "FERRERA MANCEBO, CARLOS AUGUSTO",
+        "licencia": "3484",
+        "id": "3484"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "AGUIRRE EGIDO, BIEL",
+        "licencia": "17128",
+        "id": "17128"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "PONZ MORATO, ANTONIO",
+        "licencia": "7099",
+        "id": "7099"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "MAMPEL NIETO, RAMON",
+        "licencia": "10853",
+        "id": "10853"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "AGUIRRE EGIDO, BIEL",
+        "licencia": "17128",
+        "id": "17128"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "PONZ MORATO, ANTONIO",
+        "licencia": "7099",
+        "id": "7099"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "FERRERA MANCEBO, CARLOS AUGUSTO",
+        "licencia": "3484",
+        "id": "3484"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "MAMPEL NIETO, RAMON",
+        "licencia": "10853",
+        "id": "10853"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CN SABADELL",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
