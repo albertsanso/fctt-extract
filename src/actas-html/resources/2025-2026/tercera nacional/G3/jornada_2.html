@@ -787,7 +787,1208 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-<p class="wp-block-paragraph"><p>No s'han trobat partits.</p></p>
+<p class="wp-block-paragraph"><div class="br-apic-jornades-container" data-league="TDM" data-group="3"><div class="jornades-selector-container"><div class="jornades-header"><span class="jornades-title">JORNADES</span><div class="jornada-buttons-wrapper"><div class="jornada-buttons-row"><button class="jornada-btn" data-jornada="1">1</button><button class="jornada-btn" data-jornada="2">2</button><button class="jornada-btn" data-jornada="3">3</button><button class="jornada-btn" data-jornada="4">4</button><button class="jornada-btn" data-jornada="5">5</button><button class="jornada-btn" data-jornada="6">6</button><button class="jornada-btn" data-jornada="7">7</button><button class="jornada-btn" data-jornada="8">8</button><button class="jornada-btn" data-jornada="9">9</button><button class="jornada-btn" data-jornada="10">10</button><button class="jornada-btn" data-jornada="11">11</button></div><div class="jornada-buttons-row"><button class="jornada-btn" data-jornada="12">12</button><button class="jornada-btn" data-jornada="13">13</button><button class="jornada-btn" data-jornada="14">14</button><button class="jornada-btn" data-jornada="15">15</button><button class="jornada-btn" data-jornada="16">16</button><button class="jornada-btn" data-jornada="17">17</button><button class="jornada-btn" data-jornada="18">18</button><button class="jornada-btn" data-jornada="19">19</button><button class="jornada-btn" data-jornada="20">20</button><button class="jornada-btn" data-jornada="21">21</button><button class="jornada-btn" data-jornada="22">22</button></div></div></div></div><style>
+            .jornades-selector-container {
+                margin: 20px 0 !important;
+                background-color: #f1efef !important;
+                border: none !important;
+                border-top:1px solid #e0e0e0 !important;
+                border-bottom:1px solid #e0e0e0 !important;
+                overflow: hidden !important;
+                box-shadow: none !important;
+            }
+            .jornades-header {
+                display: flex !important;
+                align-items: center !important;
+                padding: 0 !important;
+            }
+            .jornades-title {
+                padding: 15px 45px !important;
+                font-weight: 600 !important;
+                font-size: 16px !important;
+                color: #333 !important;
+                flex-shrink: 0 !important;
+                text-align: center !important;
+                letter-spacing: 0.5px !important;
+            }
+            .jornada-buttons-wrapper {
+                display: flex !important;
+                flex-direction: column !important;
+                padding: 8px 15px !important;
+                flex-grow: 1 !important;
+                gap: 5px !important;
+            }
+            .jornada-buttons-row {
+                display: flex !important;
+                gap: 3px !important;
+                justify-content: space-between !important;
+                width: 100% !important;
+            }
+            .jornada-btn {
+                flex: 1 !important;
+                min-width: 40px !important;
+                max-width: 60px !important;
+                height: 36px !important;
+                padding: 0 !important;
+                background-color: transparent !important;
+                border: none !important;
+                border-radius: 6px !important;
+                cursor: pointer !important;
+                transition: all 0.2s ease !important;
+                font-size: 15px !important;
+                font-weight: 500 !important;
+                color: #666 !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+            }
+            .jornada-btn:hover {
+                background-color: #e8e8e8 !important;
+                color: #333 !important;
+                transform: translateY(-1px) !important;
+            }
+            .jornada-btn.active {
+                background-color: #97241c !important;
+                color: white !important;
+                font-weight: 600 !important;
+                box-shadow: 0 2px 4px rgba(151, 36, 28, 0.2) !important;
+            }
+            .jornada-btn.active:hover {
+                background-color: #7a1d16 !important;
+                transform: translateY(0) !important;
+            }
+            @media (max-width: 768px) {
+                .jornades-header {
+                    flex-direction: column !important;
+                }
+                .jornades-title {
+                    width: 100% !important;
+                    border-right: none !important;
+                    border-bottom: 1px solid #e0e0e0 !important;
+                    text-align: center !important;
+                    font-size: 14px !important;
+                }
+                .jornada-buttons-wrapper {
+                    padding: 12px !important;
+                }
+                .jornada-buttons-row {
+                    justify-content: space-between !important;
+                    width: 100% !important;
+                }
+                .jornada-btn {
+                    flex: 1 !important;
+                    min-width: 26px !important;
+                    max-width: 36px !important;
+                    height: 28px !important;
+                    font-size: 11px !important;
+                }
+            }
+            .round-results-container {
+                display: none;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 4px;
+                border: 1px solid #ddd;
+            }
+            .round-results-container.active {
+                display: block;
+            }
+            .jornada-content-title {
+                background-color: #3b3d40 !important;
+                color: white !important;
+                padding: 12px 20px !important;
+                margin: 20px 0 0 0 !important;
+                font-size: 16px !important;
+                font-weight: bold !important;
+                border-bottom: 6px solid #97241c !important;
+                text-align: center !important;
+            }
+            .br-apic-partits {
+                width: 100% !important;
+                border-collapse: collapse !important;
+                margin-top: 0 !important;
+                background-color: #fff !important;
+            }
+            .br-apic-partits th {
+                background-color: #f0f0f0 !important;
+                padding: 10px !important;
+                text-align: left !important;
+                font-weight: 600 !important;
+                border-bottom: 2px solid #ddd !important;
+            }
+            .br-apic-partits td {
+                padding: 10px !important;
+                border-bottom: 1px solid #e0e0e0 !important;
+            }
+            .br-apic-partits tr:hover td {
+                background-color: #f8f8f8 !important;
+            }
+            .br-apic-partits a {
+                color: #000 !important;
+                text-decoration: none !important;
+                text-transform: uppercase !important;
+                font-weight: 600 !important;
+            }
+            .br-apic-partits a:hover {
+                text-decoration: none !important;
+                color: #333 !important;
+            }
+            .jornada-results-title {
+                background-color: #3b3d40 !important;
+                color: white !important;
+                padding: 12px 20px !important;
+                margin: 20px 0 20px 0 !important;
+                font-size: 18px !important;
+                font-weight: bold !important;
+                border-bottom: 6px solid #97241c !important;
+                text-align: center !important;
+            }
+            .jornada-results-title a {
+                color: white !important;
+                text-decoration: none !important;
+            }
+            .jornada-results-title a:hover {
+                text-decoration: underline !important;
+            }
+            .match-container {
+                margin-bottom: 30px;
+                border: 1px solid #ddd;
+                background: white;
+                font-family: Arial, sans-serif;
+            }
+            .match-header {
+                background: #f8f9fa;
+                padding: 15px;
+                border-bottom: 1px solid #ddd;
+                display: flex;
+                align-items: center;
+                min-height: 80px;
+                width: 100%;
+            }
+            .match-datetime {
+                font-size: 1.1em;
+                width: 150px;
+                text-align: left;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-right: 20px;
+            }
+            .match-teams {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                font-size: 1.2em;
+                flex-grow: 1;
+                min-width: 0;
+            }
+            .team-home, .team-away {
+                white-space: nowrap;
+                width: 400px;
+                flex-shrink: 0;
+            }
+            .team-home {
+                text-align: right;
+            }
+            .team-away {
+                text-align: left;
+            }
+            .match-score {
+                font-weight: bold;
+                font-size: 1.3em;
+                padding: 5px 15px;
+                background-color: #444;
+                color: white;
+                border-radius: 4px;
+                width: 100px;
+                text-align: center;
+                flex-shrink: 0;
+            }
+            .match-info {
+                padding: 10px 15px;
+                background: #f8f9fa;
+                border-top: 1px solid #ddd;
+                font-size: 0.9em;
+            }
+            .field-info, .referee-info {
+                margin: 5px 0;
+            }
+            .team-home a, .team-away a {
+                color: black !important;
+                text-decoration: none !important;
+                cursor: pointer !important;
+                font-weight: 600 !important;
+            }
+            .team-home a:hover, .team-away a:hover {
+                text-decoration: underline !important;
+                color: #333 !important;
+            }
+            /* Adaptacio mobil per a classificacions i partits */
+            @media (max-width: 768px) {
+                .br-apic-resultats-container {
+                    padding: 0 8px !important;
+                }
+                .br-apic-resultats {
+                    display: table !important;
+                    table-layout: auto !important;
+                    width: 100% !important;
+                }
+                .br-apic-resultats th,
+                .br-apic-resultats td {
+                    font-size: 10px !important;
+                    padding: 3px 2px !important;
+                }
+                /* Que el nom de l equip aprofiti tot l espai i faci salt de linia de forma natural als espais */
+                .br-apic-resultats tbody td:nth-child(2) {
+                    width: auto !important;
+                    white-space: normal !important;
+                    display: block !important;
+                    word-break: break-word !important;
+                    overflow-wrap: anywhere !important;
+                }
+                .match-container {
+                    padding: 5px !important;
+                    overflow-x: hidden !important;
+                }
+                .match-header {
+                    padding: 5px !important;
+                }
+                /* Només reduim tipografia dels resultats de jornades, mantenint la mateixa distribucio horitzontal */
+                .match-datetime {
+                    font-size: 0.75em !important;
+                    width: 25% !important;
+                    padding-right: 6px !important;
+                }
+                .match-teams {
+                    font-size: 0.9em !important;
+                    display: flex !important;
+                    flex-direction: row !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                    gap: 6px !important;
+                    width: 75% !important;
+                }
+                .team-home,
+                .team-away {
+                    width: 40% !important;
+                }
+                .team-home {
+                    text-align: right !important;
+                }
+                .team-away {
+                    text-align: left !important;
+                }
+                .team-home a,
+                .team-away a {
+                    font-size: 0.8em !important;
+                    display: block !important;
+                    white-space: normal !important;
+                    word-break: break-word !important;
+                    overflow-wrap: anywhere !important;
+                }
+                .match-score {
+                    font-size: 0.85em !important;
+                    padding: 2px 6px !important;
+                    width: auto !important;
+                    min-width: 40px !important;
+                }
+                .match-info {
+                    font-size: 0.7em !important;
+                    padding: 5px !important;
+                }
+                .match-results-table th,
+                .match-results-table td {
+                    font-size: 0.7em !important;
+                    padding: 3px !important;
+                }
+                .player-info {
+                    font-size: 0.7em !important;
+                }
+            }
+        </style><script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const buttons = document.querySelectorAll(".jornada-btn");
+                
+                // Funció per obtenir paràmetre de la URL
+                function getURLParameter(name) {
+                    const url = new URL(window.location);
+                    return url.searchParams.get(name);
+                }
+                
+                // Event listeners per als botons - recarregar pàgina amb nova URL
+                buttons.forEach(button => {
+                    button.addEventListener("click", function() {
+                        const jornada = this.getAttribute("data-jornada");
+                        // Recarregar la pàgina només amb el paràmetre jornada
+                        window.location.href = "?jornada=" + jornada;
+                    });
+                });
+                
+                // Marcar el botó actiu si hi ha jornada a la URL
+                const urlJornada = getURLParameter("jornada");
+                if (urlJornada) {
+                    buttons.forEach(btn => {
+                        if (btn.getAttribute("data-jornada") === urlJornada) {
+                            btn.classList.add("active");
+                        }
+                    });
+                }
+            });
+        </script></div><div style="margin-top: 30px;"><h2 class="jornada-results-title"><a href="/lligues/grup-3/?jornada=2">Jornada 2</a></h2><div class="match-container"><div class="match-header">
+                    <div class="match-datetime">05/10/2025<br>11:00</div>
+                    <div class="match-teams">
+                        <div class="team-home"><a href="?team_name_id=81">TARINAS CALELLA</a></div>
+                        <div class="match-score">5 - 1</div>
+                        <div class="team-away"><a href="?team_name_id=103">T.T.PRAT LISANT</a></div>
+                    </div>
+                </div><table class="match-results-table"><thead>
+                    <tr>
+                        <th></th>
+                        <th>TARINAS CALELLA</th>
+                        <th></th>
+                        <th>T.T.PRAT LISANT</th>
+                        <th>J1</th>
+                        <th>J2</th>
+                        <th>J3</th>
+                        <th>J4</th>
+                        <th>J5</th>
+                        <th>Res.</th>
+                        <th>Global</th>
+                    </tr>
+                </thead><tbody><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=10526&#038;jugador_nom=ABIO+BUIL%2C+XAVIER&#038;jugador_equip=TARINAS+CALELLA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=81&#038;jornada=2" class="br-apic-player-link">ABIO BUIL, XAVIER</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=684&#038;jugador_nom=JULI%C3%80+LAMBEA%2C+F%C3%88LIX&#038;jugador_equip=T.T.PRAT+LISANT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=103&#038;jornada=2" class="br-apic-player-link">JULIÀ LAMBEA, FÈLIX</a></td>
+                            <td class="game">12-14</td>
+                            <td class="game">11-5</td>
+                            <td class="game">11-2</td>
+                            <td class="game">11-4</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">1</span></td>
+                            <td class="global">1 - 0</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=8679&#038;jugador_nom=CERVANTES+CABAS%2C+JOEL&#038;jugador_equip=TARINAS+CALELLA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=81&#038;jornada=2" class="br-apic-player-link">CERVANTES CABAS, JOEL</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=850&#038;jugador_nom=DURAN+SALGUEIRO%2C+ROBERTO+CARLOS&#038;jugador_equip=T.T.PRAT+LISANT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=103&#038;jornada=2" class="br-apic-player-link">DURAN SALGUEIRO, ROBERTO CARLOS</a></td>
+                            <td class="game">11-4</td>
+                            <td class="game">11-9</td>
+                            <td class="game">11-4</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">2 - 0</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=15782&#038;jugador_nom=MART%C3%8DNEZ+SEGURA%2C+BIEL&#038;jugador_equip=TARINAS+CALELLA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=81&#038;jornada=2" class="br-apic-player-link">MARTÍNEZ SEGURA, BIEL</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=842&#038;jugador_nom=RUIZ+VAREA%2C+AMADOR&#038;jugador_equip=T.T.PRAT+LISANT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=103&#038;jornada=2" class="br-apic-player-link">RUIZ VAREA, AMADOR</a></td>
+                            <td class="game">8-11</td>
+                            <td class="game">6-11</td>
+                            <td class="game">7-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">2 - 1</td>
+                        </tr><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=10526&#038;jugador_nom=ABIO+BUIL%2C+XAVIER&#038;jugador_equip=TARINAS+CALELLA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=81&#038;jornada=2" class="br-apic-player-link">ABIO BUIL, XAVIER</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=850&#038;jugador_nom=DURAN+SALGUEIRO%2C+ROBERTO+CARLOS&#038;jugador_equip=T.T.PRAT+LISANT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=103&#038;jornada=2" class="br-apic-player-link">DURAN SALGUEIRO, ROBERTO CARLOS</a></td>
+                            <td class="game">11-5</td>
+                            <td class="game">11-4</td>
+                            <td class="game">11-8</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">3 - 1</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=15782&#038;jugador_nom=MART%C3%8DNEZ+SEGURA%2C+BIEL&#038;jugador_equip=TARINAS+CALELLA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=81&#038;jornada=2" class="br-apic-player-link">MARTÍNEZ SEGURA, BIEL</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=684&#038;jugador_nom=JULI%C3%80+LAMBEA%2C+F%C3%88LIX&#038;jugador_equip=T.T.PRAT+LISANT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=103&#038;jornada=2" class="br-apic-player-link">JULIÀ LAMBEA, FÈLIX</a></td>
+                            <td class="game">11-9</td>
+                            <td class="game">11-7</td>
+                            <td class="game">13-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">4 - 1</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=8679&#038;jugador_nom=CERVANTES+CABAS%2C+JOEL&#038;jugador_equip=TARINAS+CALELLA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=81&#038;jornada=2" class="br-apic-player-link">CERVANTES CABAS, JOEL</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=842&#038;jugador_nom=RUIZ+VAREA%2C+AMADOR&#038;jugador_equip=T.T.PRAT+LISANT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=103&#038;jornada=2" class="br-apic-player-link">RUIZ VAREA, AMADOR</a></td>
+                            <td class="game">11-8</td>
+                            <td class="game">11-6</td>
+                            <td class="game">11-3</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">5 - 1</td>
+                        </tr></tbody></table><div class="match-info"><div class="field-info"><strong>Terreny de joc:</strong> FÀBRICA LLOBET I GURI. C/SANT JAUME, 339. ENTRADA PER NACIONAL II,08370 CALELLA</div><div class="referee-info"><strong>Àrbitre:</strong> RAIMOND ALOY ROCAMADÓ</div><div class="acta-info"><a href="https://control.fctt.cat/partido/2748/imprimir/acta" target="_blank" class="acta-link">Descarregar acta</a></div></div></div><div class="match-container"><div class="match-header">
+                    <div class="match-datetime">05/10/2025<br>11:00</div>
+                    <div class="match-teams">
+                        <div class="team-home"><a href="?team_name_id=86">C.T.T. LA BISBAL</a></div>
+                        <div class="match-score">5 - 1</div>
+                        <div class="team-away"><a href="?team_name_id=104">UE SANT CUGAT</a></div>
+                    </div>
+                </div><table class="match-results-table"><thead>
+                    <tr>
+                        <th></th>
+                        <th>UE SANT CUGAT</th>
+                        <th></th>
+                        <th>C.T.T. LA BISBAL</th>
+                        <th>J1</th>
+                        <th>J2</th>
+                        <th>J3</th>
+                        <th>J4</th>
+                        <th>J5</th>
+                        <th>Res.</th>
+                        <th>Global</th>
+                    </tr>
+                </thead><tbody><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=18068&#038;jugador_nom=MALDONADO+VIZCARRA%2C+MARIA+FERNANDA&#038;jugador_equip=UE+SANT+CUGAT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=104&#038;jornada=2" class="br-apic-player-link">MALDONADO VIZCARRA, MARIA FERNANDA</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=1081&#038;jugador_nom=RIBAS+XUCL%C3%80%2C+JORDI&#038;jugador_equip=C.T.T.+LA+BISBAL&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=86&#038;jornada=2" class="br-apic-player-link">RIBAS XUCLÀ, JORDI</a></td>
+                            <td class="game">10-12</td>
+                            <td class="game">11-5</td>
+                            <td class="game">11-8</td>
+                            <td class="game">3-11</td>
+                            <td class="game">5-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">0 - 1</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=12724&#038;jugador_nom=ESTIVILL+FACI%2C+CRISTINA&#038;jugador_equip=UE+SANT+CUGAT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=104&#038;jornada=2" class="br-apic-player-link">ESTIVILL FACI, CRISTINA</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=1002&#038;jugador_nom=FONTANET+P%C3%89REZ%2C+FRANCESC&#038;jugador_equip=C.T.T.+LA+BISBAL&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=86&#038;jornada=2" class="br-apic-player-link">FONTANET PÉREZ, FRANCESC</a></td>
+                            <td class="game">4-11</td>
+                            <td class="game">14-16</td>
+                            <td class="game">9-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">0 - 2</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=12682&#038;jugador_nom=CARRO+DOMINGO%2C+SOFIA&#038;jugador_equip=UE+SANT+CUGAT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=104&#038;jornada=2" class="br-apic-player-link">CARRO DOMINGO, SOFIA</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=701&#038;jugador_nom=ARTACHO+CORT%C3%89S%2C+JOAN+MANEL&#038;jugador_equip=C.T.T.+LA+BISBAL&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=86&#038;jornada=2" class="br-apic-player-link">ARTACHO CORTÉS, JOAN MANEL</a></td>
+                            <td class="game">11-6</td>
+                            <td class="game">12-10</td>
+                            <td class="game">11-8</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">1 - 2</td>
+                        </tr><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=18068&#038;jugador_nom=MALDONADO+VIZCARRA%2C+MARIA+FERNANDA&#038;jugador_equip=UE+SANT+CUGAT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=104&#038;jornada=2" class="br-apic-player-link">MALDONADO VIZCARRA, MARIA FERNANDA</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=1002&#038;jugador_nom=FONTANET+P%C3%89REZ%2C+FRANCESC&#038;jugador_equip=C.T.T.+LA+BISBAL&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=86&#038;jornada=2" class="br-apic-player-link">FONTANET PÉREZ, FRANCESC</a></td>
+                            <td class="game">3-11</td>
+                            <td class="game">4-11</td>
+                            <td class="game">5-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 3</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=12682&#038;jugador_nom=CARRO+DOMINGO%2C+SOFIA&#038;jugador_equip=UE+SANT+CUGAT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=104&#038;jornada=2" class="br-apic-player-link">CARRO DOMINGO, SOFIA</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=1081&#038;jugador_nom=RIBAS+XUCL%C3%80%2C+JORDI&#038;jugador_equip=C.T.T.+LA+BISBAL&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=86&#038;jornada=2" class="br-apic-player-link">RIBAS XUCLÀ, JORDI</a></td>
+                            <td class="game">5-11</td>
+                            <td class="game">9-11</td>
+                            <td class="game">12-10</td>
+                            <td class="game">3-11</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">1</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 4</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=12724&#038;jugador_nom=ESTIVILL+FACI%2C+CRISTINA&#038;jugador_equip=UE+SANT+CUGAT&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=104&#038;jornada=2" class="br-apic-player-link">ESTIVILL FACI, CRISTINA</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=701&#038;jugador_nom=ARTACHO+CORT%C3%89S%2C+JOAN+MANEL&#038;jugador_equip=C.T.T.+LA+BISBAL&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=86&#038;jornada=2" class="br-apic-player-link">ARTACHO CORTÉS, JOAN MANEL</a></td>
+                            <td class="game">12-10</td>
+                            <td class="game">7-11</td>
+                            <td class="game">8-11</td>
+                            <td class="game">8-11</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">1</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 5</td>
+                        </tr></tbody></table><div class="match-info"><div class="field-info"><strong>Terreny de joc:</strong> PAVELLÓ MUNICIPAL D'ESPORTS DE LA BISBAL D'EMPORDÀ. AVINGUDA MAS CLARA S/N. ,17100 LA BISBAL D'EMPORDÀ</div><div class="referee-info"><strong>Àrbitre:</strong> BIEL BORRELL SERRA</div><div class="acta-info"><a href="https://control.fctt.cat/partido/2749/imprimir/acta" target="_blank" class="acta-link">Descarregar acta</a></div></div></div><div class="match-container"><div class="match-header">
+                    <div class="match-datetime">05/10/2025<br>10:30</div>
+                    <div class="match-teams">
+                        <div class="team-home"><a href="?team_name_id=97">FALCONS SBD - SMATSA AGORA GRUP</a></div>
+                        <div class="match-score">4 - 3</div>
+                        <div class="team-away"><a href="?team_name_id=75">CTT ARBÚCIES</a></div>
+                    </div>
+                </div><table class="match-results-table"><thead>
+                    <tr>
+                        <th></th>
+                        <th>CTT ARBÚCIES</th>
+                        <th></th>
+                        <th>FALCONS SBD - SMATSA AGORA GRUP</th>
+                        <th>J1</th>
+                        <th>J2</th>
+                        <th>J3</th>
+                        <th>J4</th>
+                        <th>J5</th>
+                        <th>Res.</th>
+                        <th>Global</th>
+                    </tr>
+                </thead><tbody><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=11949&#038;jugador_nom=DACHS+ESCOBAR%2C+GIL&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">DACHS ESCOBAR, GIL</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=1067&#038;jugador_nom=ZARAGOZA+OLMO%2C+XAVIER&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">ZARAGOZA OLMO, XAVIER</a></td>
+                            <td class="game">11-8</td>
+                            <td class="game">8-11</td>
+                            <td class="game">9-11</td>
+                            <td class="game">11-9</td>
+                            <td class="game">11-7</td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">2</span></td>
+                            <td class="global">1 - 0</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=15118&#038;jugador_nom=CABRA+SUREDA%2C+BIEL&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">CABRA SUREDA, BIEL</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=12875&#038;jugador_nom=ORTU%C3%91O+JU%C3%81REZ%2C+JORDI&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">ORTUÑO JUÁREZ, JORDI</a></td>
+                            <td class="game">11-1</td>
+                            <td class="game">11-7</td>
+                            <td class="game">12-10</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">2 - 0</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=3108&#038;jugador_nom=MORATO+VILA%2C+EDUARD&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">MORATO VILA, EDUARD</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=7026&#038;jugador_nom=CAMPOS+GUINOVART%2C+RAMON&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">CAMPOS GUINOVART, RAMON</a></td>
+                            <td class="game">1-11</td>
+                            <td class="game">11-5</td>
+                            <td class="game">3-11</td>
+                            <td class="game">11-5</td>
+                            <td class="game">3-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">2 - 1</td>
+                        </tr><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=11949&#038;jugador_nom=DACHS+ESCOBAR%2C+GIL&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">DACHS ESCOBAR, GIL</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=12875&#038;jugador_nom=ORTU%C3%91O+JU%C3%81REZ%2C+JORDI&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">ORTUÑO JUÁREZ, JORDI</a></td>
+                            <td class="game">11-9</td>
+                            <td class="game">5-11</td>
+                            <td class="game">10-12</td>
+                            <td class="game">11-9</td>
+                            <td class="game">9-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">2 - 2</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=3108&#038;jugador_nom=MORATO+VILA%2C+EDUARD&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">MORATO VILA, EDUARD</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=1067&#038;jugador_nom=ZARAGOZA+OLMO%2C+XAVIER&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">ZARAGOZA OLMO, XAVIER</a></td>
+                            <td class="game">11-5</td>
+                            <td class="game">4-11</td>
+                            <td class="game">12-10</td>
+                            <td class="game">9-11</td>
+                            <td class="game">11-13</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">2 - 3</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=15118&#038;jugador_nom=CABRA+SUREDA%2C+BIEL&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">CABRA SUREDA, BIEL</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=7026&#038;jugador_nom=CAMPOS+GUINOVART%2C+RAMON&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">CAMPOS GUINOVART, RAMON</a></td>
+                            <td class="game">11-5</td>
+                            <td class="game">11-3</td>
+                            <td class="game">6-11</td>
+                            <td class="game">10-12</td>
+                            <td class="game">11-6</td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">2</span></td>
+                            <td class="global">3 - 3</td>
+                        </tr><tr>
+                            <td class="position">Db</td>
+                            <td class="player-info"><a href="?codi_jugador=11949&#038;jugador_nom=DACHS+ESCOBAR%2C+GIL&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">DACHS ESCOBAR, GIL</a><br><a href="?codi_jugador=15118&#038;jugador_nom=CABRA+SUREDA%2C+BIEL&#038;jugador_equip=CTT+ARB%C3%9ACIES&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=75&#038;jornada=2" class="br-apic-player-link">CABRA SUREDA, BIEL</a></td>
+                            <td class="position">Db</td>
+                            <td class="player-info"><a href="?codi_jugador=1067&#038;jugador_nom=ZARAGOZA+OLMO%2C+XAVIER&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">ZARAGOZA OLMO, XAVIER</a><br><a href="?codi_jugador=7026&#038;jugador_nom=CAMPOS+GUINOVART%2C+RAMON&#038;jugador_equip=FALCONS+SBD+-+SMATSA+AGORA+GRUP&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=97&#038;jornada=2" class="br-apic-player-link">CAMPOS GUINOVART, RAMON</a></td>
+                            <td class="game">7-11</td>
+                            <td class="game">7-11</td>
+                            <td class="game">11-8</td>
+                            <td class="game">11-6</td>
+                            <td class="game">9-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">3 - 4</td>
+                        </tr></tbody></table><div class="match-info"><div class="field-info"><strong>Terreny de joc:</strong> SALA TENNIS TAULA CAN BALSACH. C/MARIA DE BELL-LLOC Nº35. ,08208 SABADELL</div><div class="referee-info"><strong>Àrbitre:</strong> BIEL SUBIRANA VARGAS</div><div class="acta-info"><a href="https://control.fctt.cat/partido/2750/imprimir/acta" target="_blank" class="acta-link">Descarregar acta</a></div></div></div><div class="match-container"><div class="match-header">
+                    <div class="match-datetime">04/10/2025<br>17:00</div>
+                    <div class="match-teams">
+                        <div class="team-home"><a href="?team_name_id=101">CTT POBLENOU</a></div>
+                        <div class="match-score">4 - 3</div>
+                        <div class="team-away"><a href="?team_name_id=96">TT ELS 8 LA GARRIGA</a></div>
+                    </div>
+                </div><table class="match-results-table"><thead>
+                    <tr>
+                        <th></th>
+                        <th>TT ELS 8 LA GARRIGA</th>
+                        <th></th>
+                        <th>CTT POBLENOU</th>
+                        <th>J1</th>
+                        <th>J2</th>
+                        <th>J3</th>
+                        <th>J4</th>
+                        <th>J5</th>
+                        <th>Res.</th>
+                        <th>Global</th>
+                    </tr>
+                </thead><tbody><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=8301&#038;jugador_nom=CHICU%2C+RADU&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">CHICU, RADU</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=3912&#038;jugador_nom=S%C3%80NCHEZ+S%C3%80NCHEZ%2C+CARLOS&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">SÀNCHEZ SÀNCHEZ, CARLOS</a></td>
+                            <td class="game">9-11</td>
+                            <td class="game">15-13</td>
+                            <td class="game">9-11</td>
+                            <td class="game">11-9</td>
+                            <td class="game">2-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">0 - 1</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=12296&#038;jugador_nom=COROMINAS+FERNANDEZ%2C+ALBERT&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">COROMINAS FERNANDEZ, ALBERT</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=21167&#038;jugador_nom=RAKVIASHVILI%2C+GURAMI&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">RAKVIASHVILI, GURAMI</a></td>
+                            <td class="game">7-11</td>
+                            <td class="game">11-3</td>
+                            <td class="game">12-10</td>
+                            <td class="game">14-12</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">1</span></td>
+                            <td class="global">1 - 1</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=11863&#038;jugador_nom=MONTAGUT+ARIN%2C+JOAN&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">MONTAGUT ARIN, JOAN</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=5016&#038;jugador_nom=RIMBAU+PLANAS%2C+JOAQUIM&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">RIMBAU PLANAS, JOAQUIM</a></td>
+                            <td class="game">8-11</td>
+                            <td class="game">10-12</td>
+                            <td class="game">11-7</td>
+                            <td class="game">5-11</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">1</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 2</td>
+                        </tr><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=8301&#038;jugador_nom=CHICU%2C+RADU&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">CHICU, RADU</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=21167&#038;jugador_nom=RAKVIASHVILI%2C+GURAMI&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">RAKVIASHVILI, GURAMI</a></td>
+                            <td class="game">11-7</td>
+                            <td class="game">11-4</td>
+                            <td class="game">11-6</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">2 - 2</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=11863&#038;jugador_nom=MONTAGUT+ARIN%2C+JOAN&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">MONTAGUT ARIN, JOAN</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=3912&#038;jugador_nom=S%C3%80NCHEZ+S%C3%80NCHEZ%2C+CARLOS&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">SÀNCHEZ SÀNCHEZ, CARLOS</a></td>
+                            <td class="game">8-11</td>
+                            <td class="game">4-11</td>
+                            <td class="game">9-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">2 - 3</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=12296&#038;jugador_nom=COROMINAS+FERNANDEZ%2C+ALBERT&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">COROMINAS FERNANDEZ, ALBERT</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=5016&#038;jugador_nom=RIMBAU+PLANAS%2C+JOAQUIM&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">RIMBAU PLANAS, JOAQUIM</a></td>
+                            <td class="game">11-7</td>
+                            <td class="game">11-8</td>
+                            <td class="game">8-11</td>
+                            <td class="game">7-11</td>
+                            <td class="game">11-7</td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">2</span></td>
+                            <td class="global">3 - 3</td>
+                        </tr><tr>
+                            <td class="position">Db</td>
+                            <td class="player-info"><a href="?codi_jugador=8301&#038;jugador_nom=CHICU%2C+RADU&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">CHICU, RADU</a><br><a href="?codi_jugador=12296&#038;jugador_nom=COROMINAS+FERNANDEZ%2C+ALBERT&#038;jugador_equip=TT+ELS+8+LA+GARRIGA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=96&#038;jornada=2" class="br-apic-player-link">COROMINAS FERNANDEZ, ALBERT</a></td>
+                            <td class="position">Db</td>
+                            <td class="player-info"><a href="?codi_jugador=3912&#038;jugador_nom=S%C3%80NCHEZ+S%C3%80NCHEZ%2C+CARLOS&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">SÀNCHEZ SÀNCHEZ, CARLOS</a><br><a href="?codi_jugador=5016&#038;jugador_nom=RIMBAU+PLANAS%2C+JOAQUIM&#038;jugador_equip=CTT+POBLENOU&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=101&#038;jornada=2" class="br-apic-player-link">RIMBAU PLANAS, JOAQUIM</a></td>
+                            <td class="game">11-13</td>
+                            <td class="game">14-12</td>
+                            <td class="game">10-12</td>
+                            <td class="game">5-11</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">1</span> - <span class="loser">3</span></td>
+                            <td class="global">3 - 4</td>
+                        </tr></tbody></table><div class="match-info"><div class="field-info"><strong>Terreny de joc:</strong> IES CATALONIA. C/PERU 195 (ENTRADA PER CARRER FLUVIA) . ,08018 BARCELONA</div><div class="referee-info"><strong>Àrbitre:</strong> J. DAMIÀ CRISPI BUSTAMANTE</div><div class="acta-info"><a href="https://control.fctt.cat/partido/2751/imprimir/acta" target="_blank" class="acta-link">Descarregar acta</a></div></div></div><div class="match-container"><div class="match-header">
+                    <div class="match-datetime">04/10/2025<br>17:00</div>
+                    <div class="match-teams">
+                        <div class="team-home"><a href="?team_name_id=102">TT PARETS</a></div>
+                        <div class="match-score">0 - 6</div>
+                        <div class="team-away"><a href="?team_name_id=78">CTT BARCELONA</a></div>
+                    </div>
+                </div><table class="match-results-table"><thead>
+                    <tr>
+                        <th></th>
+                        <th>CTT BARCELONA</th>
+                        <th></th>
+                        <th>TT PARETS</th>
+                        <th>J1</th>
+                        <th>J2</th>
+                        <th>J3</th>
+                        <th>J4</th>
+                        <th>J5</th>
+                        <th>Res.</th>
+                        <th>Global</th>
+                    </tr>
+                </thead><tbody><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=7503&#038;jugador_nom=GUARDIOLA+CASALS%2C+FERRAN&#038;jugador_equip=CTT+BARCELONA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=78&#038;jornada=2" class="br-apic-player-link">GUARDIOLA CASALS, FERRAN</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=7632&#038;jugador_nom=CHIC+VALLS%2C+DAVID&#038;jugador_equip=TT+PARETS&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=102&#038;jornada=2" class="br-apic-player-link">CHIC VALLS, DAVID</a></td>
+                            <td class="game">11-6</td>
+                            <td class="game">11-9</td>
+                            <td class="game">11-9</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">1 - 0</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=19966&#038;jugador_nom=GARNIER%2C+JEREMY&#038;jugador_equip=CTT+BARCELONA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=78&#038;jornada=2" class="br-apic-player-link">GARNIER, JEREMY</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=7149&#038;jugador_nom=HUGUET+MOLIST%2C+SERGI&#038;jugador_equip=TT+PARETS&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=102&#038;jornada=2" class="br-apic-player-link">HUGUET MOLIST, SERGI</a></td>
+                            <td class="game">11-9</td>
+                            <td class="game">11-4</td>
+                            <td class="game">11-7</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">2 - 0</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=13097&#038;jugador_nom=CARDONA+JORDAN%2C+BIEL&#038;jugador_equip=CTT+BARCELONA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=78&#038;jornada=2" class="br-apic-player-link">CARDONA JORDAN, BIEL</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=10740&#038;jugador_nom=GARRELL+GARCIA%2C+AMADOR&#038;jugador_equip=TT+PARETS&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=102&#038;jornada=2" class="br-apic-player-link">GARRELL GARCIA, AMADOR</a></td>
+                            <td class="game">11-7</td>
+                            <td class="game">7-11</td>
+                            <td class="game">11-7</td>
+                            <td class="game">11-9</td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">1</span></td>
+                            <td class="global">3 - 0</td>
+                        </tr><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=7503&#038;jugador_nom=GUARDIOLA+CASALS%2C+FERRAN&#038;jugador_equip=CTT+BARCELONA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=78&#038;jornada=2" class="br-apic-player-link">GUARDIOLA CASALS, FERRAN</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=7149&#038;jugador_nom=HUGUET+MOLIST%2C+SERGI&#038;jugador_equip=TT+PARETS&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=102&#038;jornada=2" class="br-apic-player-link">HUGUET MOLIST, SERGI</a></td>
+                            <td class="game">11-5</td>
+                            <td class="game">11-3</td>
+                            <td class="game">11-7</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">4 - 0</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=13097&#038;jugador_nom=CARDONA+JORDAN%2C+BIEL&#038;jugador_equip=CTT+BARCELONA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=78&#038;jornada=2" class="br-apic-player-link">CARDONA JORDAN, BIEL</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=7632&#038;jugador_nom=CHIC+VALLS%2C+DAVID&#038;jugador_equip=TT+PARETS&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=102&#038;jornada=2" class="br-apic-player-link">CHIC VALLS, DAVID</a></td>
+                            <td class="game">9-11</td>
+                            <td class="game">11-4</td>
+                            <td class="game">11-5</td>
+                            <td class="game">10-12</td>
+                            <td class="game">11-5</td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">2</span></td>
+                            <td class="global">5 - 0</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=19966&#038;jugador_nom=GARNIER%2C+JEREMY&#038;jugador_equip=CTT+BARCELONA&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=78&#038;jornada=2" class="br-apic-player-link">GARNIER, JEREMY</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=10740&#038;jugador_nom=GARRELL+GARCIA%2C+AMADOR&#038;jugador_equip=TT+PARETS&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=102&#038;jornada=2" class="br-apic-player-link">GARRELL GARCIA, AMADOR</a></td>
+                            <td class="game">11-8</td>
+                            <td class="game">11-6</td>
+                            <td class="game">11-5</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">0</span></td>
+                            <td class="global">6 - 0</td>
+                        </tr></tbody></table><div class="match-info"><div class="field-info"><strong>Terreny de joc:</strong> CEIP PAU VILA. C/ DEL PARE JOAN RAMON IMBERT. ENTRADA PER AV. PEDRA DEL DIABLE S/N,08150 PARETS DEL VALLÈS</div><div class="referee-info"><strong>Àrbitre:</strong> PERE VIADER BOSCH</div><div class="acta-info"><a href="https://control.fctt.cat/partido/2752/imprimir/acta" target="_blank" class="acta-link">Descarregar acta</a></div></div></div><div class="match-container"><div class="match-header">
+                    <div class="match-datetime">04/10/2025<br>16:30</div>
+                    <div class="match-teams">
+                        <div class="team-home"><a href="?team_name_id=88">CTT OLOT - FAIBO</a></div>
+                        <div class="match-score">5 - 1</div>
+                        <div class="team-away"><a href="?team_name_id=93">CTT VILABLAREIX SFY</a></div>
+                    </div>
+                </div><table class="match-results-table"><thead>
+                    <tr>
+                        <th></th>
+                        <th>CTT VILABLAREIX SFY</th>
+                        <th></th>
+                        <th>CTT OLOT - FAIBO</th>
+                        <th>J1</th>
+                        <th>J2</th>
+                        <th>J3</th>
+                        <th>J4</th>
+                        <th>J5</th>
+                        <th>Res.</th>
+                        <th>Global</th>
+                    </tr>
+                </thead><tbody><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=1505&#038;jugador_nom=HURT%C3%93S+COLOM%C3%89%2C+ORIOL&#038;jugador_equip=CTT+VILABLAREIX+SFY&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=93&#038;jornada=2" class="br-apic-player-link">HURTÓS COLOMÉ, ORIOL</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=13683&#038;jugador_nom=MOLIN%C3%89+LOZANO%2C+NICO&#038;jugador_equip=CTT+OLOT+-+FAIBO&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=88&#038;jornada=2" class="br-apic-player-link">MOLINÉ LOZANO, NICO</a></td>
+                            <td class="game">9-11</td>
+                            <td class="game">8-11</td>
+                            <td class="game">11-7</td>
+                            <td class="game">11-2</td>
+                            <td class="game">11-4</td>
+                            <td class="result"><span class="winner">3</span> - <span class="loser">2</span></td>
+                            <td class="global">1 - 0</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=14131&#038;jugador_nom=L%C3%93PEZ+ORTEGA%2C+IREN&#038;jugador_equip=CTT+VILABLAREIX+SFY&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=93&#038;jornada=2" class="br-apic-player-link">LÓPEZ ORTEGA, IREN</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=4618&#038;jugador_nom=PUIGMAL+P%C3%92LIT%2C+ORIOL&#038;jugador_equip=CTT+OLOT+-+FAIBO&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=88&#038;jornada=2" class="br-apic-player-link">PUIGMAL PÒLIT, ORIOL</a></td>
+                            <td class="game">10-12</td>
+                            <td class="game">5-11</td>
+                            <td class="game">6-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 1</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=15146&#038;jugador_nom=ROCA+SALGUERO%2C+MARC&#038;jugador_equip=CTT+VILABLAREIX+SFY&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=93&#038;jornada=2" class="br-apic-player-link">ROCA SALGUERO, MARC</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=10949&#038;jugador_nom=SINGH+BAIDWAN%2C+ARASHBIR&#038;jugador_equip=CTT+OLOT+-+FAIBO&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=88&#038;jornada=2" class="br-apic-player-link">SINGH BAIDWAN, ARASHBIR</a></td>
+                            <td class="game">9-11</td>
+                            <td class="game">11-6</td>
+                            <td class="game">11-9</td>
+                            <td class="game">7-11</td>
+                            <td class="game">3-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 2</td>
+                        </tr><tr>
+                            <td class="position">A</td>
+                            <td class="player-info"><a href="?codi_jugador=1505&#038;jugador_nom=HURT%C3%93S+COLOM%C3%89%2C+ORIOL&#038;jugador_equip=CTT+VILABLAREIX+SFY&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=93&#038;jornada=2" class="br-apic-player-link">HURTÓS COLOMÉ, ORIOL</a></td>
+                            <td class="position">X</td>
+                            <td class="player-info"><a href="?codi_jugador=4618&#038;jugador_nom=PUIGMAL+P%C3%92LIT%2C+ORIOL&#038;jugador_equip=CTT+OLOT+-+FAIBO&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=88&#038;jornada=2" class="br-apic-player-link">PUIGMAL PÒLIT, ORIOL</a></td>
+                            <td class="game">6-11</td>
+                            <td class="game">11-7</td>
+                            <td class="game">4-11</td>
+                            <td class="game">11-9</td>
+                            <td class="game">5-11</td>
+                            <td class="result"><span class="winner">2</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 3</td>
+                        </tr><tr>
+                            <td class="position">C</td>
+                            <td class="player-info"><a href="?codi_jugador=15146&#038;jugador_nom=ROCA+SALGUERO%2C+MARC&#038;jugador_equip=CTT+VILABLAREIX+SFY&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=93&#038;jornada=2" class="br-apic-player-link">ROCA SALGUERO, MARC</a></td>
+                            <td class="position">Y</td>
+                            <td class="player-info"><a href="?codi_jugador=13683&#038;jugador_nom=MOLIN%C3%89+LOZANO%2C+NICO&#038;jugador_equip=CTT+OLOT+-+FAIBO&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=88&#038;jornada=2" class="br-apic-player-link">MOLINÉ LOZANO, NICO</a></td>
+                            <td class="game">7-11</td>
+                            <td class="game">5-11</td>
+                            <td class="game">9-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 4</td>
+                        </tr><tr>
+                            <td class="position">B</td>
+                            <td class="player-info"><a href="?codi_jugador=14131&#038;jugador_nom=L%C3%93PEZ+ORTEGA%2C+IREN&#038;jugador_equip=CTT+VILABLAREIX+SFY&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=93&#038;jornada=2" class="br-apic-player-link">LÓPEZ ORTEGA, IREN</a></td>
+                            <td class="position">Z</td>
+                            <td class="player-info"><a href="?codi_jugador=10949&#038;jugador_nom=SINGH+BAIDWAN%2C+ARASHBIR&#038;jugador_equip=CTT+OLOT+-+FAIBO&#038;jugador_liga=TDM&#038;jugador_grup=3&#038;jugador_equip_id=88&#038;jornada=2" class="br-apic-player-link">SINGH BAIDWAN, ARASHBIR</a></td>
+                            <td class="game">3-11</td>
+                            <td class="game">8-11</td>
+                            <td class="game">7-11</td>
+                            <td class="game"></td>
+                            <td class="game"></td>
+                            <td class="result"><span class="winner">0</span> - <span class="loser">3</span></td>
+                            <td class="global">1 - 5</td>
+                        </tr></tbody></table><div class="match-info"><div class="field-info"><strong>Terreny de joc:</strong> PAVELLÓ MUNICIPAL D'ESPORTS PLA DE LLACS. AV. REPÚBLIC ARGENTINA, 8. ,17800 OLOT</div><div class="referee-info"><strong>Àrbitre:</strong> CARLOS GARCIA MOMBLONA</div><div class="acta-info"><a href="https://control.fctt.cat/partido/2753/imprimir/acta" target="_blank" class="acta-link">Descarregar acta</a></div></div></div><style>
+            .jornada-results-title {
+                background-color: #3b3d40 !important;
+                color: white !important;
+                padding: 12px 20px !important;
+                margin: 20px 0 20px 0 !important;
+                font-size: 18px !important;
+                font-weight: bold !important;
+                border-bottom: 6px solid #97241c !important;
+                text-align: center !important;
+            }
+            .jornada-results-title a {
+                color: white !important;
+                text-decoration: none !important;
+            }
+            .jornada-results-title a:hover {
+                text-decoration: underline !important;
+            }
+            .match-container {
+                margin-bottom: 30px;
+                border: 1px solid #ddd;
+                background: white;
+                font-family: Arial, sans-serif;
+            }
+            .match-header {
+                background: #f8f9fa;
+                padding: 15px;
+                border-bottom: 1px solid #ddd;
+                display: flex;
+                align-items: center;
+                min-height: 80px;
+                width: 100%;
+            }
+            .match-datetime {
+                font-size: 1.1em;
+                width: 150px;
+                text-align: left;
+                flex-shrink: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding-right: 20px;
+            }
+            .match-teams {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                font-size: 1.2em;
+                flex-grow: 1;
+                min-width: 0;
+            }
+            .team-home, .team-away {
+                white-space: nowrap;
+                width: 400px;
+                flex-shrink: 0;
+            }
+            .team-home
+            {
+                text-align: right;
+            }
+            .team-away
+            {
+                text-align: left;
+            }
+            .match-score {
+                font-weight: bold;
+                font-size: 1.3em;
+                padding: 5px 15px;
+                background-color: #444;
+                color: white;
+                border-radius: 4px;
+                width: 100px;
+                text-align: center;
+                flex-shrink: 0;
+            }
+            .match-results-table {
+                width: 100%;
+                max-width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+            }
+            .match-results-table th,
+            .match-results-table td {
+                padding: 8px;
+                border: 1px solid #ddd;
+                text-align: center;
+            }
+            .match-results-table th:nth-child(1),
+            .match-results-table td:nth-child(1) {
+                width: 6%;
+            }
+            .match-results-table th:nth-child(2),
+            .match-results-table td:nth-child(2) {
+                width: 23%;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+            }
+            .match-results-table th:nth-child(3),
+            .match-results-table td:nth-child(3) {
+                width: 6%;
+            }
+            .match-results-table th:nth-child(4),
+            .match-results-table td:nth-child(4) {
+                width: 23%;
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+            }
+            .match-results-table th:nth-child(5),
+            .match-results-table td:nth-child(5),
+            .match-results-table th:nth-child(6),
+            .match-results-table td:nth-child(6),
+            .match-results-table th:nth-child(7),
+            .match-results-table td:nth-child(7),
+            .match-results-table th:nth-child(8),
+            .match-results-table td:nth-child(8),
+            .match-results-table th:nth-child(9),
+            .match-results-table td:nth-child(9) {
+                width: 6%;
+            }
+            .match-results-table th:nth-child(10),
+            .match-results-table td:nth-child(10) {
+                width: 6%;
+            }
+            .match-results-table th:nth-child(11),
+            .match-results-table td:nth-child(11) {
+                width: 6%;
+            }
+            .player-info {
+                text-align: left;
+                white-space: pre-line;
+                font-size: 0.9em;
+            }
+            .br-apic-player-link {
+                color: inherit;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            .br-apic-player-link:hover {
+                text-decoration: underline;
+            }
+            /* Columnes 2 i 4: forçar ellipsi (sobreescriu pre-line de .player-info) */
+            .match-results-table td.player-info:nth-child(2),
+            .match-results-table td.player-info:nth-child(4) {
+                white-space: nowrap !important;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+            }
+            .match-results-table td.player-info:nth-child(2) .br-apic-player-link,
+            .match-results-table td.player-info:nth-child(4) .br-apic-player-link {
+                display: inline-block;
+                max-width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                vertical-align: bottom;
+            }
+            .position {
+                font-weight: bold;
+                width: 30px;
+            }
+            .game {
+                font-weight: bold;
+            }
+            .result {
+                font-weight: bold;
+                background: #f8f9fa;
+            }
+            .result .winner {
+                color: #21610B;
+            }
+            .result .loser {
+                color: #FF8000;
+            }
+            .result span {
+                font-weight: bold;
+            }
+            .match-footer {
+                display: flex;
+                justify-content: space-around;
+                padding: 15px;
+                background: #f8f9fa;
+                border-top: 1px solid #ddd;
+                font-size: 0.9em;
+            }
+            .match-info {
+                padding: 10px 15px;
+                background: #f8f9fa;
+                border-top: 1px solid #ddd;
+                font-size: 0.9em;
+            }
+            .field-info, .referee-info {
+                margin: 5px 0;
+            }
+            .team-home a, .team-away a {
+                color: black !important;
+                text-decoration: none !important;
+                cursor: pointer !important;
+                font-weight: 600 !important;
+            }
+            .team-home a:hover, .team-away a:hover {
+                text-decoration: underline !important;
+                color: #333 !important;
+            }
+            /* Adaptacio mobil especifica per a la taula de jocs detallada (sense canviar la distribucio) */
+            @media (max-width: 768px) {
+                .match-container {
+                    margin-left: 0 !important;
+                    margin-right: 0 !important;
+                    padding: 5px !important;
+                }
+                /* Mantenim la disposicio horitzontal de desktop */
+                .match-header {
+                    flex-direction: row !important;
+                    align-items: center !important;
+                    gap: 6px !important;
+                    padding: 5px !important;
+                }
+                .match-datetime {
+                    width: 25% !important;
+                    padding-right: 4px !important;
+                    margin-bottom: 0 !important;
+                }
+                .match-teams {
+                    flex-direction: row !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                    gap: 6px !important;
+                    width: 75% !important;
+                }
+                .team-home,
+                .team-away {
+                    width: 40% !important;
+                    white-space: normal !important;
+                    word-break: break-word !important;
+                }
+                .team-home {
+                    text-align: right !important;
+                }
+                .team-away {
+                    text-align: left !important;
+                }
+                .match-info {
+                    padding: 5px !important;
+                }
+                .match-score {
+                    width: auto !important;
+                    align-self: center !important;
+                    font-size: 0.85em !important;
+                    padding: 2px 6px !important;
+                    min-width: 40px !important;
+                }
+                .match-container {
+                    overflow-x: hidden !important;
+                }
+                .match-results-table {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    table-layout: fixed !important;
+                }
+                .match-footer {
+                    flex-direction: column !important;
+                    align-items: flex-start !important;
+                    gap: 4px !important;
+                }
+            }
+        </style></div></p>
 
 		
 			</div>
