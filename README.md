@@ -80,6 +80,26 @@ python src/actas-html/parse_actas.py --input src/actas-html/resources --output r
 python src/actas-html/parse_actas.py --input src/actas-html/resources/2025-2026/tercera nacional/G1/jornada_1.html --output resources/actas-json
 ```
 
+## Empaquetar JSON
+
+`src/packager/package_actas.py` crea `actas-json.zip` con todos los JSON de
+`resources/actas-json/`, conservando su jerarquía, e incluye un `manifest.json`
+con una lista de las rutas relativas de cada archivo JSON incluido.
+
+```powershell
+python src/packager/package_actas.py
+python src/packager/package_actas.py --input-dir D:\datos\actas-json --output-file D:\datos\actas-json.zip --force
+python src/packager/package_actas.py --season 2023-2024,2024-2025 --force
+python src/packager/package_actas.py --input-dir D:\datos\actas-json --season "2023-2024, 2024-2025" --output-file D:\datos\seleccion.zip --force
+```
+
+`--season` es opcional. Si se indica, acepta una o varias temporadas separadas
+por comas (`YYYY-YYYY`) y el ZIP solo incluye esas carpetas, además de
+`model-definition.json` y `manifest.json`. La salida puede contener cualquier
+número de temporadas seleccionadas.
+
+La salida existente se conserva por defecto; usa `--force` para reemplazarla.
+
 ## Pruebas
 
 Las pruebas son offline y no descargan datos:
