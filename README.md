@@ -83,8 +83,9 @@ python src/actas-html/parse_actas.py --input src/actas-html/resources/2025-2026/
 ## Empaquetar JSON
 
 `src/packager/package_actas.py` crea `actas-json.zip` con todos los JSON de
-`resources/actas-json/`, conservando su jerarquía, e incluye un `manifest.json`
-con una lista de las rutas relativas de cada archivo JSON incluido.
+`resources/actas-json/`, bajo el prefijo `actas-json/` y conservando su jerarquía.
+También incluye un `manifest.json` con `source: "FCTT"`, las temporadas
+detectadas y las rutas de los archivos dentro de `assets.ACTAS.files`.
 
 ```powershell
 python src/packager/package_actas.py
@@ -95,8 +96,8 @@ python src/packager/package_actas.py --input-dir D:\datos\actas-json --season "2
 
 `--season` es opcional. Si se indica, acepta una o varias temporadas separadas
 por comas (`YYYY-YYYY`) y el ZIP solo incluye esas carpetas, además de
-`model-definition.json` y `manifest.json`. La salida puede contener cualquier
-número de temporadas seleccionadas.
+`manifest.json`. La salida puede contener cualquier número de temporadas
+seleccionadas; el nombre automático incluye las temporadas normalizadas.
 
 La salida existente se conserva por defecto; usa `--force` para reemplazarla.
 
