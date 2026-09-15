@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "FRANCISCO FERNANDEZ QUESADA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "BOUZA YERGA, ARAN",
-        "licencia": "10347",
-        "id": "10347"
-      },
-      "B": {
-        "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
-      },
-      "C": {
-        "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "AMILL BORRULL, MARC",
         "licencia": "10969",
@@ -66,6 +49,23 @@
         "licencia": "1861",
         "id": "1861"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "BOUZA YERGA, ARAN",
+        "licencia": "10347",
+        "id": "10347"
+      },
+      "B": {
+        "nombre": "NÚÑEZ PROVENCIO, POL",
+        "licencia": "14077",
+        "id": "14077"
+      },
+      "C": {
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      }
     }
   },
   "dobles": null,
@@ -75,213 +75,31 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "BOUZA YERGA, ARAN",
-        "licencia": "10347",
-        "id": "10347"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "AMILL BORRULL, MARC",
         "licencia": "10969",
         "id": "10969"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 12,
-          "visitante": 10
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 7
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 4
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
-        "licencia": "1861",
-        "id": "1861"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 3
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "nombre": "BOUZA YERGA, ARAN",
         "licencia": "10347",
         "id": "10347"
       },
-      "visitante": {
-        "letra": "X",
-        "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
-      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 3,
           "local": 6,
           "visitante": 11
         },
         {
-          "set": 4,
-          "local": 11,
-          "visitante": 4
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
-      },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 12,
-          "visitante": 14
-        },
-        {
-          "set": 2,
-          "local": 8,
-          "visitante": 11
-        },
-        {
           "set": 3,
-          "local": 8,
+          "local": 7,
           "visitante": 11
         }
       ],
@@ -291,8 +109,190 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ALTARRIBA BARRAU, VICTOR",
+        "licencia": "1862",
+        "id": "1862"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "NÚÑEZ PROVENCIO, POL",
+        "licencia": "14077",
+        "id": "14077"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ALTARRIBA BARRAU, VICTOR",
+        "licencia": "1862",
+        "id": "1862"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BOUZA YERGA, ARAN",
+        "licencia": "10347",
+        "id": "10347"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
       }
     },
     {
@@ -300,52 +300,52 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "CHICO ZURANO, MIGUEL ANGEL",
         "licencia": "1861",
         "id": "1861"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "NÚÑEZ PROVENCIO, POL",
+        "licencia": "14077",
+        "id": "14077"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

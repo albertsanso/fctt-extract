@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "TOMÁS LEONE",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      "B": {
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      },
-      "C": {
-        "nombre": "AGEA TOMAS, RAFAEL",
-        "licencia": "194",
-        "id": "194"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "BOUZA YERGA, ARAN",
         "licencia": "10347",
@@ -66,22 +49,27 @@
         "licencia": "11283",
         "id": "11283"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
         "licencia": "199",
         "id": "199"
       },
-      {
+      "B": {
         "nombre": "VILA LLUIS, JORDI",
         "licencia": "6223",
         "id": "6223"
+      },
+      "C": {
+        "nombre": "AGEA TOMAS, RAFAEL",
+        "licencia": "194",
+        "id": "194"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "BOUZA YERGA, ARAN",
         "licencia": "10347",
@@ -92,6 +80,18 @@
         "licencia": "11283",
         "id": "11283"
       }
+    ],
+    "visitante": [
+      {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      {
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      }
     ]
   },
   "partidos": [
@@ -100,52 +100,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "BOUZA YERGA, ARAN",
         "licencia": "10347",
         "id": "10347"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 5,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -153,44 +153,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
         "licencia": "11280",
         "id": "11280"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
           "local": 6,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
           "set": 4,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -201,42 +201,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "AGEA TOMAS, RAFAEL",
-        "licencia": "194",
-        "id": "194"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
         "id": "11283"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "AGEA TOMAS, RAFAEL",
+        "licencia": "194",
+        "id": "194"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -244,44 +244,44 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
         "licencia": "11280",
         "id": "11280"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 3,
           "local": 11,
           "visitante": 9
         },
         {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
           "set": 4,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -292,42 +292,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "AGEA TOMAS, RAFAEL",
-        "licencia": "194",
-        "id": "194"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "BOUZA YERGA, ARAN",
         "licencia": "10347",
         "id": "10347"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "AGEA TOMAS, RAFAEL",
+        "licencia": "194",
+        "id": "194"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 2
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -335,49 +335,49 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
         "id": "11283"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 3,
-          "visitante": 11
-        },
-        {
-          "set": 3,
           "local": 11,
           "visitante": 3
         },
         {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        },
+        {
           "set": 4,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -388,21 +388,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-            "licencia": "199",
-            "id": "199"
-          },
-          {
-            "nombre": "VILA LLUIS, JORDI",
-            "licencia": "6223",
-            "id": "6223"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -420,41 +405,56 @@
         "licencia": "10347",
         "id": "10347"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+            "licencia": "199",
+            "id": "199"
+          },
+          {
+            "nombre": "VILA LLUIS, JORDI",
+            "licencia": "6223",
+            "id": "6223"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 4,
           "local": 12,
           "visitante": 10
         },
         {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        },
+        {
           "set": 5,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

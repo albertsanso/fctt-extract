@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "GIL ARUMI CROSAS",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "EXPOSITO RODRIGUEZ, JUAN ANTONIO",
-        "licencia": "395",
-        "id": "395"
-      },
-      "B": {
-        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
-        "licencia": "2983",
-        "id": "2983"
-      },
-      "C": {
-        "nombre": "GARCIA HIJARRUBIA, XAVIER",
-        "licencia": "707",
-        "id": "707"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "TORRADES TORNER, DOMENEC",
         "licencia": "867",
@@ -66,6 +49,23 @@
         "licencia": "13163",
         "id": "13163"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "EXPOSITO RODRIGUEZ, JUAN ANTONIO",
+        "licencia": "395",
+        "id": "395"
+      },
+      "B": {
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "C": {
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      }
     }
   },
   "dobles": null,
@@ -75,52 +75,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "EXPOSITO RODRIGUEZ, JUAN ANTONIO",
-        "licencia": "395",
-        "id": "395"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
         "licencia": "867",
         "id": "867"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "EXPOSITO RODRIGUEZ, JUAN ANTONIO",
+        "licencia": "395",
+        "id": "395"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 8
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 8,
           "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -128,42 +128,42 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
-        "licencia": "2983",
-        "id": "2983"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
         "licencia": "484",
         "id": "484"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -171,42 +171,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "GARCIA HIJARRUBIA, XAVIER",
-        "licencia": "707",
-        "id": "707"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 19,
-          "visitante": 21
+          "local": 21,
+          "visitante": 19
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -214,70 +214,22 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "EXPOSITO RODRIGUEZ, JUAN ANTONIO",
-        "licencia": "395",
-        "id": "395"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
         "licencia": "484",
         "id": "484"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "GARCIA HIJARRUBIA, XAVIER",
-        "licencia": "707",
-        "id": "707"
-      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "letra": "A",
+        "nombre": "EXPOSITO RODRIGUEZ, JUAN ANTONIO",
+        "licencia": "395",
+        "id": "395"
       },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 9
+          "visitante": 8
         },
         {
           "set": 2,
@@ -287,12 +239,12 @@
         {
           "set": 3,
           "local": 11,
-          "visitante": 5
+          "visitante": 8
         },
         {
           "set": 4,
           "local": 11,
-          "visitante": 5
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
@@ -301,8 +253,56 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "TORRADES TORNER, DOMENEC",
+        "licencia": "867",
+        "id": "867"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
         "local": 1,
-        "visitante": 4
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -310,42 +310,42 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
-        "licencia": "2983",
-        "id": "2983"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],

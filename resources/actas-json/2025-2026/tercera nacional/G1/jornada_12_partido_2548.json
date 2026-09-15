@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "DAVID CAMPANYA BASSEDA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      "B": {
-        "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
-      },
-      "C": {
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GÜELL ARAQUE, PAU",
         "licencia": "11836",
@@ -66,6 +49,23 @@
         "licencia": "14003",
         "id": "14003"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "B": {
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "C": {
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      }
     }
   },
   "dobles": null,
@@ -75,16 +75,59 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
+        "letra": "Y",
+        "nombre": "GÜELL ARAQUE, PAU",
+        "licencia": "11836",
+        "id": "11836"
+      },
+      "visitante": {
         "letra": "A",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
         "licencia": "199",
         "id": "199"
       },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "letra": "B",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
       },
       "sets": [
         {
@@ -100,7 +143,7 @@
         {
           "set": 3,
           "local": 11,
-          "visitante": 3
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
@@ -108,49 +151,6 @@
         "visitante": 0
       },
       "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -161,22 +161,75 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
         "licencia": "14003",
         "id": "14003"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 3,
           "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
@@ -185,12 +238,65 @@
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 9
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 9,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 5,
+          "local": 1,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GÜELL ARAQUE, PAU",
+        "licencia": "11836",
+        "id": "11836"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 4,
           "visitante": 11
         },
         {
@@ -205,114 +311,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 3,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 4,
-          "local": 14,
-          "visitante": 12
-        },
-        {
-          "set": 5,
-          "local": 11,
-          "visitante": 1
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 4
-        },
-        {
-          "set": 5,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "visitante": 3
       }
     },
     {
@@ -320,52 +320,52 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
         "licencia": "14003",
         "id": "14003"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 6,
+          "local": 5,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 11,
-          "visitante": 2
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

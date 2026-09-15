@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ROSANA CEBALLOS",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
-        "licencia": "12483",
-        "id": "12483"
-      },
-      "B": {
-        "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
-      },
-      "C": {
-        "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
@@ -66,6 +49,23 @@
         "licencia": "11280",
         "id": "11280"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      },
+      "B": {
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
+      "C": {
+        "nombre": "PICH SERRA, GUILLEM",
+        "licencia": "13163",
+        "id": "13163"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
-        "licencia": "12483",
-        "id": "12483"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
         "id": "11283"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 3,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -118,64 +118,16 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "GRANADOS GRÍFOL, JOAN",
         "licencia": "14223",
         "id": "14223"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 4
-        },
-        {
-          "set": 4,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
-      },
       "visitante": {
-        "letra": "Z",
-        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
-        "licencia": "11280",
-        "id": "11280"
+        "letra": "B",
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
       },
       "sets": [
         {
@@ -186,60 +138,17 @@
         {
           "set": 2,
           "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
-        "licencia": "12483",
-        "id": "12483"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 13,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
           "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 4,
           "local": 11,
-          "visitante": 5
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
@@ -247,6 +156,97 @@
         "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
+        "licencia": "11280",
+        "id": "11280"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "PICH SERRA, GUILLEM",
+        "licencia": "13163",
+        "id": "13163"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -257,52 +257,52 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
         "id": "11283"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "PICH SERRA, GUILLEM",
+        "licencia": "13163",
+        "id": "13163"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 4,
-          "local": 8,
+          "local": 9,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
           "set": 5,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -310,52 +310,52 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
         "licencia": "11280",
         "id": "11280"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 3,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 4,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 5,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

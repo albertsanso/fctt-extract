@@ -24,30 +24,13 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
-      },
-      "B": {
-        "nombre": "FERREIRA PÉREZ, ISAAC",
-        "licencia": "949",
-        "id": "949"
-      },
-      "C": {
-        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
-        "licencia": "15313",
-        "id": "15313"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "FERRAS RUIZ, DAVID",
         "licencia": "15703",
@@ -63,6 +46,23 @@
         "licencia": "6671",
         "id": "6671"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "B": {
+        "nombre": "FERREIRA PÉREZ, ISAAC",
+        "licencia": "949",
+        "id": "949"
+      },
+      "C": {
+        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
+        "licencia": "15313",
+        "id": "15313"
+      }
     }
   },
   "dobles": null,
@@ -72,122 +72,21 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "FERRAS RUIZ, DAVID",
         "licencia": "15703",
         "id": "15703"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 5,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "FERREIRA PÉREZ, ISAAC",
-        "licencia": "949",
-        "id": "949"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "DE BLAS FOIX, XAVIER",
-        "licencia": "2309",
-        "id": "2309"
+        "letra": "A",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
       },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 4,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
-        "licencia": "15313",
-        "id": "15313"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "VERDEJO RABASSO, JORDI",
-        "licencia": "6671",
-        "id": "6671"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 9,
+          "local": 5,
           "visitante": 11
         },
         {
@@ -198,22 +97,123 @@
         {
           "set": 3,
           "local": 11,
-          "visitante": 4
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 9,
           "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 1,
+        "local": 2,
         "visitante": 3
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "FERREIRA PÉREZ, ISAAC",
+        "licencia": "949",
+        "id": "949"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "VERDEJO RABASSO, JORDI",
+        "licencia": "6671",
+        "id": "6671"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
+        "licencia": "15313",
+        "id": "15313"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -221,42 +221,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "DE BLAS FOIX, XAVIER",
         "licencia": "2309",
         "id": "2309"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 14
+          "local": 14,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -264,47 +264,47 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
-        "licencia": "15313",
-        "id": "15313"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "FERRAS RUIZ, DAVID",
         "licencia": "15703",
         "id": "15703"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
+        "licencia": "15313",
+        "id": "15313"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -312,47 +312,47 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "FERREIRA PÉREZ, ISAAC",
-        "licencia": "949",
-        "id": "949"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "VERDEJO RABASSO, JORDI",
         "licencia": "6671",
         "id": "6671"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "FERREIRA PÉREZ, ISAAC",
+        "licencia": "949",
+        "id": "949"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 15,
-          "visitante": 13
+          "local": 13,
+          "visitante": 15
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 4,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],

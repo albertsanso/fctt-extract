@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "PERE VIADER BOSCH",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "B": {
-        "nombre": "LUCO MANUBENS, DANIEL",
-        "licencia": "659",
-        "id": "659"
-      },
-      "C": {
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "MONTANER GASULLA, JOSEP",
         "licencia": "6313",
@@ -66,6 +49,23 @@
         "licencia": "1447",
         "id": "1447"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "B": {
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      "C": {
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      }
     }
   },
   "dobles": null,
@@ -75,94 +75,41 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MONTANER GASULLA, JOSEP",
         "licencia": "6313",
         "id": "6313"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
           "local": 11,
           "visitante": 8
         },
         {
-          "set": 3,
-          "local": 8,
-          "visitante": 11
-        },
-        {
           "set": 4,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 6
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "CRUSI LOPEZ, ADRIA",
-        "licencia": "3420",
-        "id": "3420"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 5,
-          "local": 8,
+          "local": 6,
           "visitante": 11
         }
       ],
@@ -171,6 +118,59 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -181,47 +181,47 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
         "licencia": "1447",
         "id": "1447"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -229,47 +229,47 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
         "licencia": "20654",
         "id": "20654"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -277,42 +277,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MONTANER GASULLA, JOSEP",
         "licencia": "6313",
         "id": "6313"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -320,52 +320,52 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "LUCO MANUBENS, DANIEL",
-        "licencia": "659",
-        "id": "659"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
         "licencia": "1447",
         "id": "1447"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 4,
           "local": 11,
           "visitante": 9
         },
         {
-          "set": 5,
-          "local": 8,
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 6,
           "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],

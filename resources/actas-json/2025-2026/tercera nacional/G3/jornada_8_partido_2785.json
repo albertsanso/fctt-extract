@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ADRIÀ HERNÁNDEZ ORDOÑO",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "ZARAGOZA OLMO, XAVIER",
-        "licencia": "1067",
-        "id": "1067"
-      },
-      "B": {
-        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-        "licencia": "17614",
-        "id": "17614"
-      },
-      "C": {
-        "nombre": "CAMPOS GUINOVART, RAMON",
-        "licencia": "7026",
-        "id": "7026"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GARRELL GARCIA, AMADOR",
         "licencia": "10740",
@@ -66,22 +49,27 @@
         "licencia": "7632",
         "id": "7632"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "ZARAGOZA OLMO, XAVIER",
         "licencia": "1067",
         "id": "1067"
       },
-      {
+      "B": {
         "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
         "licencia": "17614",
         "id": "17614"
+      },
+      "C": {
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "GARRELL GARCIA, AMADOR",
         "licencia": "10740",
@@ -91,6 +79,18 @@
         "nombre": "HUGUET MOLIST, SERGI",
         "licencia": "7149",
         "id": "7149"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      {
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
       }
     ]
   },
@@ -100,118 +100,22 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "ZARAGOZA OLMO, XAVIER",
-        "licencia": "1067",
-        "id": "1067"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARRELL GARCIA, AMADOR",
         "licencia": "10740",
         "id": "10740"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 5,
-          "local": 11,
-          "visitante": 8
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-        "licencia": "17614",
-        "id": "17614"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
+        "letra": "A",
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
       },
       "sets": [
         {
           "set": 1,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "CAMPOS GUINOVART, RAMON",
-        "licencia": "7026",
-        "id": "7026"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "CHIC VALLS, DAVID",
-        "licencia": "7632",
-        "id": "7632"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
@@ -220,60 +124,17 @@
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "ZARAGOZA OLMO, XAVIER",
-        "licencia": "1067",
-        "id": "1067"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 9
         },
         {
-          "set": 3,
-          "local": 2,
-          "visitante": 11
-        },
-        {
           "set": 4,
-          "local": 9,
+          "local": 7,
           "visitante": 11
         },
         {
           "set": 5,
-          "local": 5,
+          "local": 8,
           "visitante": 11
         }
       ],
@@ -283,31 +144,31 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 0,
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "B vs X",
       "local": {
-        "letra": "C",
-        "nombre": "CAMPOS GUINOVART, RAMON",
-        "licencia": "7026",
-        "id": "7026"
+        "letra": "X",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
       },
       "visitante": {
-        "letra": "Y",
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "letra": "B",
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
       },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 9
+          "visitante": 4
         },
         {
           "set": 2,
@@ -326,41 +187,41 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 1,
+        "visitante": 1
       }
     },
     {
-      "numero": 6,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-        "licencia": "17614",
-        "id": "17614"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "CHIC VALLS, DAVID",
         "licencia": "7632",
         "id": "7632"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 4
+          "visitante": 5
         },
         {
           "set": 2,
           "local": 11,
-          "visitante": 2
+          "visitante": 8
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 2
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
@@ -368,6 +229,145 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ZARAGOZA OLMO, XAVIER",
+        "licencia": "1067",
+        "id": "1067"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CAMPOS GUINOVART, RAMON",
+        "licencia": "7026",
+        "id": "7026"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "CHIC VALLS, DAVID",
+        "licencia": "7632",
+        "id": "7632"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+        "licencia": "17614",
+        "id": "17614"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -378,21 +378,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "ZARAGOZA OLMO, XAVIER",
-            "licencia": "1067",
-            "id": "1067"
-          },
-          {
-            "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-            "licencia": "17614",
-            "id": "17614"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -410,36 +395,51 @@
         "licencia": "10740",
         "id": "10740"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ZARAGOZA OLMO, XAVIER",
+            "licencia": "1067",
+            "id": "1067"
+          },
+          {
+            "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
+            "licencia": "17614",
+            "id": "17614"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 9,
+          "local": 5,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
           "set": 4,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],

@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ADRIÀ HERNÁNDEZ ORDOÑO",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "ARCOS ASENCIO, ALBERT",
-        "licencia": "1078",
-        "id": "1078"
-      },
-      "B": {
-        "nombre": "FONT PUIG, LAIA",
-        "licencia": "6764",
-        "id": "6764"
-      },
-      "C": {
-        "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "15782",
-        "id": "15782"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "RUIZ VAREA, AMADOR",
         "licencia": "842",
@@ -66,6 +49,23 @@
         "licencia": "732",
         "id": "732"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "ARCOS ASENCIO, ALBERT",
+        "licencia": "1078",
+        "id": "1078"
+      },
+      "B": {
+        "nombre": "FONT PUIG, LAIA",
+        "licencia": "6764",
+        "id": "6764"
+      },
+      "C": {
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      }
     }
   },
   "dobles": null,
@@ -75,52 +75,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "ARCOS ASENCIO, ALBERT",
-        "licencia": "1078",
-        "id": "1078"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "RUIZ VAREA, AMADOR",
         "licencia": "842",
         "id": "842"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ARCOS ASENCIO, ALBERT",
+        "licencia": "1078",
+        "id": "1078"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
           "local": 8,
           "visitante": 11
         },
         {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        },
-        {
           "set": 4,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -128,44 +128,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "FONT PUIG, LAIA",
-        "licencia": "6764",
-        "id": "6764"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
         "licencia": "850",
         "id": "850"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "FONT PUIG, LAIA",
+        "licencia": "6764",
+        "id": "6764"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 8
         },
         {
-          "set": 3,
-          "local": 9,
+          "set": 2,
+          "local": 8,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
           "set": 4,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -176,52 +176,52 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "15782",
-        "id": "15782"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, ARMANDO",
         "licencia": "732",
         "id": "732"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -229,52 +229,52 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "ARCOS ASENCIO, ALBERT",
-        "licencia": "1078",
-        "id": "1078"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
         "licencia": "850",
         "id": "850"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ARCOS ASENCIO, ALBERT",
+        "licencia": "1078",
+        "id": "1078"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -282,42 +282,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "15782",
-        "id": "15782"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "RUIZ VAREA, AMADOR",
         "licencia": "842",
         "id": "842"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 3,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -325,47 +325,47 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "FONT PUIG, LAIA",
-        "licencia": "6764",
-        "id": "6764"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, ARMANDO",
         "licencia": "732",
         "id": "732"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "FONT PUIG, LAIA",
+        "licencia": "6764",
+        "id": "6764"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 6,
+          "local": 8,
           "visitante": 11
         },
         {
-          "set": 4,
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
           "local": 11,
           "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "LLORENÇ VILARNAU SALIP",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "LIN CHEN, HONGXIANG",
-        "licencia": "6779",
-        "id": "6779"
-      },
-      "B": {
-        "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
-      },
-      "C": {
-        "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "FONTANET PÉREZ, FRANCESC",
         "licencia": "1002",
@@ -66,6 +49,23 @@
         "licencia": "1081",
         "id": "1081"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "LIN CHEN, HONGXIANG",
+        "licencia": "6779",
+        "id": "6779"
+      },
+      "B": {
+        "nombre": "VANACLOCHA ESPONA, SANTI",
+        "licencia": "11633",
+        "id": "11633"
+      },
+      "C": {
+        "nombre": "CARDONA JORDAN, BIEL",
+        "licencia": "13097",
+        "id": "13097"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "LIN CHEN, HONGXIANG",
-        "licencia": "6779",
-        "id": "6779"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "FONTANET PÉREZ, FRANCESC",
         "licencia": "1002",
         "id": "1002"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LIN CHEN, HONGXIANG",
+        "licencia": "6779",
+        "id": "6779"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -118,44 +118,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
         "licencia": "701",
         "id": "701"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VANACLOCHA ESPONA, SANTI",
+        "licencia": "11633",
+        "id": "11633"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 2,
           "local": 8,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 11,
-          "visitante": 6
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 0
+          "local": 0,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -166,47 +166,47 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "RIBAS XUCLÀ, JORDI",
         "licencia": "1081",
         "id": "1081"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARDONA JORDAN, BIEL",
+        "licencia": "13097",
+        "id": "13097"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 5,
+          "local": 7,
           "visitante": 11
         },
         {
-          "set": 4,
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
           "local": 11,
-          "visitante": 4
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -214,74 +214,31 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "LIN CHEN, HONGXIANG",
-        "licencia": "6779",
-        "id": "6779"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
         "licencia": "701",
         "id": "701"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 0
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 0
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 0
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
-      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "1002",
-        "id": "1002"
+        "letra": "A",
+        "nombre": "LIN CHEN, HONGXIANG",
+        "licencia": "6779",
+        "id": "6779"
       },
       "sets": [
         {
           "set": 1,
-          "local": 6,
+          "local": 0,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 6,
+          "local": 0,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 7,
+          "local": 0,
           "visitante": 11
         }
       ],
@@ -291,41 +248,41 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 1,
+        "visitante": 3
       }
     },
     {
-      "numero": 6,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "B",
-        "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "letra": "Y",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
       },
       "visitante": {
-        "letra": "Z",
-        "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
+        "letra": "C",
+        "nombre": "CARDONA JORDAN, BIEL",
+        "licencia": "13097",
+        "id": "13097"
       },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 3
+          "visitante": 6
         },
         {
           "set": 2,
           "local": 11,
-          "visitante": 4
+          "visitante": 6
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 5
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
@@ -334,8 +291,51 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VANACLOCHA ESPONA, SANTI",
+        "licencia": "11633",
+        "id": "11633"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

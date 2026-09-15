@@ -260,6 +260,18 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
             partido["motivo"] = "Resultado no disponible"
         matches.append(partido)
 
+    # The results table always lists the A/B/C column first; it belongs to the away team when the
+    # last running score mirrors the final score.
+    abc_is_home = True
+    last_accumulated = matches[-1]["marcador_acumulado"] if matches else None
+    if (final_score and final_score[0] != final_score[1] and last_accumulated
+            and (last_accumulated["local"], last_accumulated["visitante"]) == (final_score[1], final_score[0])):
+        abc_is_home = False
+        lineups = {"local": lineups["visitante"], "visitante": lineups["local"]}
+        if doubles:
+            doubles = {"local": doubles["visitante"], "visitante": doubles["local"]}
+        matches = [swap_sides(partido) for partido in matches]
+
     field = class_text(match_node, "field-info")
     referee = class_text(match_node, "referee-info")
     referee = re.sub(r"^[^:]+:\s*", "", referee).strip() or None
@@ -276,7 +288,7 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
         "hora": hour,
         "lugar": {"ciudad": None, "recinto": re.sub(r"^[^:]+:\s*", "", field).strip() or None},
         "equipos": {"local": team_from_cell(home_node), "visitante": team_from_cell(away_node)},
-        "abc_es_local": True,
+        "abc_es_local": abc_is_home,
         "arbitros": {"principal": {"nombre": referee, "licencia": None} if referee else None, "asistente": None},
         "alineaciones": lineups,
         "dobles": doubles,
@@ -289,6 +301,21 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
         "acta_protestada": False,
         "_id": acta_id,
     }
+
+
+def swap_score(score: dict[str, object] | None) -> dict[str, object] | None:
+    return {"local": score["visitante"], "visitante": score["local"]} if score else score
+
+
+def swap_sides(partido: dict[str, object]) -> dict[str, object]:
+    swapped = dict(partido)
+    swapped["local"], swapped["visitante"] = partido["visitante"], partido["local"]
+    swapped["sets"] = [{"set": item["set"], **swap_score(item)} for item in partido["sets"]]
+    swapped["resultado_juegos"] = swap_score(partido["resultado_juegos"])
+    swapped["marcador_acumulado"] = swap_score(partido["marcador_acumulado"])
+    if partido["ganador"]:
+        swapped["ganador"] = "visitante" if partido["ganador"] == "local" else "local"
+    return swapped
 
 
 def parse_file(source: Path) -> list[dict[str, object]]:

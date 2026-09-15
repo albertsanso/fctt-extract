@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ROSANA CEBALLOS",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
-      },
-      "B": {
-        "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
-      },
-      "C": {
-        "nombre": "RICO RODRIGUEZ, LIDIA",
-        "licencia": "4432",
-        "id": "4432"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
         "licencia": "2983",
@@ -66,6 +49,23 @@
         "licencia": "707",
         "id": "707"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "B": {
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "C": {
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      }
     }
   },
   "dobles": null,
@@ -75,75 +75,27 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
         "licencia": "2983",
         "id": "2983"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 10,
-          "visitante": 12
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "MARTINEZ CARRACEDO, DANI",
-        "licencia": "1231",
-        "id": "1231"
+        "letra": "A",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
       },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 14
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 3,
@@ -152,126 +104,35 @@
         },
         {
           "set": 4,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 5,
-          "local": 9,
-          "visitante": 11
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 1,
+        "visitante": 0
       }
     },
     {
-      "numero": 3,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "C vs Z",
+      "cruce": "B vs X",
       "local": {
-        "letra": "C",
-        "nombre": "RICO RODRIGUEZ, LIDIA",
-        "licencia": "4432",
-        "id": "4432"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "GARCIA HIJARRUBIA, XAVIER",
-        "licencia": "707",
-        "id": "707"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 3,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 3,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTINEZ CARRACEDO, DANI",
         "licencia": "1231",
         "id": "1231"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 13
-        },
-        {
-          "set": 2,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 4,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "RICO RODRIGUEZ, LIDIA",
-        "licencia": "4432",
-        "id": "4432"
-      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
-        "licencia": "2983",
-        "id": "2983"
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
       },
       "sets": [
         {
@@ -281,8 +142,190 @@
         },
         {
           "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 5,
           "local": 11,
           "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MARTINEZ CARRACEDO, DANI",
+        "licencia": "1231",
+        "id": "1231"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
         },
         {
           "set": 3,
@@ -296,51 +339,8 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "GARCIA HIJARRUBIA, XAVIER",
-        "licencia": "707",
-        "id": "707"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 2,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 8,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 5,
+        "visitante": 1
       }
     }
   ],

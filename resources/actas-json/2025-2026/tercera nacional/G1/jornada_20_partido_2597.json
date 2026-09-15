@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ADRIÀ HERNÁNDEZ ORDOÑO",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "NUGENT, CONOR JOSEPH",
-        "licencia": "21824",
-        "id": "21824"
-      },
-      "B": {
-        "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
-      },
-      "C": {
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "MARTÍNEZ OJEDA, RAFAEL",
         "licencia": "15279",
@@ -66,22 +49,27 @@
         "licencia": "1133",
         "id": "1133"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "NUGENT, CONOR JOSEPH",
         "licencia": "21824",
         "id": "21824"
       },
-      {
+      "B": {
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "C": {
         "nombre": "GARROTE FERRE, BIEL",
         "licencia": "7271",
         "id": "7271"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "CARMONA DE LA ROSA, ALBERT",
         "licencia": "6952",
@@ -91,6 +79,18 @@
         "nombre": "SOLER MORENO, ALBERT",
         "licencia": "1133",
         "id": "1133"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "NUGENT, CONOR JOSEPH",
+        "licencia": "21824",
+        "id": "21824"
+      },
+      {
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
       }
     ]
   },
@@ -100,122 +100,26 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "NUGENT, CONOR JOSEPH",
-        "licencia": "21824",
-        "id": "21824"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MARTÍNEZ OJEDA, RAFAEL",
         "licencia": "15279",
         "id": "15279"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "NUGENT, CONOR JOSEPH",
+        "licencia": "21824",
+        "id": "21824"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 4,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 5,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
-      },
-      "sets": [
-        {
-          "set": 1,
           "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 15,
-          "visitante": 13
-        },
-        {
-          "set": 2,
-          "local": 7,
           "visitante": 11
         },
         {
@@ -226,12 +130,12 @@
         {
           "set": 4,
           "local": 11,
-          "visitante": 8
+          "visitante": 9
         },
         {
           "set": 5,
           "local": 11,
-          "visitante": 6
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
@@ -241,7 +145,103 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 2
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 15
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -249,49 +249,49 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "NUGENT, CONOR JOSEPH",
-        "licencia": "21824",
-        "id": "21824"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "CARMONA DE LA ROSA, ALBERT",
         "licencia": "6952",
         "id": "6952"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "NUGENT, CONOR JOSEPH",
+        "licencia": "21824",
+        "id": "21824"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -302,42 +302,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MARTÍNEZ OJEDA, RAFAEL",
         "licencia": "15279",
         "id": "15279"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -345,44 +345,44 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "SOLER MORENO, ALBERT",
         "licencia": "1133",
         "id": "1133"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 4,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -393,21 +393,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "NUGENT, CONOR JOSEPH",
-            "licencia": "21824",
-            "id": "21824"
-          },
-          {
-            "nombre": "GARROTE FERRE, BIEL",
-            "licencia": "7271",
-            "id": "7271"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -425,41 +410,56 @@
         "licencia": "6952",
         "id": "6952"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "NUGENT, CONOR JOSEPH",
+            "licencia": "21824",
+            "id": "21824"
+          },
+          {
+            "nombre": "GARROTE FERRE, BIEL",
+            "licencia": "7271",
+            "id": "7271"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
           "local": 11,
           "visitante": 6
         },
         {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
           "set": 4,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 14,
-          "visitante": 12
+          "local": 12,
+          "visitante": 14
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],

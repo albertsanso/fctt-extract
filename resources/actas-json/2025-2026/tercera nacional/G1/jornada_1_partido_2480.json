@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JORDI FERRATE AGUILAR",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
-      },
-      "B": {
-        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
-        "licencia": "17643",
-        "id": "17643"
-      },
-      "C": {
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "CHICO ZURANO, MIGUEL ANGEL",
         "licencia": "1861",
@@ -66,6 +49,23 @@
         "licencia": "10969",
         "id": "10969"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "B": {
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
+      "C": {
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      }
     }
   },
   "dobles": null,
@@ -75,52 +75,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CHICO ZURANO, MIGUEL ANGEL",
         "licencia": "1861",
         "id": "1861"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
       "sets": [
         {
           "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
           "local": 5,
           "visitante": 11
         },
         {
-          "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -128,39 +128,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
-        "licencia": "17643",
-        "id": "17643"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "ARCE GOMEZ, IKER",
         "licencia": "15008",
         "id": "15008"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -171,47 +171,47 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "AMILL BORRULL, MARC",
         "licencia": "10969",
         "id": "10969"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -219,49 +219,49 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "ARCE GOMEZ, IKER",
         "licencia": "15008",
         "id": "15008"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -272,42 +272,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CHICO ZURANO, MIGUEL ANGEL",
         "licencia": "1861",
         "id": "1861"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 1,
-          "visitante": 11
+          "local": 11,
+          "visitante": 1
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -315,42 +315,42 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
-        "licencia": "17643",
-        "id": "17643"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "AMILL BORRULL, MARC",
         "licencia": "10969",
         "id": "10969"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 3,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

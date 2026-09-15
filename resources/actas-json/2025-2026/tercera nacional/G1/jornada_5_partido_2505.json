@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "TOMÁS LEONE",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
-      },
-      "B": {
-        "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
-      },
-      "C": {
-        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
-        "licencia": "15279",
-        "id": "15279"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
@@ -66,6 +49,23 @@
         "licencia": "11280",
         "id": "11280"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "B": {
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      },
+      "C": {
+        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
+        "licencia": "15279",
+        "id": "15279"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
         "licencia": "11283",
         "id": "11283"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -118,47 +118,47 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "GRANADOS GRÍFOL, JOAN",
         "licencia": "14223",
         "id": "14223"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -166,42 +166,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
-        "licencia": "15279",
-        "id": "15279"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
         "licencia": "11280",
         "id": "11280"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
+        "licencia": "15279",
+        "id": "15279"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 2
+          "local": 2,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -209,65 +209,22 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "GRANADOS GRÍFOL, JOAN",
         "licencia": "14223",
         "id": "14223"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 6
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
-        "licencia": "15279",
-        "id": "15279"
-      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "letra": "A",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
       },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 6
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 2,
@@ -276,45 +233,35 @@
         },
         {
           "set": 3,
-          "local": 9,
+          "local": 6,
           "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 5,
-          "local": 11,
-          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
-      "numero": 6,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "B",
-        "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
+        "letra": "Y",
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
       },
       "visitante": {
-        "letra": "Z",
-        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
-        "licencia": "11280",
-        "id": "11280"
+        "letra": "C",
+        "nombre": "MARTÍNEZ OJEDA, RAFAEL",
+        "licencia": "15279",
+        "id": "15279"
       },
       "sets": [
         {
@@ -325,32 +272,85 @@
         {
           "set": 2,
           "local": 11,
-          "visitante": 6
+          "visitante": 7
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 2
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 9,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 6
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
+        "licencia": "11280",
+        "id": "11280"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 6
       }
     }
   ],

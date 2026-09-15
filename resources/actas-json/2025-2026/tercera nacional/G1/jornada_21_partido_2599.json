@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JONATHAN CORTES BAZ",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
-      },
-      "B": {
-        "nombre": "FENG, ZHEN",
-        "licencia": "9152",
-        "id": "9152"
-      },
-      "C": {
-        "nombre": "NIKOLAEWNA, SOFIA",
-        "licencia": "14538",
-        "id": "14538"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GARROTE FERRE, BIEL",
         "licencia": "7271",
@@ -66,6 +49,23 @@
         "licencia": "10777",
         "id": "10777"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "B": {
+        "nombre": "FENG, ZHEN",
+        "licencia": "9152",
+        "id": "9152"
+      },
+      "C": {
+        "nombre": "NIKOLAEWNA, SOFIA",
+        "licencia": "14538",
+        "id": "14538"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARROTE FERRE, BIEL",
         "licencia": "7271",
         "id": "7271"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 14
+          "local": 14,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -118,42 +118,42 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "FENG, ZHEN",
-        "licencia": "9152",
-        "id": "9152"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "NUGENT, CONOR JOSEPH",
         "licencia": "21824",
         "id": "21824"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "FENG, ZHEN",
+        "licencia": "9152",
+        "id": "9152"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 3,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -161,42 +161,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "NIKOLAEWNA, SOFIA",
-        "licencia": "14538",
-        "id": "14538"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "CERVELLÓ, MARC",
         "licencia": "10777",
         "id": "10777"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "NIKOLAEWNA, SOFIA",
+        "licencia": "14538",
+        "id": "14538"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 3,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -204,52 +204,52 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "NUGENT, CONOR JOSEPH",
         "licencia": "21824",
         "id": "21824"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 1,
-          "visitante": 11
+          "local": 11,
+          "visitante": 1
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 2
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -257,59 +257,16 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "NIKOLAEWNA, SOFIA",
-        "licencia": "14538",
-        "id": "14538"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARROTE FERRE, BIEL",
         "licencia": "7271",
         "id": "7271"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 3,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 5,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "FENG, ZHEN",
-        "licencia": "9152",
-        "id": "9152"
-      },
       "visitante": {
-        "letra": "Z",
-        "nombre": "CERVELLÓ, MARC",
-        "licencia": "10777",
-        "id": "10777"
+        "letra": "C",
+        "nombre": "NIKOLAEWNA, SOFIA",
+        "licencia": "14538",
+        "id": "14538"
       },
       "sets": [
         {
@@ -319,33 +276,76 @@
         },
         {
           "set": 2,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 4,
           "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 5,
-          "local": 6,
-          "visitante": 11
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "CERVELLÓ, MARC",
+        "licencia": "10777",
+        "id": "10777"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "FENG, ZHEN",
+        "licencia": "9152",
+        "id": "9152"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 0
       }
     }
   ],

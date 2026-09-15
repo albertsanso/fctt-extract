@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ERIC MOGEDANO SERRANO",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "GARCIA MARTINEZ, DAVID",
-        "licencia": "7189",
-        "id": "7189"
-      },
-      "B": {
-        "nombre": "ROMA LACASA, JORDI",
-        "licencia": "11480",
-        "id": "11480"
-      },
-      "C": {
-        "nombre": "GARCIA VALENZUELA, GERARD",
-        "licencia": "17156",
-        "id": "17156"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "SANTIAGO GASCÓ, CRISTIAN",
         "licencia": "1130",
@@ -66,22 +49,27 @@
         "licencia": "949",
         "id": "949"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "GARCIA MARTINEZ, DAVID",
         "licencia": "7189",
         "id": "7189"
       },
-      {
+      "B": {
         "nombre": "ROMA LACASA, JORDI",
         "licencia": "11480",
         "id": "11480"
+      },
+      "C": {
+        "nombre": "GARCIA VALENZUELA, GERARD",
+        "licencia": "17156",
+        "id": "17156"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "SANTIAGO GASCÓ, CRISTIAN",
         "licencia": "1130",
@@ -91,6 +79,18 @@
         "nombre": "MARTÍ AGUADO, VICTOR",
         "licencia": "13637",
         "id": "13637"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "GARCIA MARTINEZ, DAVID",
+        "licencia": "7189",
+        "id": "7189"
+      },
+      {
+        "nombre": "ROMA LACASA, JORDI",
+        "licencia": "11480",
+        "id": "11480"
       }
     ]
   },
@@ -100,47 +100,47 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "GARCIA MARTINEZ, DAVID",
-        "licencia": "7189",
-        "id": "7189"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "SANTIAGO GASCÓ, CRISTIAN",
         "licencia": "1130",
         "id": "1130"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GARCIA MARTINEZ, DAVID",
+        "licencia": "7189",
+        "id": "7189"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 4,
-          "local": 1,
-          "visitante": 11
+          "local": 11,
+          "visitante": 1
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -148,47 +148,47 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "ROMA LACASA, JORDI",
-        "licencia": "11480",
-        "id": "11480"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTÍ AGUADO, VICTOR",
         "licencia": "13637",
         "id": "13637"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ROMA LACASA, JORDI",
+        "licencia": "11480",
+        "id": "11480"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -196,42 +196,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "GARCIA VALENZUELA, GERARD",
-        "licencia": "17156",
-        "id": "17156"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "FERREIRA PÉREZ, ISAAC",
         "licencia": "949",
         "id": "949"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARCIA VALENZUELA, GERARD",
+        "licencia": "17156",
+        "id": "17156"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -239,39 +239,39 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "GARCIA MARTINEZ, DAVID",
-        "licencia": "7189",
-        "id": "7189"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTÍ AGUADO, VICTOR",
         "licencia": "13637",
         "id": "13637"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GARCIA MARTINEZ, DAVID",
+        "licencia": "7189",
+        "id": "7189"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 2,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 3,
-          "local": 14,
-          "visitante": 12
+          "local": 12,
+          "visitante": 14
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -282,31 +282,74 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "GARCIA VALENZUELA, GERARD",
-        "licencia": "17156",
-        "id": "17156"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "SANTIAGO GASCÓ, CRISTIAN",
         "licencia": "1130",
         "id": "1130"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARCIA VALENZUELA, GERARD",
+        "licencia": "17156",
+        "id": "17156"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "FERREIRA PÉREZ, ISAAC",
+        "licencia": "949",
+        "id": "949"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ROMA LACASA, JORDI",
+        "licencia": "11480",
+        "id": "11480"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 10,
-          "visitante": 12
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 8,
+          "local": 9,
           "visitante": 11
         }
       ],
@@ -315,49 +358,6 @@
         "visitante": 3
       },
       "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "ROMA LACASA, JORDI",
-        "licencia": "11480",
-        "id": "11480"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "FERREIRA PÉREZ, ISAAC",
-        "licencia": "949",
-        "id": "949"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -368,21 +368,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "GARCIA MARTINEZ, DAVID",
-            "licencia": "7189",
-            "id": "7189"
-          },
-          {
-            "nombre": "ROMA LACASA, JORDI",
-            "licencia": "11480",
-            "id": "11480"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -400,41 +385,56 @@
         "licencia": "1130",
         "id": "1130"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "GARCIA MARTINEZ, DAVID",
+            "licencia": "7189",
+            "id": "7189"
+          },
+          {
+            "nombre": "ROMA LACASA, JORDI",
+            "licencia": "11480",
+            "id": "11480"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 7
         },
         {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
+          "set": 2,
+          "local": 7,
+          "visitante": 11
         },
         {
-          "set": 4,
+          "set": 3,
           "local": 8,
           "visitante": 11
         },
         {
-          "set": 5,
+          "set": 4,
           "local": 11,
-          "visitante": 5
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],

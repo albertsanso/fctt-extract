@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "MARC ROMERO VIAPLANA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
-      },
-      "B": {
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
-      },
-      "C": {
-        "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GARCIA HIJARRUBIA, XAVIER",
         "licencia": "707",
@@ -66,6 +49,23 @@
         "licencia": "2983",
         "id": "2983"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
+      "B": {
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "C": {
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARCIA HIJARRUBIA, XAVIER",
         "licencia": "707",
         "id": "707"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -118,49 +118,49 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTINEZ CARRACEDO, DANI",
         "licencia": "1231",
         "id": "1231"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -171,42 +171,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
         "licencia": "2983",
         "id": "2983"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -214,42 +214,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTINEZ CARRACEDO, DANI",
         "licencia": "1231",
         "id": "1231"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -257,95 +257,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARCIA HIJARRUBIA, XAVIER",
         "licencia": "707",
         "id": "707"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      },
       "sets": [
         {
           "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
           "local": 11,
           "visitante": 6
         },
         {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
           "set": 3,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 4,
           "local": 8,
           "visitante": 11
         },
         {
-          "set": 5,
-          "local": 13,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
-        "licencia": "2983",
-        "id": "2983"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 3,
+          "set": 4,
           "local": 11,
           "visitante": 8
         },
         {
-          "set": 4,
-          "local": 7,
-          "visitante": 11
-        },
-        {
           "set": 5,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         }
       ],
       "resultado_juegos": {
@@ -354,8 +301,61 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

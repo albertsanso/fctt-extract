@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JOSEP Mª SERRET G. DE CACERES",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
-      },
-      "B": {
-        "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
-      },
-      "C": {
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
         "licencia": "20500",
@@ -66,22 +49,27 @@
         "licencia": "12351",
         "id": "12351"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "BARCELÓ MAS, PAU",
         "licencia": "6545",
         "id": "6545"
       },
-      {
+      "B": {
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "C": {
         "nombre": "SILVA ROMERO, ADRIAN",
         "licencia": "10912",
         "id": "10912"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
         "licencia": "20500",
@@ -91,6 +79,18 @@
         "nombre": "HERRERO RABASO, IVAN",
         "licencia": "7442",
         "id": "7442"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "BARCELÓ MAS, PAU",
+        "licencia": "6545",
+        "id": "6545"
+      },
+      {
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
       }
     ]
   },
@@ -100,47 +100,47 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
         "licencia": "20500",
         "id": "20500"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BARCELÓ MAS, PAU",
+        "licencia": "6545",
+        "id": "6545"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 3,
-          "local": 7,
+          "local": 5,
           "visitante": 11
         },
         {
-          "set": 4,
+          "set": 3,
           "local": 11,
-          "visitante": 13
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 13,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -148,47 +148,47 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "HERRERO RABASO, IVAN",
         "licencia": "7442",
         "id": "7442"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 17,
-          "visitante": 15
+          "local": 15,
+          "visitante": 17
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -196,52 +196,52 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "BUENO MOYA, IZAN",
         "licencia": "12351",
         "id": "12351"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -249,39 +249,39 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "HERRERO RABASO, IVAN",
         "licencia": "7442",
         "id": "7442"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BARCELÓ MAS, PAU",
+        "licencia": "6545",
+        "id": "6545"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -292,42 +292,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
         "licencia": "20500",
         "id": "20500"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -335,49 +335,49 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "BUENO MOYA, IZAN",
         "licencia": "12351",
         "id": "12351"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 3,
-          "local": 8,
+          "local": 5,
           "visitante": 11
         },
         {
-          "set": 4,
+          "set": 2,
           "local": 12,
           "visitante": 10
         },
         {
-          "set": 5,
+          "set": 3,
           "local": 11,
           "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -388,21 +388,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "BARCELÓ MAS, PAU",
-            "licencia": "6545",
-            "id": "6545"
-          },
-          {
-            "nombre": "SILVA ROMERO, ADRIAN",
-            "licencia": "10912",
-            "id": "10912"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -420,36 +405,51 @@
         "licencia": "20500",
         "id": "20500"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "BARCELÓ MAS, PAU",
+            "licencia": "6545",
+            "id": "6545"
+          },
+          {
+            "nombre": "SILVA ROMERO, ADRIAN",
+            "licencia": "10912",
+            "id": "10912"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

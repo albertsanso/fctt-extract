@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JORDI ARAGALL MUSACH",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "1002",
-        "id": "1002"
-      },
-      "B": {
-        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "701",
-        "id": "701"
-      },
-      "C": {
-        "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "PUIGMAL PÒLIT, ORIOL",
         "licencia": "4618",
@@ -66,6 +49,23 @@
         "licencia": "1266",
         "id": "1266"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "B": {
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "C": {
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      }
     }
   },
   "dobles": null,
@@ -75,75 +75,22 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "1002",
-        "id": "1002"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
         "licencia": "4618",
         "id": "4618"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 5,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "701",
-        "id": "701"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "letra": "A",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
       },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
@@ -152,12 +99,12 @@
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 9,
+          "local": 6,
           "visitante": 11
         },
         {
@@ -173,6 +120,59 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
         "visitante": 1
       }
     },
@@ -181,52 +181,52 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "TOLEDO FREIXAS, JOAN",
         "licencia": "1266",
         "id": "1266"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 2,
-        "visitante": 1
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -234,42 +234,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "1002",
-        "id": "1002"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MOLINÉ LOZANO, NICO",
         "licencia": "13683",
         "id": "13683"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -277,47 +277,47 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
         "licencia": "4618",
         "id": "4618"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -325,52 +325,52 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "701",
-        "id": "701"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "TOLEDO FREIXAS, JOAN",
         "licencia": "1266",
         "id": "1266"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

@@ -24,30 +24,13 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
-      },
-      "B": {
-        "nombre": "ESCODA LÓPEZ, ABRIL",
-        "licencia": "12244",
-        "id": "12244"
-      },
-      "C": {
-        "nombre": "CARRO DOMINGO, SOFIA",
-        "licencia": "12682",
-        "id": "12682"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "MONTAGUT ARIN, JOAN",
         "licencia": "11863",
@@ -63,6 +46,23 @@
         "licencia": "4624",
         "id": "4624"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "B": {
+        "nombre": "ESCODA LÓPEZ, ABRIL",
+        "licencia": "12244",
+        "id": "12244"
+      },
+      "C": {
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      }
     }
   },
   "dobles": null,
@@ -72,85 +72,37 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MONTAGUT ARIN, JOAN",
         "licencia": "11863",
         "id": "11863"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 5
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "ESCODA LÓPEZ, ABRIL",
-        "licencia": "12244",
-        "id": "12244"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "12296",
-        "id": "12296"
+        "letra": "A",
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
       },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 9
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 8,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
           "set": 4,
-          "local": 12,
-          "visitante": 14
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
@@ -158,6 +110,54 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ESCODA LÓPEZ, ABRIL",
+        "licencia": "12244",
+        "id": "12244"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 14,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -168,42 +168,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "CARRO DOMINGO, SOFIA",
-        "licencia": "12682",
-        "id": "12682"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "EDO ROCA, JOSEP",
         "licencia": "4624",
         "id": "4624"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -211,42 +211,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
         "licencia": "12296",
         "id": "12296"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -254,47 +254,47 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "CARRO DOMINGO, SOFIA",
-        "licencia": "12682",
-        "id": "12682"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MONTAGUT ARIN, JOAN",
         "licencia": "11863",
         "id": "11863"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 14
+          "local": 14,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
           "local": 7,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
           "set": 4,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 2
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -302,52 +302,52 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "ESCODA LÓPEZ, ABRIL",
-        "licencia": "12244",
-        "id": "12244"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "EDO ROCA, JOSEP",
         "licencia": "4624",
         "id": "4624"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ESCODA LÓPEZ, ABRIL",
+        "licencia": "12244",
+        "id": "12244"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

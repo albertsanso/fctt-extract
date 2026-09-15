@@ -16,6 +16,32 @@ SPEC.loader.exec_module(parse_actas)
 
 
 ROOT = Path(__file__).parent / "resources" / "2025-2026" / "tercera nacional" / "G1"
+REAL_INPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-html" / "2025-2026" / "tercera nacional"
+
+
+class OrientationTests(unittest.TestCase):
+    def test_orients_lineups_and_games_by_real_side_when_abc_column_is_the_away_team(self):
+        records = parse_actas.parse_file(REAL_INPUT / "G2" / "jornada_22.html")
+        record = next(r for r in records if r["equipos"]["local"]["nombre"] == "CTT ELS AMICS TERRASSA")
+        self.assertFalse(record["abc_es_local"])
+        self.assertEqual(sorted(record["alineaciones"]["local"]), ["X", "Y", "Z"])
+        self.assertEqual(record["alineaciones"]["visitante"]["A"]["nombre"], "LUCO PEREZ, BERNAT")
+        self.assertEqual(record["dobles"]["visitante"][0]["nombre"], "LUCO PEREZ, BERNAT")
+        first = record["partidos"][0]
+        self.assertEqual(first["cruce"], "A vs Y")
+        self.assertEqual(first["local"]["letra"], "Y")
+        self.assertEqual(first["sets"][0], {"set": 1, "local": 11, "visitante": 13})
+        self.assertEqual(first["resultado_juegos"], {"local": 1, "visitante": 3})
+        self.assertEqual(first["ganador"], "visitante")
+        self.assertEqual(record["partidos"][-1]["marcador_acumulado"], record["resultado_final"]["marcador_partidos"])
+
+    def test_keeps_orientation_when_abc_column_is_the_home_team(self):
+        records = parse_actas.parse_file(REAL_INPUT / "G2" / "jornada_22.html")
+        consistent = [r for r in records if r["partidos"] and r["abc_es_local"]]
+        self.assertTrue(consistent)
+        for record in consistent:
+            self.assertTrue(set(record["alineaciones"]["local"]) <= {"A", "B", "C"})
+            self.assertEqual(record["partidos"][-1]["marcador_acumulado"], record["resultado_final"]["marcador_partidos"])
 
 
 class ParseActasTests(unittest.TestCase):

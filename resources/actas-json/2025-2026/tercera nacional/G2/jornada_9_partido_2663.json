@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "CARLOS GARCIA MOMBLONA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CASQUERO MARÍN, ERIC",
-        "licencia": "16414",
-        "id": "16414"
-      },
-      "B": {
-        "nombre": "HERMIDA ALLENDE, ALEIX",
-        "licencia": "14611",
-        "id": "14611"
-      },
-      "C": {
-        "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GARCIA RAMIREZ, CARLOS",
         "licencia": "713",
@@ -66,6 +49,23 @@
         "licencia": "1130",
         "id": "1130"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CASQUERO MARÍN, ERIC",
+        "licencia": "16414",
+        "id": "16414"
+      },
+      "B": {
+        "nombre": "HERMIDA ALLENDE, ALEIX",
+        "licencia": "14611",
+        "id": "14611"
+      },
+      "C": {
+        "nombre": "NEVADO MORENO, SAMUEL",
+        "licencia": "11856",
+        "id": "11856"
+      }
     }
   },
   "dobles": null,
@@ -75,52 +75,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "CASQUERO MARÍN, ERIC",
-        "licencia": "16414",
-        "id": "16414"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARCIA RAMIREZ, CARLOS",
         "licencia": "713",
         "id": "713"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CASQUERO MARÍN, ERIC",
+        "licencia": "16414",
+        "id": "16414"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
           "local": 11,
           "visitante": 6
         },
         {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 4,
-          "local": 6,
-          "visitante": 11
-        },
-        {
           "set": 5,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -128,44 +128,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "HERMIDA ALLENDE, ALEIX",
-        "licencia": "14611",
-        "id": "14611"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MARTÍ AGUADO, VICTOR",
         "licencia": "13637",
         "id": "13637"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERMIDA ALLENDE, ALEIX",
+        "licencia": "14611",
+        "id": "14611"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -176,47 +176,47 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "SANTIAGO GASCÓ, CRISTIAN",
         "licencia": "1130",
         "id": "1130"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "NEVADO MORENO, SAMUEL",
+        "licencia": "11856",
+        "id": "11856"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 14
+          "local": 14,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -224,16 +224,64 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
+        "letra": "X",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "visitante": {
         "letra": "A",
         "nombre": "CASQUERO MARÍN, ERIC",
         "licencia": "16414",
         "id": "16414"
       },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARCIA RAMIREZ, CARLOS",
+        "licencia": "713",
+        "id": "713"
+      },
       "visitante": {
-        "letra": "X",
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
+        "letra": "C",
+        "nombre": "NEVADO MORENO, SAMUEL",
+        "licencia": "11856",
+        "id": "11856"
       },
       "sets": [
         {
@@ -244,17 +292,17 @@
         {
           "set": 2,
           "local": 11,
-          "visitante": 6
+          "visitante": 9
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 5
+          "visitante": 6
         },
         {
           "set": 4,
           "local": 11,
-          "visitante": 5
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
@@ -263,45 +311,45 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 2,
+        "visitante": 3
       }
     },
     {
-      "numero": 5,
+      "numero": 6,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "B vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
+        "letra": "Z",
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
       },
       "visitante": {
-        "letra": "Y",
-        "nombre": "GARCIA RAMIREZ, CARLOS",
-        "licencia": "713",
-        "id": "713"
+        "letra": "B",
+        "nombre": "HERMIDA ALLENDE, ALEIX",
+        "licencia": "14611",
+        "id": "14611"
       },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 9,
+          "local": 8,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 6,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
           "set": 4,
-          "local": 9,
+          "local": 7,
           "visitante": 11
         }
       ],
@@ -311,56 +359,8 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "HERMIDA ALLENDE, ALEIX",
-        "licencia": "14611",
-        "id": "14611"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
-        "licencia": "1130",
-        "id": "1130"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 7
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

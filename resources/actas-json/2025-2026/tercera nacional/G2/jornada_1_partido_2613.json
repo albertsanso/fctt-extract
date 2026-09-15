@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "TONI BERENGUERES",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "BOCANEGRA GALVAN, ÀLEX",
-        "licencia": "5109",
-        "id": "5109"
-      },
-      "B": {
-        "nombre": "TOMAS FUERTES, AXEL",
-        "licencia": "17999",
-        "id": "17999"
-      },
-      "C": {
-        "nombre": "TOMAS FUERTES, UNAI",
-        "licencia": "16524",
-        "id": "16524"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "PEREIRA GARCIA, BRUNO",
         "licencia": "18530",
@@ -66,22 +49,27 @@
         "licencia": "1360",
         "id": "1360"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
+        "nombre": "BOCANEGRA GALVAN, ÀLEX",
+        "licencia": "5109",
+        "id": "5109"
+      },
+      "B": {
         "nombre": "TOMAS FUERTES, AXEL",
         "licencia": "17999",
         "id": "17999"
       },
-      {
-        "nombre": "BOCANEGRA GALVAN, ÀLEX",
-        "licencia": "5109",
-        "id": "5109"
+      "C": {
+        "nombre": "TOMAS FUERTES, UNAI",
+        "licencia": "16524",
+        "id": "16524"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "RODRIGUEZ CHALAIS, JORDI",
         "licencia": "3056",
@@ -92,6 +80,18 @@
         "licencia": "1360",
         "id": "1360"
       }
+    ],
+    "visitante": [
+      {
+        "nombre": "TOMAS FUERTES, AXEL",
+        "licencia": "17999",
+        "id": "17999"
+      },
+      {
+        "nombre": "BOCANEGRA GALVAN, ÀLEX",
+        "licencia": "5109",
+        "id": "5109"
+      }
     ]
   },
   "partidos": [
@@ -100,64 +100,16 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "BOCANEGRA GALVAN, ÀLEX",
-        "licencia": "5109",
-        "id": "5109"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "RODRIGUEZ CHALAIS, JORDI",
         "licencia": "3056",
         "id": "3056"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 4
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 4
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "TOMAS FUERTES, AXEL",
-        "licencia": "17999",
-        "id": "17999"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "PEREIRA GARCIA, BRUNO",
-        "licencia": "18530",
-        "id": "18530"
+        "letra": "A",
+        "nombre": "BOCANEGRA GALVAN, ÀLEX",
+        "licencia": "5109",
+        "id": "5109"
       },
       "sets": [
         {
@@ -167,20 +119,68 @@
         },
         {
           "set": 2,
-          "local": 12,
-          "visitante": 14
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 6,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 4,
           "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 0,
+        "local": 1,
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "TOMAS FUERTES, AXEL",
+        "licencia": "17999",
+        "id": "17999"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -191,31 +191,74 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "TOMAS FUERTES, UNAI",
-        "licencia": "16524",
-        "id": "16524"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "RODRIGUEZ CHALAIS, PATRICK",
         "licencia": "1360",
         "id": "1360"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "TOMAS FUERTES, UNAI",
+        "licencia": "16524",
+        "id": "16524"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BOCANEGRA GALVAN, ÀLEX",
+        "licencia": "5109",
+        "id": "5109"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 3,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 6,
+          "local": 4,
           "visitante": 11
         }
       ],
@@ -225,36 +268,79 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
+        "local": 2,
         "visitante": 2
       }
     },
     {
-      "numero": 4,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "BOCANEGRA GALVAN, ÀLEX",
-        "licencia": "5109",
-        "id": "5109"
-      },
-      "visitante": {
-        "letra": "X",
+        "letra": "Y",
         "nombre": "PEREIRA GARCIA, BRUNO",
         "licencia": "18530",
         "id": "18530"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "TOMAS FUERTES, UNAI",
+        "licencia": "16524",
+        "id": "16524"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 15
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "TOMAS FUERTES, AXEL",
+        "licencia": "17999",
+        "id": "17999"
       },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 5
+          "visitante": 2
         },
         {
           "set": 2,
           "local": 11,
-          "visitante": 5
+          "visitante": 4
         },
         {
           "set": 3,
@@ -268,92 +354,6 @@
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "TOMAS FUERTES, UNAI",
-        "licencia": "16524",
-        "id": "16524"
-      },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "PEREIRA GARCIA, BRUNO",
-        "licencia": "18530",
-        "id": "18530"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 15,
-          "visitante": 13
-        },
-        {
-          "set": 2,
-          "local": 13,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 7
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "TOMAS FUERTES, AXEL",
-        "licencia": "17999",
-        "id": "17999"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
-        "licencia": "1360",
-        "id": "1360"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 2,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 4,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
         "visitante": 3
       }
@@ -363,21 +363,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "TOMAS FUERTES, AXEL",
-            "licencia": "17999",
-            "id": "17999"
-          },
-          {
-            "nombre": "BOCANEGRA GALVAN, ÀLEX",
-            "licencia": "5109",
-            "id": "5109"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -395,36 +380,51 @@
         "licencia": "3056",
         "id": "3056"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "TOMAS FUERTES, AXEL",
+            "licencia": "17999",
+            "id": "17999"
+          },
+          {
+            "nombre": "BOCANEGRA GALVAN, ÀLEX",
+            "licencia": "5109",
+            "id": "5109"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 9
         },
         {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
           "set": 3,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

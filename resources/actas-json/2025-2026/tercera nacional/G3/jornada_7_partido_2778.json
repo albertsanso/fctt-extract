@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "CARLOS GARCIA MOMBLONA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "RUIZ VAREA, AMADOR",
-        "licencia": "842",
-        "id": "842"
-      },
-      "B": {
-        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
-        "licencia": "744",
-        "id": "744"
-      },
-      "C": {
-        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-        "licencia": "850",
-        "id": "850"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GRAU DULCET, XAVIER",
         "licencia": "6184",
@@ -66,22 +49,27 @@
         "licencia": "12296",
         "id": "12296"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "RUIZ VAREA, AMADOR",
         "licencia": "842",
         "id": "842"
       },
-      {
+      "B": {
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "C": {
         "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
         "licencia": "850",
         "id": "850"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "MONTAGUT ARIN, JOAN",
         "licencia": "11863",
@@ -92,6 +80,18 @@
         "licencia": "12296",
         "id": "12296"
       }
+    ],
+    "visitante": [
+      {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
     ]
   },
   "partidos": [
@@ -100,42 +100,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "RUIZ VAREA, AMADOR",
-        "licencia": "842",
-        "id": "842"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GRAU DULCET, XAVIER",
         "licencia": "6184",
         "id": "6184"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -143,44 +143,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
-        "licencia": "744",
-        "id": "744"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MONTAGUT ARIN, JOAN",
         "licencia": "11863",
         "id": "11863"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -191,41 +191,94 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-        "licencia": "850",
-        "id": "850"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
         "licencia": "12296",
         "id": "12296"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
           "local": 8,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
           "set": 4,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
           "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 4,
           "visitante": 11
         }
       ],
@@ -234,59 +287,6 @@
         "visitante": 3
       },
       "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "RUIZ VAREA, AMADOR",
-        "licencia": "842",
-        "id": "842"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 4,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 5,
-          "local": 11,
-          "visitante": 4
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -297,64 +297,21 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-        "licencia": "850",
-        "id": "850"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GRAU DULCET, XAVIER",
         "licencia": "6184",
         "id": "6184"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 12,
-          "visitante": 10
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 7
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
-        "licencia": "744",
-        "id": "744"
-      },
       "visitante": {
-        "letra": "Z",
-        "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "12296",
-        "id": "12296"
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
       },
       "sets": [
         {
           "set": 1,
-          "local": 8,
+          "local": 5,
           "visitante": 11
         },
         {
@@ -374,6 +331,49 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
         "local": 3,
         "visitante": 3
       }
@@ -383,21 +383,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "RUIZ VAREA, AMADOR",
-            "licencia": "842",
-            "id": "842"
-          },
-          {
-            "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-            "licencia": "850",
-            "id": "850"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -415,36 +400,51 @@
         "licencia": "11863",
         "id": "11863"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "RUIZ VAREA, AMADOR",
+            "licencia": "842",
+            "id": "842"
+          },
+          {
+            "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+            "licencia": "850",
+            "id": "850"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
           "local": 11,
           "visitante": 9
         },
         {
-          "set": 4,
-          "local": 8,
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 9,
           "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

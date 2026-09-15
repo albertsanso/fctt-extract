@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "LLORENÇ VILARNAU SALIP",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "RUIZ VAREA, AMADOR",
-        "licencia": "842",
-        "id": "842"
-      },
-      "B": {
-        "nombre": "JULIÀ LAMBEA, FÈLIX",
-        "licencia": "684",
-        "id": "684"
-      },
-      "C": {
-        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-        "licencia": "850",
-        "id": "850"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "MOLINÉ LOZANO, NICO",
         "licencia": "13683",
@@ -66,6 +49,23 @@
         "licencia": "4618",
         "id": "4618"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "B": {
+        "nombre": "JULIÀ LAMBEA, FÈLIX",
+        "licencia": "684",
+        "id": "684"
+      },
+      "C": {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
     }
   },
   "dobles": null,
@@ -75,47 +75,47 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "RUIZ VAREA, AMADOR",
-        "licencia": "842",
-        "id": "842"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MOLINÉ LOZANO, NICO",
         "licencia": "13683",
         "id": "13683"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 4,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -123,47 +123,47 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "JULIÀ LAMBEA, FÈLIX",
-        "licencia": "684",
-        "id": "684"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "FLORES BARRANCO, VICTOR",
         "licencia": "6544",
         "id": "6544"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "JULIÀ LAMBEA, FÈLIX",
+        "licencia": "684",
+        "id": "684"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 2
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 13,
-          "visitante": 15
+          "local": 15,
+          "visitante": 13
         },
         {
           "set": 4,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -171,52 +171,52 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-        "licencia": "850",
-        "id": "850"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
         "licencia": "4618",
         "id": "4618"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 2,
-          "local": 9,
+          "local": 6,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
           "set": 3,
-          "local": 16,
-          "visitante": 14
+          "local": 14,
+          "visitante": 16
         },
         {
           "set": 4,
-          "local": 13,
-          "visitante": 15
+          "local": 15,
+          "visitante": 13
         },
         {
           "set": 5,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -224,70 +224,22 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "RUIZ VAREA, AMADOR",
-        "licencia": "842",
-        "id": "842"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "FLORES BARRANCO, VICTOR",
         "licencia": "6544",
         "id": "6544"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
           "local": 7,
           "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
-        "licencia": "850",
-        "id": "850"
-      },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 7
         },
         {
           "set": 2,
@@ -298,48 +250,53 @@
           "set": 3,
           "local": 11,
           "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
         "local": 3,
-        "visitante": 0
+        "visitante": 1
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
-      "numero": 6,
+      "numero": 5,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Y",
       "local": {
-        "letra": "B",
-        "nombre": "JULIÀ LAMBEA, FÈLIX",
-        "licencia": "684",
-        "id": "684"
+        "letra": "Y",
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
       },
       "visitante": {
-        "letra": "Z",
-        "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "letra": "C",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
       },
       "sets": [
         {
           "set": 1,
-          "local": 6,
+          "local": 7,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 4,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 5,
+          "local": 7,
           "visitante": 11
         }
       ],
@@ -349,8 +306,51 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "JULIÀ LAMBEA, FÈLIX",
+        "licencia": "684",
+        "id": "684"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],

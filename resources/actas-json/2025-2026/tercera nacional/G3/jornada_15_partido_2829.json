@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "IRINA KOZHUKHOVA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "B": {
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
-      },
-      "C": {
-        "nombre": "MOLINA NAVARRO, MIGUEL",
-        "licencia": "755",
-        "id": "755"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "CABRA SUREDA, BIEL",
         "licencia": "15118",
@@ -66,22 +49,27 @@
         "licencia": "10239",
         "id": "10239"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "HUGUET MOLIST, SERGI",
         "licencia": "7149",
         "id": "7149"
       },
-      {
+      "B": {
         "nombre": "GARRELL GARCIA, AMADOR",
         "licencia": "10740",
         "id": "10740"
+      },
+      "C": {
+        "nombre": "MOLINA NAVARRO, MIGUEL",
+        "licencia": "755",
+        "id": "755"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "CABRA SUREDA, BIEL",
         "licencia": "15118",
@@ -92,6 +80,18 @@
         "licencia": "10239",
         "id": "10239"
       }
+    ],
+    "visitante": [
+      {
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      {
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      }
     ]
   },
   "partidos": [
@@ -100,52 +100,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CABRA SUREDA, BIEL",
         "licencia": "15118",
         "id": "15118"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
       "sets": [
         {
           "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 4,
           "local": 11,
           "visitante": 8
         },
         {
-          "set": 2,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 12,
-          "visitante": 10
-        },
-        {
-          "set": 4,
-          "local": 8,
-          "visitante": 11
-        },
-        {
           "set": 5,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -153,39 +153,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MORATO VILA, EDUARD",
         "licencia": "3108",
         "id": "3108"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 2
-        },
-        {
-          "set": 2,
-          "local": 13,
+          "local": 2,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 11,
-          "visitante": 8
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -196,47 +196,47 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "MOLINA NAVARRO, MIGUEL",
-        "licencia": "755",
-        "id": "755"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "TURA POCH, DANIEL",
         "licencia": "10239",
         "id": "10239"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MOLINA NAVARRO, MIGUEL",
+        "licencia": "755",
+        "id": "755"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 2,
           "local": 9,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
           "set": 3,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 4,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -244,49 +244,49 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MORATO VILA, EDUARD",
         "licencia": "3108",
         "id": "3108"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 20,
-          "visitante": 22
-        },
-        {
-          "set": 3,
-          "local": 6,
+          "local": 7,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 22,
+          "visitante": 20
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
           "set": 4,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -297,42 +297,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "MOLINA NAVARRO, MIGUEL",
-        "licencia": "755",
-        "id": "755"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CABRA SUREDA, BIEL",
         "licencia": "15118",
         "id": "15118"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MOLINA NAVARRO, MIGUEL",
+        "licencia": "755",
+        "id": "755"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 0,
-          "visitante": 11
+          "local": 11,
+          "visitante": 0
         },
         {
           "set": 2,
-          "local": 0,
-          "visitante": 11
+          "local": 11,
+          "visitante": 0
         },
         {
           "set": 3,
-          "local": 0,
-          "visitante": 11
+          "local": 11,
+          "visitante": 0
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -340,44 +340,44 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "TURA POCH, DANIEL",
         "licencia": "10239",
         "id": "10239"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 2,
-          "local": 8,
+          "local": 3,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 11,
-          "visitante": 6
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -388,21 +388,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "HUGUET MOLIST, SERGI",
-            "licencia": "7149",
-            "id": "7149"
-          },
-          {
-            "nombre": "GARRELL GARCIA, AMADOR",
-            "licencia": "10740",
-            "id": "10740"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -420,41 +405,56 @@
         "licencia": "15118",
         "id": "15118"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "HUGUET MOLIST, SERGI",
+            "licencia": "7149",
+            "id": "7149"
+          },
+          {
+            "nombre": "GARRELL GARCIA, AMADOR",
+            "licencia": "10740",
+            "id": "10740"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 12,
-          "visitante": 10
-        },
-        {
-          "set": 4,
           "local": 9,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
           "set": 5,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

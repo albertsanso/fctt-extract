@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "FRANCISCO FERNANDEZ QUESADA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "MAZCUÑAN GARCIA, PAU",
-        "licencia": "8497",
-        "id": "8497"
-      },
-      "B": {
-        "nombre": "VILA BIOSCA, JOAN",
-        "licencia": "527",
-        "id": "527"
-      },
-      "C": {
-        "nombre": "ROVIRA GIRABAL, ALBERT",
-        "licencia": "13893",
-        "id": "13893"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "TRONCOSO ACETE, NESTOR",
         "licencia": "8311",
@@ -66,6 +49,23 @@
         "licencia": "1537",
         "id": "1537"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "B": {
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "C": {
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
+      }
     }
   },
   "dobles": null,
@@ -75,47 +75,47 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "MAZCUÑAN GARCIA, PAU",
-        "licencia": "8497",
-        "id": "8497"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "TRONCOSO ACETE, NESTOR",
         "licencia": "8311",
         "id": "8311"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -123,49 +123,49 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "VILA BIOSCA, JOAN",
-        "licencia": "527",
-        "id": "527"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "CRUSI LOPEZ, ADRIA",
         "licencia": "3420",
         "id": "3420"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 7,
+          "local": 9,
           "visitante": 11
         },
         {
-          "set": 4,
+          "set": 3,
           "local": 11,
-          "visitante": 4
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -176,80 +176,27 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "ROVIRA GIRABAL, ALBERT",
-        "licencia": "13893",
-        "id": "13893"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "VIÑALS SERRANO, DAVID",
         "licencia": "1537",
         "id": "1537"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 12,
-          "visitante": 10
-        },
-        {
-          "set": 3,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 5,
-          "local": 12,
-          "visitante": 10
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "MAZCUÑAN GARCIA, PAU",
-        "licencia": "8497",
-        "id": "8497"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "CRUSI LOPEZ, ADRIA",
-        "licencia": "3420",
-        "id": "3420"
+        "letra": "C",
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
       },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 3,
@@ -260,13 +207,66 @@
           "set": 4,
           "local": 5,
           "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 1,
+        "local": 2,
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -277,47 +277,47 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "ROVIRA GIRABAL, ALBERT",
-        "licencia": "13893",
-        "id": "13893"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "TRONCOSO ACETE, NESTOR",
         "licencia": "8311",
         "id": "8311"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "ROVIRA GIRABAL, ALBERT",
+        "licencia": "13893",
+        "id": "13893"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
           "local": 11,
           "visitante": 5
         },
         {
-          "set": 4,
+          "set": 3,
           "local": 5,
           "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -325,47 +325,47 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "VILA BIOSCA, JOAN",
-        "licencia": "527",
-        "id": "527"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "VIÑALS SERRANO, DAVID",
         "licencia": "1537",
         "id": "1537"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
           "local": 8,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
           "set": 4,
-          "local": 1,
-          "visitante": 11
+          "local": 11,
+          "visitante": 1
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

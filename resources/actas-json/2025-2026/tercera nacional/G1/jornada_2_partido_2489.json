@@ -24,30 +24,13 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
-        "licencia": "12350",
-        "id": "12350"
-      },
-      "B": {
-        "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
-      },
-      "C": {
-        "nombre": "BUENO MOYA, IZAN",
-        "licencia": "12351",
-        "id": "12351"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "BUSQUETS GONZALEZ, FERRAN",
         "licencia": "5747",
@@ -63,6 +46,23 @@
         "licencia": "15006",
         "id": "15006"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "B": {
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "C": {
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      }
     }
   },
   "dobles": null,
@@ -72,42 +72,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
-        "licencia": "12350",
-        "id": "12350"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "BUSQUETS GONZALEZ, FERRAN",
         "licencia": "5747",
         "id": "5747"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 14,
-          "visitante": 16
+          "local": 16,
+          "visitante": 14
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -115,44 +115,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "SANCHEZ VALIENTE, DIDAC",
         "licencia": "6500",
         "id": "6500"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -163,161 +163,27 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "BUENO MOYA, IZAN",
-        "licencia": "12351",
-        "id": "12351"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PETROVICI, PAUL",
         "licencia": "15006",
         "id": "15006"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
-        "licencia": "12350",
-        "id": "12350"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
+        "letra": "C",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
       },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 7
         },
         {
-          "set": 3,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "BUENO MOYA, IZAN",
-        "licencia": "12351",
-        "id": "12351"
-      },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
           "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 1,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 3,
@@ -332,7 +198,141 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 1
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

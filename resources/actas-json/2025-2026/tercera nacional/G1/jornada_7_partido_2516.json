@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "EDUARDO VILLAR SILVESTRE",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
-      },
-      "B": {
-        "nombre": "BUENO MOYA, IZAN",
-        "licencia": "12351",
-        "id": "12351"
-      },
-      "C": {
-        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
-        "licencia": "20500",
-        "id": "20500"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
         "licencia": "11280",
@@ -66,6 +49,23 @@
         "licencia": "14223",
         "id": "14223"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "B": {
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "C": {
+        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
+        "licencia": "20500",
+        "id": "20500"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
         "licencia": "11280",
         "id": "11280"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -118,49 +118,49 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "BUENO MOYA, IZAN",
-        "licencia": "12351",
-        "id": "12351"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "NÚÑEZ PROVENCIO, POL",
         "licencia": "14077",
         "id": "14077"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -171,42 +171,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
-        "licencia": "20500",
-        "id": "20500"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
         "licencia": "14223",
         "id": "14223"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
+        "licencia": "20500",
+        "id": "20500"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
@@ -214,42 +214,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "NÚÑEZ PROVENCIO, POL",
         "licencia": "14077",
         "id": "14077"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       }
     },
     {
@@ -257,16 +257,59 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
+        "letra": "Y",
+        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
+        "licencia": "11280",
+        "id": "11280"
+      },
+      "visitante": {
         "letra": "C",
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
         "licencia": "20500",
         "id": "20500"
       },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GRANADOS GRÍFOL, JOAN",
+        "licencia": "14223",
+        "id": "14223"
+      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
-        "licencia": "11280",
-        "id": "11280"
+        "letra": "B",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
       },
       "sets": [
         {
@@ -277,70 +320,27 @@
         {
           "set": 2,
           "local": 11,
-          "visitante": 2
+          "visitante": 4
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 3
         }
       ],
       "resultado_juegos": {
         "local": 3,
-        "visitante": 0
+        "visitante": 1
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "BUENO MOYA, IZAN",
-        "licencia": "12351",
-        "id": "12351"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 4,
-          "local": 3,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

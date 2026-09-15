@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "TOMÁS LEONE",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "B": {
-        "nombre": "VIÑALS SERRANO, DAVID",
-        "licencia": "1537",
-        "id": "1537"
-      },
-      "C": {
-        "nombre": "CRUSI LOPEZ, ADRIA",
-        "licencia": "3420",
-        "id": "3420"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "PARDO CEREZO, MARTI",
         "licencia": "3964",
@@ -66,6 +49,23 @@
         "licencia": "18530",
         "id": "18530"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "B": {
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
+      "C": {
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PARDO CEREZO, MARTI",
         "licencia": "3964",
         "id": "3964"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -118,47 +118,47 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "VIÑALS SERRANO, DAVID",
-        "licencia": "1537",
-        "id": "1537"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "RODRIGUEZ CHALAIS, JORDI",
         "licencia": "3056",
         "id": "3056"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 9,
+          "local": 5,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 11,
-          "visitante": 6
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
+        "local": 0,
+        "visitante": 2
       }
     },
     {
@@ -166,42 +166,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "CRUSI LOPEZ, ADRIA",
-        "licencia": "3420",
-        "id": "3420"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PEREIRA GARCIA, BRUNO",
         "licencia": "18530",
         "id": "18530"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       }
     },
     {
@@ -209,42 +209,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "RODRIGUEZ CHALAIS, JORDI",
         "licencia": "3056",
         "id": "3056"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 0
+        "local": 0,
+        "visitante": 4
       }
     },
     {
@@ -252,47 +252,47 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "CRUSI LOPEZ, ADRIA",
-        "licencia": "3420",
-        "id": "3420"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PARDO CEREZO, MARTI",
         "licencia": "3964",
         "id": "3964"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 2,
-          "local": 8,
+          "local": 6,
           "visitante": 11
         },
         {
-          "set": 3,
+          "set": 2,
           "local": 11,
-          "visitante": 7
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 5,
-        "visitante": 0
+        "local": 0,
+        "visitante": 5
       }
     },
     {
@@ -300,42 +300,42 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "VIÑALS SERRANO, DAVID",
-        "licencia": "1537",
-        "id": "1537"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PEREIRA GARCIA, BRUNO",
         "licencia": "18530",
         "id": "18530"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 2
+          "local": 2,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 2
+          "local": 2,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 6,
-        "visitante": 0
+        "local": 0,
+        "visitante": 6
       }
     }
   ],

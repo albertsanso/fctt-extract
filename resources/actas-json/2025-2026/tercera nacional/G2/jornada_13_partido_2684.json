@@ -24,30 +24,13 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": null,
     "asistente": null
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "BARBERÀ SOLER, QUIM",
-        "licencia": "11643",
-        "id": "11643"
-      },
-      "B": {
-        "nombre": "SALA PUJOL, JORDI",
-        "licencia": "15899",
-        "id": "15899"
-      },
-      "C": {
-        "nombre": "JIMENEZ FERNANDEZ, MARTI",
-        "licencia": "12904",
-        "id": "12904"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GARCIA ÁLVAREZ, EUDALD",
         "licencia": "13776",
@@ -63,22 +46,27 @@
         "licencia": "15813",
         "id": "15813"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "BARBERÀ SOLER, QUIM",
         "licencia": "11643",
         "id": "11643"
       },
-      {
+      "B": {
         "nombre": "SALA PUJOL, JORDI",
         "licencia": "15899",
         "id": "15899"
+      },
+      "C": {
+        "nombre": "JIMENEZ FERNANDEZ, MARTI",
+        "licencia": "12904",
+        "id": "12904"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "GARCIA ÁLVAREZ, EUDALD",
         "licencia": "13776",
@@ -89,6 +77,18 @@
         "licencia": "15813",
         "id": "15813"
       }
+    ],
+    "visitante": [
+      {
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      {
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      }
     ]
   },
   "partidos": [
@@ -97,52 +97,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "BARBERÀ SOLER, QUIM",
-        "licencia": "11643",
-        "id": "11643"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARCIA ÁLVAREZ, EUDALD",
         "licencia": "13776",
         "id": "13776"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 2,
           "local": 12,
           "visitante": 10
         },
         {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
           "set": 3,
-          "local": 15,
-          "visitante": 13
+          "local": 13,
+          "visitante": 15
         },
         {
           "set": 4,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -150,39 +150,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "SALA PUJOL, JORDI",
-        "licencia": "15899",
-        "id": "15899"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "LLOBERA BOSCH, ALBERT",
         "licencia": "8204",
         "id": "8204"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -193,31 +193,74 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "JIMENEZ FERNANDEZ, MARTI",
-        "licencia": "12904",
-        "id": "12904"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "SOLÉ GIRALT, ALBERT",
         "licencia": "15813",
         "id": "15813"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "JIMENEZ FERNANDEZ, MARTI",
+        "licencia": "12904",
+        "id": "12904"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "sets": [
+        {
+          "set": 1,
           "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
           "visitante": 11
         }
       ],
@@ -226,49 +269,6 @@
         "visitante": 3
       },
       "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "BARBERÀ SOLER, QUIM",
-        "licencia": "11643",
-        "id": "11643"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "LLOBERA BOSCH, ALBERT",
-        "licencia": "8204",
-        "id": "8204"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 4
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -279,31 +279,74 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "JIMENEZ FERNANDEZ, MARTI",
-        "licencia": "12904",
-        "id": "12904"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARCIA ÁLVAREZ, EUDALD",
         "licencia": "13776",
         "id": "13776"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "JIMENEZ FERNANDEZ, MARTI",
+        "licencia": "12904",
+        "id": "12904"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "SOLÉ GIRALT, ALBERT",
+        "licencia": "15813",
+        "id": "15813"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 3,
-          "local": 5,
+          "local": 3,
           "visitante": 11
         }
       ],
@@ -312,49 +355,6 @@
         "visitante": 3
       },
       "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "SALA PUJOL, JORDI",
-        "licencia": "15899",
-        "id": "15899"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "SOLÉ GIRALT, ALBERT",
-        "licencia": "15813",
-        "id": "15813"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 13,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 3
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -365,21 +365,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "BARBERÀ SOLER, QUIM",
-            "licencia": "11643",
-            "id": "11643"
-          },
-          {
-            "nombre": "SALA PUJOL, JORDI",
-            "licencia": "15899",
-            "id": "15899"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -397,31 +382,46 @@
         "licencia": "13776",
         "id": "13776"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "BARBERÀ SOLER, QUIM",
+            "licencia": "11643",
+            "id": "11643"
+          },
+          {
+            "nombre": "SALA PUJOL, JORDI",
+            "licencia": "15899",
+            "id": "15899"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

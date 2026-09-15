@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JONATHAN CORTES BAZ",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
-      "B": {
-        "nombre": "GARRACHON GARCIA, ORIOL",
-        "licencia": "16318",
-        "id": "16318"
-      },
-      "C": {
-        "nombre": "OLIVELLA FONS, ARAM",
-        "licencia": "17743",
-        "id": "17743"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GARCIA ÁLVAREZ, EUDALD",
         "licencia": "13776",
@@ -66,6 +49,23 @@
         "licencia": "15813",
         "id": "15813"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "B": {
+        "nombre": "GARRACHON GARCIA, ORIOL",
+        "licencia": "16318",
+        "id": "16318"
+      },
+      "C": {
+        "nombre": "OLIVELLA FONS, ARAM",
+        "licencia": "17743",
+        "id": "17743"
+      }
     }
   },
   "dobles": null,
@@ -75,102 +75,16 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GARCIA ÁLVAREZ, EUDALD",
         "licencia": "13776",
         "id": "13776"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "GARRACHON GARCIA, ORIOL",
-        "licencia": "16318",
-        "id": "16318"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "LLOBERA BOSCH, ALBERT",
-        "licencia": "8204",
-        "id": "8204"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 2
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 4
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "OLIVELLA FONS, ARAM",
-        "licencia": "17743",
-        "id": "17743"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "SOLÉ GIRALT, ALBERT",
-        "licencia": "15813",
-        "id": "15813"
+        "letra": "A",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
       },
       "sets": [
         {
@@ -180,45 +94,83 @@
         },
         {
           "set": 2,
-          "local": 5,
+          "local": 7,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 13,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 5,
+          "local": 9,
           "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 1,
+        "local": 0,
         "visitante": 3
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
+        "local": 0,
         "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "LLOBERA BOSCH, ALBERT",
         "licencia": "8204",
         "id": "8204"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GARRACHON GARCIA, ORIOL",
+        "licencia": "16318",
+        "id": "16318"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "SOLÉ GIRALT, ALBERT",
+        "licencia": "15813",
+        "id": "15813"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "OLIVELLA FONS, ARAM",
+        "licencia": "17743",
+        "id": "17743"
       },
       "sets": [
         {
@@ -229,39 +181,44 @@
         {
           "set": 2,
           "local": 11,
-          "visitante": 8
+          "visitante": 5
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 3
+          "visitante": 13
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
         "local": 3,
-        "visitante": 0
+        "visitante": 1
       },
       "ganador": "local",
       "marcador_acumulado": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 2
       }
     },
     {
-      "numero": 5,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "A vs X",
       "local": {
-        "letra": "C",
-        "nombre": "OLIVELLA FONS, ARAM",
-        "licencia": "17743",
-        "id": "17743"
+        "letra": "X",
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
       },
       "visitante": {
-        "letra": "Y",
-        "nombre": "GARCIA ÁLVAREZ, EUDALD",
-        "licencia": "13776",
-        "id": "13776"
+        "letra": "A",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
       },
       "sets": [
         {
@@ -276,7 +233,7 @@
         },
         {
           "set": 3,
-          "local": 2,
+          "local": 3,
           "visitante": 11
         }
       ],
@@ -286,8 +243,51 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "OLIVELLA FONS, ARAM",
+        "licencia": "17743",
+        "id": "17743"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
         "local": 3,
-        "visitante": 2
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
       }
     },
     {
@@ -295,47 +295,47 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "GARRACHON GARCIA, ORIOL",
-        "licencia": "16318",
-        "id": "16318"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "SOLÉ GIRALT, ALBERT",
         "licencia": "15813",
         "id": "15813"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GARRACHON GARCIA, ORIOL",
+        "licencia": "16318",
+        "id": "16318"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 3,
-          "local": 6,
+          "local": 7,
           "visitante": 11
         },
         {
-          "set": 4,
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
           "local": 11,
-          "visitante": 8
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 4,
-        "visitante": 2
+        "local": 2,
+        "visitante": 4
       }
     }
   ],

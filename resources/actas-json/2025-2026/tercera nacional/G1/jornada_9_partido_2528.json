@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "RAIMOND ALOY ROCAMADÓ",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
-        "licencia": "1861",
-        "id": "1861"
-      },
-      "B": {
-        "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
-      },
-      "C": {
-        "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
@@ -66,22 +49,27 @@
         "licencia": "12483",
         "id": "12483"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
+      "B": {
         "nombre": "AMILL BORRULL, MARC",
         "licencia": "10969",
         "id": "10969"
       },
-      {
-        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
-        "licencia": "1861",
-        "id": "1861"
+      "C": {
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "CUSSÓ PUJOL, JOAN",
         "licencia": "484",
@@ -91,6 +79,18 @@
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      {
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
       }
     ]
   },
@@ -100,47 +100,47 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
-        "licencia": "1861",
-        "id": "1861"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 4,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -148,39 +148,39 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
         "licencia": "484",
         "id": "484"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 1
+          "local": 1,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 4
+          "local": 4,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -191,52 +191,52 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
         "licencia": "12483",
         "id": "12483"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -244,39 +244,39 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
-        "licencia": "1861",
-        "id": "1861"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
         "licencia": "484",
         "id": "484"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
+        "local": 0,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -287,27 +287,70 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 10,
-          "visitante": 12
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 3,
@@ -321,49 +364,6 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
-        "licencia": "12483",
-        "id": "12483"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
         "local": 3,
         "visitante": 3
       }
@@ -373,21 +373,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "AMILL BORRULL, MARC",
-            "licencia": "10969",
-            "id": "10969"
-          },
-          {
-            "nombre": "CHICO ZURANO, MIGUEL ANGEL",
-            "licencia": "1861",
-            "id": "1861"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -405,36 +390,51 @@
         "licencia": "484",
         "id": "484"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "AMILL BORRULL, MARC",
+            "licencia": "10969",
+            "id": "10969"
+          },
+          {
+            "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+            "licencia": "1861",
+            "id": "1861"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 13
+          "local": 13,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 4,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

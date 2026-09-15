@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JUAN ANTONIO FLORES MARTINEZ",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
-        "licencia": "1130",
-        "id": "1130"
-      },
-      "B": {
-        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
-        "licencia": "13638",
-        "id": "13638"
-      },
-      "C": {
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "LUCO MANUBENS, DANIEL",
         "licencia": "659",
@@ -66,6 +49,23 @@
         "licencia": "5405",
         "id": "5405"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "B": {
+        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
+        "licencia": "13638",
+        "id": "13638"
+      },
+      "C": {
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      }
     }
   },
   "dobles": null,
@@ -75,256 +75,21 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
-        "licencia": "1130",
-        "id": "1130"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "LUCO MANUBENS, DANIEL",
         "licencia": "659",
         "id": "659"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 10,
-          "visitante": 12
-        },
-        {
-          "set": 4,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
-        "licencia": "13638",
-        "id": "13638"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 19,
-          "visitante": 21
-        },
-        {
-          "set": 2,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 4,
-          "local": 2,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 5,
-          "local": 9,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "nombre": "SANTIAGO GASCÓ, CRISTIAN",
         "licencia": "1130",
         "id": "1130"
       },
-      "visitante": {
-        "letra": "X",
-        "nombre": "REALES RAMOS, ADRIÀ",
-        "licencia": "2342",
-        "id": "2342"
-      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "MARTÍ AGUADO, VICTOR",
-        "licencia": "13637",
-        "id": "13637"
-      },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "LUCO MANUBENS, DANIEL",
-        "licencia": "659",
-        "id": "659"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 5
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
-        "licencia": "13638",
-        "id": "13638"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 9,
+          "local": 5,
           "visitante": 11
         },
         {
@@ -334,23 +99,258 @@
         },
         {
           "set": 3,
-          "local": 9,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
+        "licencia": "13638",
+        "id": "13638"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 21,
+          "visitante": 19
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 3,
           "visitante": 11
         },
         {
           "set": 4,
-          "local": 7,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
           "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 1,
+        "local": 0,
         "visitante": 3
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 5
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
+        "licencia": "13638",
+        "id": "13638"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
       }
     }
   ],

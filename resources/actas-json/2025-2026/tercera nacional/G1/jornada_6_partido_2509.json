@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "ADRIÀ HERNÁNDEZ ORDOÑO",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      },
-      "B": {
-        "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
-      },
-      "C": {
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "GALTES SANZ, FRANCESC X.",
         "licencia": "4276",
@@ -66,22 +49,27 @@
         "licencia": "199",
         "id": "199"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
+      "B": {
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "C": {
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      }
     }
   },
   "dobles": {
     "local": [
-      {
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      },
-      {
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      }
-    ],
-    "visitante": [
       {
         "nombre": "GALTES SANZ, FRANCESC X.",
         "licencia": "4276",
@@ -91,6 +79,18 @@
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
         "licencia": "199",
         "id": "199"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
+      {
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
       }
     ]
   },
@@ -100,52 +100,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GALTES SANZ, FRANCESC X.",
         "licencia": "4276",
         "id": "4276"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 2,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 4,
           "local": 8,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
           "set": 5,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -153,107 +153,16 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
+        "letra": "X",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
         "letra": "B",
         "nombre": "MESTRES MERCADER, ARNAU",
         "licencia": "6811",
         "id": "6811"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 7,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 4,
-          "local": 11,
-          "visitante": 9
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
       },
       "sets": [
         {
@@ -263,13 +172,13 @@
         },
         {
           "set": 2,
-          "local": 12,
-          "visitante": 10
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 9
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
@@ -277,6 +186,97 @@
         "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -287,74 +287,31 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "GALTES SANZ, FRANCESC X.",
         "licencia": "4276",
         "id": "4276"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 2
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
-      },
       "visitante": {
-        "letra": "Z",
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "letra": "C",
+        "nombre": "GARROTE FERRE, BIEL",
+        "licencia": "7271",
+        "id": "7271"
       },
       "sets": [
         {
           "set": 1,
-          "local": 3,
+          "local": 2,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 1,
+          "local": 8,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 4,
+          "local": 8,
           "visitante": 11
         }
       ],
@@ -363,6 +320,49 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -373,21 +373,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "GARROTE FERRE, BIEL",
-            "licencia": "7271",
-            "id": "7271"
-          },
-          {
-            "nombre": "CONDE LORENTE, F. XAVIER",
-            "licencia": "1752",
-            "id": "1752"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -405,41 +390,56 @@
         "licencia": "4276",
         "id": "4276"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "GARROTE FERRE, BIEL",
+            "licencia": "7271",
+            "id": "7271"
+          },
+          {
+            "nombre": "CONDE LORENTE, F. XAVIER",
+            "licencia": "1752",
+            "id": "1752"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 5
+          "local": 5,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 2,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],

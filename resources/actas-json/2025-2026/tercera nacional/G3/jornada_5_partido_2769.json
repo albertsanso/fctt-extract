@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "DAVID SANTOS",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
-      },
-      "B": {
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "C": {
-        "nombre": "CHIC VALLS, DAVID",
-        "licencia": "7632",
-        "id": "7632"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "CASTILLO HEREDIA, FRANCESC",
         "licencia": "972",
@@ -66,6 +49,23 @@
         "licencia": "12838",
         "id": "12838"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "B": {
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "C": {
+        "nombre": "CHIC VALLS, DAVID",
+        "licencia": "7632",
+        "id": "7632"
+      }
     }
   },
   "dobles": null,
@@ -75,47 +75,47 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CASTILLO HEREDIA, FRANCESC",
         "licencia": "972",
         "id": "972"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -123,52 +123,52 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "OLIVERAS AGUADE, GABRIEL",
         "licencia": "8379",
         "id": "8379"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 11,
           "visitante": 7
         },
         {
-          "set": 3,
-          "local": 5,
+          "set": 2,
+          "local": 7,
           "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 4,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 5,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
+        "local": 3,
         "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -176,52 +176,52 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "CHIC VALLS, DAVID",
-        "licencia": "7632",
-        "id": "7632"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "ZOU, TIANQI",
         "licencia": "12838",
         "id": "12838"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CHIC VALLS, DAVID",
+        "licencia": "7632",
+        "id": "7632"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 12,
-          "visitante": 10
+          "local": 10,
+          "visitante": 12
         },
         {
           "set": 4,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -229,42 +229,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "OLIVERAS AGUADE, GABRIEL",
         "licencia": "8379",
         "id": "8379"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       }
     },
     {
@@ -272,52 +272,52 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "CHIC VALLS, DAVID",
-        "licencia": "7632",
-        "id": "7632"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CASTILLO HEREDIA, FRANCESC",
         "licencia": "972",
         "id": "972"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CHIC VALLS, DAVID",
+        "licencia": "7632",
+        "id": "7632"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 4,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 5,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 4
+        "local": 4,
+        "visitante": 1
       }
     },
     {
@@ -325,47 +325,47 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "ZOU, TIANQI",
         "licencia": "12838",
         "id": "12838"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 6
+          "local": 6,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

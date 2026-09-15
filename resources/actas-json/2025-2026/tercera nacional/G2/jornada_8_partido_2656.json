@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "CARLOS GARCIA MOMBLONA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "LUCO MANUBENS, DANIEL",
-        "licencia": "659",
-        "id": "659"
-      },
-      "B": {
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
-      "C": {
-        "nombre": "TRONCOSO ACETE, NESTOR",
-        "licencia": "8311",
-        "id": "8311"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "ROMA ROS, NEUS",
         "licencia": "12203",
@@ -66,22 +49,27 @@
         "licencia": "1110",
         "id": "1110"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "LUCO MANUBENS, DANIEL",
         "licencia": "659",
         "id": "659"
       },
-      {
+      "B": {
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "C": {
         "nombre": "TRONCOSO ACETE, NESTOR",
         "licencia": "8311",
         "id": "8311"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "TORNE CUNILLERA, ERIC",
         "licencia": "7230",
@@ -91,6 +79,18 @@
         "nombre": "MIR FERNÀNDEZ, ORIOL",
         "licencia": "1110",
         "id": "1110"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      {
+        "nombre": "TRONCOSO ACETE, NESTOR",
+        "licencia": "8311",
+        "id": "8311"
       }
     ]
   },
@@ -100,155 +100,16 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "LUCO MANUBENS, DANIEL",
-        "licencia": "659",
-        "id": "659"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "ROMA ROS, NEUS",
         "licencia": "12203",
         "id": "12203"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 3,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        },
-        {
-          "set": 4,
-          "local": 8,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "TORNE CUNILLERA, ERIC",
-        "licencia": "7230",
-        "id": "7230"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 9
-        },
-        {
-          "set": 3,
-          "local": 12,
-          "visitante": 10
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "TRONCOSO ACETE, NESTOR",
-        "licencia": "8311",
-        "id": "8311"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "MIR FERNÀNDEZ, ORIOL",
-        "licencia": "1110",
-        "id": "1110"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 13
-        },
-        {
-          "set": 2,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 13,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 4,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
         "letra": "A",
         "nombre": "LUCO MANUBENS, DANIEL",
         "licencia": "659",
         "id": "659"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "TORNE CUNILLERA, ERIC",
-        "licencia": "7230",
-        "id": "7230"
       },
       "sets": [
         {
@@ -259,19 +120,158 @@
         {
           "set": 2,
           "local": 11,
-          "visitante": 8
+          "visitante": 3
         },
         {
           "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
           "local": 11,
-          "visitante": 6
+          "visitante": 8
         }
       ],
       "resultado_juegos": {
         "local": 3,
-        "visitante": 0
+        "visitante": 1
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "TORNE CUNILLERA, ERIC",
+        "licencia": "7230",
+        "id": "7230"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MIR FERNÀNDEZ, ORIOL",
+        "licencia": "1110",
+        "id": "1110"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "TRONCOSO ACETE, NESTOR",
+        "licencia": "8311",
+        "id": "8311"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "TORNE CUNILLERA, ERIC",
+        "licencia": "7230",
+        "id": "7230"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -282,64 +282,21 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "TRONCOSO ACETE, NESTOR",
-        "licencia": "8311",
-        "id": "8311"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "ROMA ROS, NEUS",
         "licencia": "12203",
         "id": "12203"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 12,
-          "visitante": 10
-        },
-        {
-          "set": 3,
-          "local": 14,
-          "visitante": 12
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 3,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 6,
-      "tipo": "individual",
-      "cruce": "B vs Z",
-      "local": {
-        "letra": "B",
-        "nombre": "LUCO PEREZ, BERNAT",
-        "licencia": "5405",
-        "id": "5405"
-      },
       "visitante": {
-        "letra": "Z",
-        "nombre": "MIR FERNÀNDEZ, ORIOL",
-        "licencia": "1110",
-        "id": "1110"
+        "letra": "C",
+        "nombre": "TRONCOSO ACETE, NESTOR",
+        "licencia": "8311",
+        "id": "8311"
       },
       "sets": [
         {
           "set": 1,
-          "local": 4,
+          "local": 7,
           "visitante": 11
         },
         {
@@ -349,8 +306,8 @@
         },
         {
           "set": 3,
-          "local": 2,
-          "visitante": 11
+          "local": 12,
+          "visitante": 14
         }
       ],
       "resultado_juegos": {
@@ -358,6 +315,49 @@
         "visitante": 3
       },
       "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MIR FERNÀNDEZ, ORIOL",
+        "licencia": "1110",
+        "id": "1110"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LUCO PEREZ, BERNAT",
+        "licencia": "5405",
+        "id": "5405"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -368,21 +368,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "LUCO MANUBENS, DANIEL",
-            "licencia": "659",
-            "id": "659"
-          },
-          {
-            "nombre": "TRONCOSO ACETE, NESTOR",
-            "licencia": "8311",
-            "id": "8311"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -400,31 +385,46 @@
         "licencia": "7230",
         "id": "7230"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LUCO MANUBENS, DANIEL",
+            "licencia": "659",
+            "id": "659"
+          },
+          {
+            "nombre": "TRONCOSO ACETE, NESTOR",
+            "licencia": "8311",
+            "id": "8311"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 3,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
         "local": 3,
-        "visitante": 4
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
       }
     }
   ],

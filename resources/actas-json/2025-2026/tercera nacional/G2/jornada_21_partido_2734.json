@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "IRINA KOZHUKHOVA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
-        "licencia": "1360",
-        "id": "1360"
-      },
-      "B": {
-        "nombre": "RODRIGUEZ CHALAIS, JORDI",
-        "licencia": "3056",
-        "id": "3056"
-      },
-      "C": {
-        "nombre": "PEREIRA GARCIA, BRUNO",
-        "licencia": "18530",
-        "id": "18530"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
         "licencia": "20654",
@@ -66,6 +49,23 @@
         "licencia": "1447",
         "id": "1447"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
+      "B": {
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      },
+      "C": {
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      }
     }
   },
   "dobles": null,
@@ -75,52 +75,52 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
-        "licencia": "1360",
-        "id": "1360"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
         "licencia": "20654",
         "id": "20654"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 2,
-          "local": 16,
-          "visitante": 14
+          "local": 14,
+          "visitante": 16
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 4,
           "local": 11,
           "visitante": 4
         },
         {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
           "set": 5,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
+        "local": 0,
+        "visitante": 1
       }
     },
     {
@@ -128,44 +128,44 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "RODRIGUEZ CHALAIS, JORDI",
-        "licencia": "3056",
-        "id": "3056"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "GARRACHON GARCIA, ORIOL",
         "licencia": "16318",
         "id": "16318"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 2,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
         "visitante": 1
@@ -176,42 +176,42 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "PEREIRA GARCIA, BRUNO",
-        "licencia": "18530",
-        "id": "18530"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
         "licencia": "1447",
         "id": "1447"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 3,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 2,
+        "visitante": 1
       }
     },
     {
@@ -219,44 +219,44 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
-        "licencia": "1360",
-        "id": "1360"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "GARRACHON GARCIA, ORIOL",
         "licencia": "16318",
         "id": "16318"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
           "local": 7,
           "visitante": 11
         },
         {
-          "set": 3,
-          "local": 11,
-          "visitante": 7
-        },
-        {
           "set": 4,
-          "local": 11,
-          "visitante": 7
+          "local": 7,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 1
+        "local": 1,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -267,42 +267,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "PEREIRA GARCIA, BRUNO",
-        "licencia": "18530",
-        "id": "18530"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
         "licencia": "20654",
         "id": "20654"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 1,
-          "visitante": 11
+          "local": 11,
+          "visitante": 1
         },
         {
           "set": 2,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 2
         },
         {
           "set": 3,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 2
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -310,42 +310,42 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "RODRIGUEZ CHALAIS, JORDI",
-        "licencia": "3056",
-        "id": "3056"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
         "licencia": "1447",
         "id": "1447"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

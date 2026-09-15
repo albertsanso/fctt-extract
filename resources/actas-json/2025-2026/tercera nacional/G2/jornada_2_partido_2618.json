@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "JUDITH GUTIERREZ PUIG",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "GARCIA ÁLVAREZ, EUDALD",
-        "licencia": "13776",
-        "id": "13776"
-      },
-      "B": {
-        "nombre": "LLOBERA BOSCH, ALBERT",
-        "licencia": "8204",
-        "id": "8204"
-      },
-      "C": {
-        "nombre": "SOLÉ GIRALT, ALBERT",
-        "licencia": "15813",
-        "id": "15813"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "PONZ MORATO, ANTONIO",
         "licencia": "7099",
@@ -66,6 +49,23 @@
         "licencia": "11643",
         "id": "11643"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
+      },
+      "B": {
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      },
+      "C": {
+        "nombre": "SOLÉ GIRALT, ALBERT",
+        "licencia": "15813",
+        "id": "15813"
+      }
     }
   },
   "dobles": null,
@@ -75,59 +75,16 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "GARCIA ÁLVAREZ, EUDALD",
-        "licencia": "13776",
-        "id": "13776"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "PONZ MORATO, ANTONIO",
         "licencia": "7099",
         "id": "7099"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 1
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "LLOBERA BOSCH, ALBERT",
-        "licencia": "8204",
-        "id": "8204"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "RUITIAN ZHAO, ANGEL",
-        "licencia": "20829",
-        "id": "20829"
+        "letra": "A",
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
       },
       "sets": [
         {
@@ -137,50 +94,7 @@
         },
         {
           "set": 2,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 6,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "SOLÉ GIRALT, ALBERT",
-        "licencia": "15813",
-        "id": "15813"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "BARBERÀ SOLER, QUIM",
-        "licencia": "11643",
-        "id": "11643"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 4,
+          "local": 7,
           "visitante": 11
         },
         {
@@ -195,31 +109,31 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 0,
+        "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "nombre": "GARCIA ÁLVAREZ, EUDALD",
-        "licencia": "13776",
-        "id": "13776"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "RUITIAN ZHAO, ANGEL",
         "licencia": "20829",
         "id": "20829"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 2,
@@ -228,56 +142,51 @@
         },
         {
           "set": 3,
-          "local": 6,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 10,
-          "visitante": 12
+          "local": 11,
+          "visitante": 6
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 3
+        "visitante": 1
       }
     },
     {
-      "numero": 5,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "C vs Y",
+      "cruce": "C vs Z",
       "local": {
+        "letra": "Z",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "visitante": {
         "letra": "C",
         "nombre": "SOLÉ GIRALT, ALBERT",
         "licencia": "15813",
         "id": "15813"
       },
-      "visitante": {
-        "letra": "Y",
-        "nombre": "PONZ MORATO, ANTONIO",
-        "licencia": "7099",
-        "id": "7099"
-      },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 7
+          "visitante": 5
         },
         {
           "set": 2,
           "local": 11,
-          "visitante": 5
+          "visitante": 4
         },
         {
           "set": 3,
           "local": 11,
-          "visitante": 8
+          "visitante": 1
         }
       ],
       "resultado_juegos": {
@@ -287,39 +196,87 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 3
+        "visitante": 1
       }
     },
     {
-      "numero": 6,
+      "numero": 4,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "A vs X",
       "local": {
-        "letra": "B",
-        "nombre": "LLOBERA BOSCH, ALBERT",
-        "licencia": "8204",
-        "id": "8204"
+        "letra": "X",
+        "nombre": "RUITIAN ZHAO, ANGEL",
+        "licencia": "20829",
+        "id": "20829"
       },
       "visitante": {
-        "letra": "Z",
-        "nombre": "BARBERÀ SOLER, QUIM",
-        "licencia": "11643",
-        "id": "11643"
+        "letra": "A",
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
       },
       "sets": [
         {
           "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
           "local": 8,
           "visitante": 11
         },
         {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "PONZ MORATO, ANTONIO",
+        "licencia": "7099",
+        "id": "7099"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SOLÉ GIRALT, ALBERT",
+        "licencia": "15813",
+        "id": "15813"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
           "set": 2,
-          "local": 6,
+          "local": 5,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 6,
+          "local": 8,
           "visitante": 11
         }
       ],
@@ -329,8 +286,51 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 4
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

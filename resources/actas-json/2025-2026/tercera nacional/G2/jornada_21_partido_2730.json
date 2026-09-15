@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "CARLOS GARCIA MOMBLONA",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "GARCÍA DE SORIA MIRAPEIX, ALBERT",
-        "licencia": "10859",
-        "id": "10859"
-      },
-      "B": {
-        "nombre": "CARACUEL BÖHM, DANIEL",
-        "licencia": "14179",
-        "id": "14179"
-      },
-      "C": {
-        "nombre": "GARCIA DE SORIA MIRAPEIX, MAR AFRICA",
-        "licencia": "5929",
-        "id": "5929"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "CASQUERO MARÍN, ERIC",
         "licencia": "16414",
@@ -66,6 +49,23 @@
         "licencia": "11856",
         "id": "11856"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "GARCÍA DE SORIA MIRAPEIX, ALBERT",
+        "licencia": "10859",
+        "id": "10859"
+      },
+      "B": {
+        "nombre": "CARACUEL BÖHM, DANIEL",
+        "licencia": "14179",
+        "id": "14179"
+      },
+      "C": {
+        "nombre": "GARCIA DE SORIA MIRAPEIX, MAR AFRICA",
+        "licencia": "5929",
+        "id": "5929"
+      }
     }
   },
   "dobles": null,
@@ -75,42 +75,42 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "GARCÍA DE SORIA MIRAPEIX, ALBERT",
-        "licencia": "10859",
-        "id": "10859"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CASQUERO MARÍN, ERIC",
         "licencia": "16414",
         "id": "16414"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GARCÍA DE SORIA MIRAPEIX, ALBERT",
+        "licencia": "10859",
+        "id": "10859"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 2
         },
         {
           "set": 2,
-          "local": 6,
-          "visitante": 11
+          "local": 11,
+          "visitante": 6
         },
         {
           "set": 3,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 1
+        "local": 1,
+        "visitante": 0
       }
     },
     {
@@ -118,42 +118,42 @@
       "tipo": "individual",
       "cruce": "B vs X",
       "local": {
-        "letra": "B",
-        "nombre": "CARACUEL BÖHM, DANIEL",
-        "licencia": "14179",
-        "id": "14179"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "HERMIDA ALLENDE, ALEIX",
         "licencia": "14611",
         "id": "14611"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CARACUEL BÖHM, DANIEL",
+        "licencia": "14179",
+        "id": "14179"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 3,
-          "local": 10,
-          "visitante": 12
+          "local": 12,
+          "visitante": 10
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 2
+        "local": 2,
+        "visitante": 0
       }
     },
     {
@@ -161,47 +161,47 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "GARCIA DE SORIA MIRAPEIX, MAR AFRICA",
-        "licencia": "5929",
-        "id": "5929"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "NEVADO MORENO, SAMUEL",
         "licencia": "11856",
         "id": "11856"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARCIA DE SORIA MIRAPEIX, MAR AFRICA",
+        "licencia": "5929",
+        "id": "5929"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 3,
-          "local": 15,
-          "visitante": 13
+          "local": 13,
+          "visitante": 15
         },
         {
           "set": 4,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       }
     },
     {
@@ -209,42 +209,42 @@
       "tipo": "individual",
       "cruce": "A vs X",
       "local": {
-        "letra": "A",
-        "nombre": "GARCÍA DE SORIA MIRAPEIX, ALBERT",
-        "licencia": "10859",
-        "id": "10859"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "HERMIDA ALLENDE, ALEIX",
         "licencia": "14611",
         "id": "14611"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GARCÍA DE SORIA MIRAPEIX, ALBERT",
+        "licencia": "10859",
+        "id": "10859"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 5,
-          "visitante": 11
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 4
+        "local": 4,
+        "visitante": 0
       }
     },
     {
@@ -252,42 +252,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "GARCIA DE SORIA MIRAPEIX, MAR AFRICA",
-        "licencia": "5929",
-        "id": "5929"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CASQUERO MARÍN, ERIC",
         "licencia": "16414",
         "id": "16414"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GARCIA DE SORIA MIRAPEIX, MAR AFRICA",
+        "licencia": "5929",
+        "id": "5929"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 9,
-          "visitante": 11
+          "local": 11,
+          "visitante": 9
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 5
+        "local": 5,
+        "visitante": 0
       }
     },
     {
@@ -295,47 +295,47 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "CARACUEL BÖHM, DANIEL",
-        "licencia": "14179",
-        "id": "14179"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "NEVADO MORENO, SAMUEL",
         "licencia": "11856",
         "id": "11856"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CARACUEL BÖHM, DANIEL",
+        "licencia": "14179",
+        "id": "14179"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 4,
-          "local": 4,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 0,
-        "visitante": 6
+        "local": 6,
+        "visitante": 0
       }
     }
   ],

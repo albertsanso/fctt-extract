@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "RAIMOND ALOY ROCAMADÓ",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
-        "licencia": "1447",
-        "id": "1447"
-      },
-      "B": {
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
-      "C": {
-        "nombre": "HERNANDEZ SANS, JORDI",
-        "licencia": "11191",
-        "id": "11191"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "CHENG, ZHONGYONG",
         "licencia": "16395",
@@ -66,6 +49,23 @@
         "licencia": "527",
         "id": "527"
       }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
+        "licencia": "1447",
+        "id": "1447"
+      },
+      "B": {
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "C": {
+        "nombre": "HERNANDEZ SANS, JORDI",
+        "licencia": "11191",
+        "id": "11191"
+      }
     }
   },
   "dobles": null,
@@ -75,122 +75,31 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
-        "licencia": "1447",
-        "id": "1447"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "CHENG, ZHONGYONG",
         "licencia": "16395",
         "id": "16395"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 7
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 5
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 1
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "MONTANYÀ PUIG, ADRIÀ",
-        "licencia": "672",
-        "id": "672"
+        "letra": "A",
+        "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
+        "licencia": "1447",
+        "id": "1447"
       },
       "sets": [
         {
           "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 3,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 4,
-          "local": 4,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 1
-      }
-    },
-    {
-      "numero": 3,
-      "tipo": "individual",
-      "cruce": "C vs Z",
-      "local": {
-        "letra": "C",
-        "nombre": "HERNANDEZ SANS, JORDI",
-        "licencia": "11191",
-        "id": "11191"
-      },
-      "visitante": {
-        "letra": "Z",
-        "nombre": "VILA BIOSCA, JOAN",
-        "licencia": "527",
-        "id": "527"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 4,
-          "visitante": 11
-        },
-        {
-          "set": 2,
           "local": 7,
           "visitante": 11
         },
         {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
           "set": 3,
-          "local": 9,
+          "local": 1,
           "visitante": 11
         }
       ],
@@ -200,68 +109,25 @@
       },
       "ganador": "visitante",
       "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
+        "local": 0,
+        "visitante": 1
       }
     },
     {
-      "numero": 4,
+      "numero": 2,
       "tipo": "individual",
-      "cruce": "A vs X",
+      "cruce": "B vs X",
       "local": {
-        "letra": "A",
-        "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
-        "licencia": "1447",
-        "id": "1447"
-      },
-      "visitante": {
         "letra": "X",
         "nombre": "MONTANYÀ PUIG, ADRIÀ",
         "licencia": "672",
         "id": "672"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 11,
-          "visitante": 6
-        },
-        {
-          "set": 2,
-          "local": 11,
-          "visitante": 3
-        },
-        {
-          "set": 3,
-          "local": 11,
-          "visitante": 8
-        }
-      ],
-      "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 2,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 5,
-      "tipo": "individual",
-      "cruce": "C vs Y",
-      "local": {
-        "letra": "C",
-        "nombre": "HERNANDEZ SANS, JORDI",
-        "licencia": "11191",
-        "id": "11191"
-      },
       "visitante": {
-        "letra": "Y",
-        "nombre": "CHENG, ZHONGYONG",
-        "licencia": "16395",
-        "id": "16395"
+        "letra": "B",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
       },
       "sets": [
         {
@@ -276,55 +142,98 @@
         },
         {
           "set": 3,
-          "local": 2,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 4,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
+        "local": 3,
+        "visitante": 1
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 1,
+        "visitante": 1
       }
     },
     {
-      "numero": 6,
+      "numero": 3,
       "tipo": "individual",
-      "cruce": "B vs Z",
+      "cruce": "C vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "VILA BIOSCA, JOAN",
         "licencia": "527",
         "id": "527"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "HERNANDEZ SANS, JORDI",
+        "licencia": "11191",
+        "id": "11191"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 7,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MONTANYÀ PUIG, ADRIÀ",
+        "licencia": "672",
+        "id": "672"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
+        "licencia": "1447",
+        "id": "1447"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
           "visitante": 11
         },
         {
           "set": 2,
-          "local": 8,
+          "local": 3,
           "visitante": 11
         },
         {
           "set": 3,
-          "local": 5,
+          "local": 8,
           "visitante": 11
         }
       ],
@@ -335,7 +244,98 @@
       "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
-        "visitante": 4
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CHENG, ZHONGYONG",
+        "licencia": "16395",
+        "id": "16395"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "HERNANDEZ SANS, JORDI",
+        "licencia": "11191",
+        "id": "11191"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
       }
     }
   ],

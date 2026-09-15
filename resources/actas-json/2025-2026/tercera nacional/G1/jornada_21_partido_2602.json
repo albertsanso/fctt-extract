@@ -24,7 +24,7 @@
       "entrenador": null
     }
   },
-  "abc_es_local": true,
+  "abc_es_local": false,
   "arbitros": {
     "principal": {
       "nombre": "GIL ARUMI CROSAS",
@@ -34,23 +34,6 @@
   },
   "alineaciones": {
     "local": {
-      "A": {
-        "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
-      },
-      "B": {
-        "nombre": "DOMINGO CHAVARRIA, DAVID",
-        "licencia": "11332",
-        "id": "11332"
-      },
-      "C": {
-        "nombre": "ROCA SAYAS, ERIC",
-        "licencia": "11323",
-        "id": "11323"
-      }
-    },
-    "visitante": {
       "Y": {
         "nombre": "TORRADES TORNER, DOMENEC",
         "licencia": "867",
@@ -66,22 +49,27 @@
         "licencia": "13163",
         "id": "13163"
       }
-    }
-  },
-  "dobles": {
-    "local": [
-      {
+    },
+    "visitante": {
+      "A": {
         "nombre": "QUEROL COLL, JAUME",
         "licencia": "5578",
         "id": "5578"
       },
-      {
+      "B": {
         "nombre": "DOMINGO CHAVARRIA, DAVID",
         "licencia": "11332",
         "id": "11332"
+      },
+      "C": {
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
       }
-    ],
-    "visitante": [
+    }
+  },
+  "dobles": {
+    "local": [
       {
         "nombre": "CUSSÓ PUJOL, JOAN",
         "licencia": "484",
@@ -92,6 +80,18 @@
         "licencia": "867",
         "id": "867"
       }
+    ],
+    "visitante": [
+      {
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      {
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      }
     ]
   },
   "partidos": [
@@ -100,32 +100,80 @@
       "tipo": "individual",
       "cruce": "A vs Y",
       "local": {
-        "letra": "A",
-        "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
         "licencia": "867",
         "id": "867"
       },
+      "visitante": {
+        "letra": "A",
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
       "sets": [
         {
           "set": 1,
           "local": 11,
-          "visitante": 4
+          "visitante": 5
         },
         {
           "set": 2,
-          "local": 10,
-          "visitante": 12
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 3
+          "local": 15,
+          "visitante": 17
         },
         {
           "set": 4,
@@ -140,54 +188,6 @@
       "ganador": "local",
       "marcador_acumulado": {
         "local": 1,
-        "visitante": 0
-      }
-    },
-    {
-      "numero": 2,
-      "tipo": "individual",
-      "cruce": "B vs X",
-      "local": {
-        "letra": "B",
-        "nombre": "DOMINGO CHAVARRIA, DAVID",
-        "licencia": "11332",
-        "id": "11332"
-      },
-      "visitante": {
-        "letra": "X",
-        "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
-      },
-      "sets": [
-        {
-          "set": 1,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 8,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 17,
-          "visitante": 15
-        },
-        {
-          "set": 4,
-          "local": 6,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 1,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
         "visitante": 1
       }
     },
@@ -196,59 +196,16 @@
       "tipo": "individual",
       "cruce": "C vs Z",
       "local": {
-        "letra": "C",
-        "nombre": "ROCA SAYAS, ERIC",
-        "licencia": "11323",
-        "id": "11323"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
       },
-      "sets": [
-        {
-          "set": 1,
-          "local": 9,
-          "visitante": 11
-        },
-        {
-          "set": 2,
-          "local": 5,
-          "visitante": 11
-        },
-        {
-          "set": 3,
-          "local": 4,
-          "visitante": 11
-        }
-      ],
-      "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
-      },
-      "ganador": "visitante",
-      "marcador_acumulado": {
-        "local": 1,
-        "visitante": 2
-      }
-    },
-    {
-      "numero": 4,
-      "tipo": "individual",
-      "cruce": "A vs X",
-      "local": {
-        "letra": "A",
-        "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
-      },
       "visitante": {
-        "letra": "X",
-        "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "letra": "C",
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
       },
       "sets": [
         {
@@ -258,25 +215,68 @@
         },
         {
           "set": 2,
-          "local": 10,
-          "visitante": 12
+          "local": 11,
+          "visitante": 5
         },
         {
           "set": 3,
-          "local": 16,
-          "visitante": 14
-        },
-        {
-          "set": 4,
           "local": 11,
-          "visitante": 5
+          "visitante": 4
         }
       ],
       "resultado_juegos": {
         "local": 3,
-        "visitante": 1
+        "visitante": 0
       },
       "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 14,
+          "visitante": 16
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 2,
         "visitante": 2
@@ -287,42 +287,42 @@
       "tipo": "individual",
       "cruce": "C vs Y",
       "local": {
-        "letra": "C",
-        "nombre": "ROCA SAYAS, ERIC",
-        "licencia": "11323",
-        "id": "11323"
-      },
-      "visitante": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
         "licencia": "867",
         "id": "867"
       },
+      "visitante": {
+        "letra": "C",
+        "nombre": "ROCA SAYAS, ERIC",
+        "licencia": "11323",
+        "id": "11323"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 16,
-          "visitante": 18
+          "local": 18,
+          "visitante": 16
         },
         {
           "set": 2,
-          "local": 12,
-          "visitante": 14
+          "local": 14,
+          "visitante": 12
         },
         {
           "set": 3,
-          "local": 3,
-          "visitante": 11
+          "local": 11,
+          "visitante": 3
         }
       ],
       "resultado_juegos": {
-        "local": 0,
-        "visitante": 3
+        "local": 3,
+        "visitante": 0
       },
-      "ganador": "visitante",
+      "ganador": "local",
       "marcador_acumulado": {
-        "local": 2,
-        "visitante": 3
+        "local": 3,
+        "visitante": 2
       }
     },
     {
@@ -330,49 +330,49 @@
       "tipo": "individual",
       "cruce": "B vs Z",
       "local": {
-        "letra": "B",
-        "nombre": "DOMINGO CHAVARRIA, DAVID",
-        "licencia": "11332",
-        "id": "11332"
-      },
-      "visitante": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
         "licencia": "13163",
         "id": "13163"
       },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
       "sets": [
         {
           "set": 1,
-          "local": 8,
-          "visitante": 11
+          "local": 11,
+          "visitante": 8
         },
         {
           "set": 2,
-          "local": 7,
-          "visitante": 11
+          "local": 11,
+          "visitante": 7
         },
         {
           "set": 3,
-          "local": 13,
-          "visitante": 11
+          "local": 11,
+          "visitante": 13
         },
         {
           "set": 4,
-          "local": 11,
-          "visitante": 9
+          "local": 9,
+          "visitante": 11
         },
         {
           "set": 5,
-          "local": 11,
-          "visitante": 8
+          "local": 8,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 2
+        "local": 2,
+        "visitante": 3
       },
-      "ganador": "local",
+      "ganador": "visitante",
       "marcador_acumulado": {
         "local": 3,
         "visitante": 3
@@ -383,21 +383,6 @@
       "tipo": "dobles",
       "cruce": "Db vs Db",
       "local": {
-        "letra": "Db",
-        "jugadores": [
-          {
-            "nombre": "QUEROL COLL, JAUME",
-            "licencia": "5578",
-            "id": "5578"
-          },
-          {
-            "nombre": "DOMINGO CHAVARRIA, DAVID",
-            "licencia": "11332",
-            "id": "11332"
-          }
-        ]
-      },
-      "visitante": {
         "letra": "Db",
         "jugadores": [
           {
@@ -415,31 +400,46 @@
         "licencia": "484",
         "id": "484"
       },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "QUEROL COLL, JAUME",
+            "licencia": "5578",
+            "id": "5578"
+          },
+          {
+            "nombre": "DOMINGO CHAVARRIA, DAVID",
+            "licencia": "11332",
+            "id": "11332"
+          }
+        ]
+      },
       "sets": [
         {
           "set": 1,
-          "local": 11,
-          "visitante": 3
+          "local": 3,
+          "visitante": 11
         },
         {
           "set": 2,
-          "local": 11,
-          "visitante": 1
+          "local": 1,
+          "visitante": 11
         },
         {
           "set": 3,
-          "local": 11,
-          "visitante": 1
+          "local": 1,
+          "visitante": 11
         }
       ],
       "resultado_juegos": {
-        "local": 3,
-        "visitante": 0
-      },
-      "ganador": "local",
-      "marcador_acumulado": {
-        "local": 4,
+        "local": 0,
         "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
       }
     }
   ],
