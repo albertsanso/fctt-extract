@@ -17,6 +17,7 @@ SPEC.loader.exec_module(parse_actas)
 
 REAL_INPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-html" / "2025-2026" / "male" / "tercera-nacional"
 ROOT = REAL_INPUT / "G1"
+UPCOMING = REAL_INPUT.parents[2] / "2026-2027" / "male" / "tercera-nacional"
 
 
 class OrientationTests(unittest.TestCase):
@@ -63,6 +64,58 @@ class ParseActasTests(unittest.TestCase):
         self.assertEqual(first["partidos"][6]["tipo"], "dobles")
         self.assertIsNotNone(first["dobles"])
 
+    def test_published_acta_has_identifier_and_phase(self):
+        first = parse_actas.parse_file(ROOT / "jornada-1.html")[0]
+        self.assertTrue(first["acta_publicada"])
+        self.assertEqual(first["fase"], "1a Fase")
+        self.assertEqual(first["id_partido"], "2025-2026_tercera-nacional_G1_1aFase_98-{}_1".format(first["equipos"]["visitante"]["id"]))
+
+    def test_unplayed_match_is_emitted_as_unpublished_acta(self):
+        records = parse_actas.parse_file(UPCOMING / "G1" / "jornada-5.html")
+        first = records[0]
+        self.assertFalse(first["acta_publicada"])
+        self.assertIsNone(first["abc_es_local"])
+        self.assertEqual(first["partidos"], [])
+        self.assertEqual(first["alineaciones"], {"local": {}, "visitante": {}})
+        self.assertIsNone(first["dobles"])
+        self.assertIsNone(first["resultado_final"]["marcador_partidos"])
+        self.assertEqual((first["fecha"], first["hora"]), ("2026-10-31", "17:30"))
+        self.assertEqual(first["id_partido"], "2026-2027_tercera-nacional_G1_1aFase_123-149_5")
+        self.assertEqual(first["_id"], "123-149")
+
+    def test_played_match_without_published_acta_keeps_final_score(self):
+        records = parse_actas.parse_file(REAL_INPUT / "G3" / "jornada-10.html")
+        record = next(r for r in records if r["equipos"]["local"]["nombre"] == "CTT BARCELONA")
+        self.assertFalse(record["acta_publicada"])
+        self.assertEqual(record["partidos"], [])
+        self.assertEqual(record["resultado_final"]["marcador_partidos"], {"local": 6, "visitante": 0})
+        self.assertEqual(record["resultado_final"]["ganador"], "CTT BARCELONA")
+
+    def test_published_acta_replaces_unpublished_placeholder(self):
+        with tempfile.TemporaryDirectory() as directory:
+            input_root = Path(directory) / "html" / "2025-2026" / "male" / "tercera-nacional" / "G1"
+            input_root.mkdir(parents=True)
+            shutil.copy2(ROOT / "jornada-1.html", input_root / "jornada-1.html")
+            output = Path(directory) / "json"
+            record = parse_actas.parse_file(input_root / "jornada-1.html")[0]
+            folder = output / "2025-2026" / "male" / "tercera-nacional" / "G1"
+            folder.mkdir(parents=True)
+            placeholder = folder / "jornada-1-partido-{}.json".format(parse_actas.placeholder_id(record["equipos"]))
+            placeholder.write_text("{}", encoding="utf-8")
+            parse_actas.parse_all(Path(directory) / "html", output)
+            self.assertFalse(placeholder.exists())
+            self.assertTrue((folder / "jornada-1-partido-{}.json".format(record["_id"])).exists())
+
+    def test_other_group_folder_has_null_group(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory) / "2026-2027" / "male" / "tercera-nacional" / "Other"
+            folder.mkdir(parents=True)
+            shutil.copy2(UPCOMING / "G1" / "jornada-5.html", folder / "jornada-5.html")
+            record = parse_actas.parse_file(folder / "jornada-5.html")[0]
+            self.assertIsNone(record["grupo"])
+            self.assertIn("_Other_", record["id_partido"])
+            self.assertEqual(parse_actas.output_path(Path("out"), folder / "jornada-5.html", record).parent.name, "Other")
+
     def test_empty_jornada_produces_no_records(self):
         with tempfile.TemporaryDirectory() as directory:
             empty = Path(directory) / "jornada-14.html"
@@ -85,7 +138,8 @@ class ParseActasTests(unittest.TestCase):
             self.assertNotIn("_id", saved)
             self.assertEqual(saved["genero"], "masculino")
             self.assertEqual(set(saved), {
-                "federacion", "temporada", "genero", "competicion", "grupo", "jornada", "fecha", "hora",
+                "id_partido", "acta_publicada", "federacion", "temporada", "genero", "competicion", "fase",
+                "grupo", "jornada", "fecha", "hora",
                 "lugar", "equipos", "abc_es_local", "arbitros", "alineaciones", "dobles", "partidos",
                 "resultado_final", "acta_protestada",
             })

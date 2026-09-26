@@ -4,6 +4,9 @@ Each downloaded jornada page contains several encounters.  This script emits
 one JSON object per encounter so every output file follows model-definition.json.
 Input pages live at ``{season}/{male|female}/{category}/[G{n}/]jornada-{n}.html`` and
 the JSON files mirror that hierarchy as ``.../jornada-{n}-partido-{id}.json``.
+Encounters that have not been played yet, or whose acta is not published, are emitted with
+``acta_publicada: false`` and empty ``partidos``/``alineaciones``; they are named after the team
+ids (``jornada-{n}-partido-{home}-{away}.json``) and replaced once the real acta appears.
 It intentionally uses only Python's standard library.
 """
 
@@ -30,7 +33,8 @@ GENDERS = {"male": "masculino", "female": "femenino"}
 MALE_CATEGORY = "tercera-nacional"
 FEMALE_CATEGORY_PREFIX = "copa-catalana-femenina"
 SEASON_PATTERN = re.compile(r"\d{4}-\d{4}")
-GROUP_PATTERN = re.compile(r"G(\d+)", re.I)
+GROUP_PATTERN = re.compile(r"G(\d+)|Other", re.I)
+DEFAULT_PHASE = "1a Fase"
 LOGGER = logging.getLogger("fctt-parser")
 
 
@@ -237,14 +241,18 @@ def extract_jornada(root: Node, source: Path) -> int:
 
 def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> dict[str, object]:
     datetime_node = match_node.find_first(class_name="match-datetime")
-    date, hour = parse_date_time(datetime_node.text() if datetime_node else "")
     home_node = match_node.find_first(class_name="team-home")
     away_node = match_node.find_first(class_name="team-away")
+    teams = {"local": team_from_cell(home_node), "visitante": team_from_cell(away_node)}
+    date, hour = parse_date_time(datetime_node.text() if datetime_node else "")
     score_text = class_text(match_node, "match-score")
     final_score = parse_score(score_text)
     table = match_node.find_first(class_name="match-results-table")
     rows = table.find_all(tag="tr") if table else []
     data_rows = [row for row in rows if row.find_first(class_name="position")]
+    # Without a results table the encounter is still to be played (score "- - -") or its acta is
+    # not published yet (only the final score is shown).
+    published = bool(data_rows)
     lineups: dict[str, dict[str, object]] = {"local": {}, "visitante": {}}
     doubles: dict[str, list[dict[str, object]]] | None = None
     matches: list[dict[str, object]] = []
@@ -304,7 +312,7 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
 
     # The results table always lists the A/B/C column first; it belongs to the away team when the
     # last running score mirrors the final score.
-    abc_is_home = True
+    abc_is_home: bool | None = True if published else None
     last_accumulated = matches[-1]["marcador_acumulado"] if matches else None
     if (final_score and final_score[0] != final_score[1] and last_accumulated
             and (last_accumulated["local"], last_accumulated["visitante"]) == (final_score[1], final_score[0])):
@@ -322,14 +330,14 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
         winner = clean(home_node.text()) if final_score[0] > final_score[1] and home_node else clean(away_node.text()) if away_node else None
     acta_link = match_node.find_first(class_name="acta-link")
     acta_id_match = re.search(r"/partido/(\d+)/", acta_link.attrs.get("href", "")) if acta_link else None
-    acta_id = acta_id_match.group(1) if acta_id_match else str(number)
+    acta_id = acta_id_match.group(1) if acta_id_match and published else placeholder_id(teams) or str(number)
     return {
+        "acta_publicada": published,
         **common,
-        "jornada": common["jornada"],
         "fecha": date,
         "hora": hour,
         "lugar": {"ciudad": None, "recinto": re.sub(r"^[^:]+:\s*", "", field).strip() or None},
-        "equipos": {"local": team_from_cell(home_node), "visitante": team_from_cell(away_node)},
+        "equipos": teams,
         "abc_es_local": abc_is_home,
         "arbitros": {"principal": {"nombre": referee, "licencia": None} if referee else None, "asistente": None},
         "alineaciones": lineups,
@@ -343,6 +351,31 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
         "acta_protestada": False,
         "_id": acta_id,
     }
+
+
+def placeholder_id(teams: dict[str, dict[str, object]]) -> str | None:
+    """Stable id for an encounter without published acta, built from the home and away team ids."""
+    home, away = teams["local"]["id"], teams["visitante"]["id"]
+    return f"{home}-{away}" if home and away else None
+
+
+def category_for(location: Location, gender: str, competition: str | None) -> str:
+    return location.category or default_category(gender, competition)
+
+
+def group_folder(location: Location, gender: str, group: int | None) -> str | None:
+    if location.group:
+        return location.group
+    if group is None:
+        return "Other"
+    return f"G{group}" if gender == "male" and group else None
+
+
+def match_identifier(record: dict[str, object], *, season: str, category: str, group: str) -> str:
+    """``{season}_{category}_{group}_{phase}_{home}-{away}_{jornada}``, e.g. 2026-2027_tercera-nacional_G1_1aFase_123-149_5."""
+    phase = re.sub(r"[\s_]+", "", str(record["fase"]))
+    teams = placeholder_id(record["equipos"]) or f"partido-{record['_id']}"
+    return "_".join((season, category.replace("_", "-"), group, phase, f"{teams}_{record['jornada']}"))
 
 
 def swap_score(score: dict[str, object] | None) -> dict[str, object] | None:
@@ -365,15 +398,25 @@ def parse_file(source: Path) -> list[dict[str, object]]:
     season, competition, title_group = parse_season_title(root)
     location = source_location(source)
     group_match = GROUP_PATTERN.fullmatch(location.group or "")
-    group = title_group or (int(group_match.group(1)) if group_match else 0)
+    if group_match and not group_match.group(1):
+        group = None  # "Other" group folder
+    else:
+        group = title_group or (int(group_match.group(1)) if group_match else 0)
     gender = location.gender or gender_from_competition(competition)
     if not season and location.season:
         season = location.season.replace("-", "/")
     common = {
         "federacion": FEDERATION, "temporada": season, "genero": GENDERS[gender], "competicion": competition,
-        "grupo": group, "jornada": extract_jornada(root, source),
+        "fase": DEFAULT_PHASE, "grupo": group, "jornada": extract_jornada(root, source),
     }
-    return [parse_match(node, common=common, number=index) for index, node in enumerate(root.find_all(class_name="match-container"), start=1)]
+    records = [parse_match(node, common=common, number=index) for index, node in enumerate(root.find_all(class_name="match-container"), start=1)]
+    season_slug = location.season or (season or "").replace("/", "-")
+    category = category_for(location, gender, competition)
+    group_slug = group_folder(location, gender, group) or f"G{group}"
+    return [
+        {"id_partido": match_identifier(record, season=season_slug, category=category, group=group_slug), **record}
+        for record in records
+    ]
 
 
 def output_path(output_root: Path, source: Path, data: dict[str, object]) -> Path:
@@ -382,12 +425,10 @@ def output_path(output_root: Path, source: Path, data: dict[str, object]) -> Pat
     if not SEASON_PATTERN.fullmatch(season):
         raise ValueError(f"No s'ha pogut determinar la temporada de {source}")
     gender = next(key for key, value in GENDERS.items() if value == data["genero"])
-    category = location.category or default_category(gender, data["competicion"])
-    folder = output_root / season / gender / category
-    if location.group:
-        folder /= location.group
-    elif gender == "male" and data["grupo"]:
-        folder /= f"G{data['grupo']}"
+    folder = output_root / season / gender / category_for(location, gender, data["competicion"])
+    group = group_folder(location, gender, data["grupo"])
+    if group:
+        folder /= group
     return folder / f"jornada-{data['jornada']}-partido-{data['_id']}.json"
 
 
@@ -424,7 +465,14 @@ def parse_all(
                 LOGGER.error("%s", error)
                 continue
             record.pop("_id", None)
-            if destination.exists() and not overwrite:
+            placeholder = placeholder_id(record["equipos"])
+            if record["acta_publicada"] and placeholder:
+                stale = destination.with_name(f"jornada-{record['jornada']}-partido-{placeholder}.json")
+                if stale != destination and stale.exists():
+                    LOGGER.info("Acta publicada; s'elimina el provisional %s", stale)
+                    stale.unlink()
+            # Unpublished encounters are refreshed on every run: date, time or score may change.
+            if destination.exists() and not overwrite and record["acta_publicada"]:
                 LOGGER.info("Ja existeix: %s", destination)
                 continue
             destination.parent.mkdir(parents=True, exist_ok=True)

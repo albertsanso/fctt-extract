@@ -1,8 +1,11 @@
 {
+  "id_partido": "2025-2026_tercera-nacional_G1_1aFase_95-69_7",
+  "acta_publicada": true,
   "federacion": "Federació Catalana de Tennis Taula",
   "temporada": "2025/2026",
   "genero": "masculino",
   "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "fase": "1a Fase",
   "grupo": 1,
   "jornada": 7,
   "fecha": "2025-11-15",

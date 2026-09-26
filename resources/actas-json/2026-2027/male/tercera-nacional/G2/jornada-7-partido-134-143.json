@@ -1,0 +1,48 @@
+{
+  "id_partido": "2026-2027_tercera-nacional_G2_1aFase_134-143_7",
+  "acta_publicada": false,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 7,
+  "fecha": "2026-11-14",
+  "hora": "18:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CEIP ÀNGEL GUIMERÀ. C/ÀNGEL GUIMERÀ, S/N,25600 BALAGUER"
+  },
+  "equipos": {
+    "local": {
+      "id": "134",
+      "nombre": "CTT BALAGUER PÀMIES VÍTAE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "143",
+      "nombre": "CTT MOLLET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": null,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": null,
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
