@@ -1,0 +1,345 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_116-106_6",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 6,
+  "fecha": "2026-04-18",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT DEL NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "116",
+      "nombre": "EL CENTRE-NYX",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "106",
+      "nombre": "CLUB NATACIÓ SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "THIEL, BRIGITTE",
+        "licencia": "17712",
+        "id": "17712"
+      },
+      "Y": {
+        "nombre": "LÓPEZ VILLORA, MARIA JESÚS",
+        "licencia": "17713",
+        "id": "17713"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "LEDESMA AGUILERA, AINA",
+        "licencia": "18452",
+        "id": "18452"
+      },
+      "B": {
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "17309",
+        "id": "17309"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "BERTRAN RIBÓ, MARIA",
+        "licencia": "17711",
+        "id": "17711"
+      },
+      {
+        "nombre": "GARCIA GARCIA, MARGARITA",
+        "licencia": "21810",
+        "id": "21810"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "LEDESMA AGUILERA, AINA",
+        "licencia": "18452",
+        "id": "18452"
+      },
+      {
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "17309",
+        "id": "17309"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "THIEL, BRIGITTE",
+        "licencia": "17712",
+        "id": "17712"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LEDESMA AGUILERA, AINA",
+        "licencia": "18452",
+        "id": "18452"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LÓPEZ VILLORA, MARIA JESÚS",
+        "licencia": "17713",
+        "id": "17713"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "17309",
+        "id": "17309"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "BERTRAN RIBÓ, MARIA",
+            "licencia": "17711",
+            "id": "17711"
+          },
+          {
+            "nombre": "GARCIA GARCIA, MARGARITA",
+            "licencia": "21810",
+            "id": "21810"
+          }
+        ],
+        "nombre": "BERTRAN RIBÓ, MARIA",
+        "licencia": "17711",
+        "id": "17711"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LEDESMA AGUILERA, AINA",
+            "licencia": "18452",
+            "id": "18452"
+          },
+          {
+            "nombre": "JURADO HERRERO, LAIA",
+            "licencia": "17309",
+            "id": "17309"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LÓPEZ VILLORA, MARIA JESÚS",
+        "licencia": "17713",
+        "id": "17713"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LEDESMA AGUILERA, AINA",
+        "licencia": "18452",
+        "id": "18452"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "THIEL, BRIGITTE",
+        "licencia": "17712",
+        "id": "17712"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "17309",
+        "id": "17309"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIÓ SABADELL",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

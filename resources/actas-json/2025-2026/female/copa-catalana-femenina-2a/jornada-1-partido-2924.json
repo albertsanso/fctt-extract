@@ -1,0 +1,355 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_111-117_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2025-10-25",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT DEL NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "111",
+      "nombre": "CTT RUBI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "117",
+      "nombre": "FALCONS SBD - SMATSA AGORA GRUP",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      "B": {
+        "nombre": "RUEDA CLEMENTE, LAURA",
+        "licencia": "21068",
+        "id": "21068"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "HERNANDEZ ARAMBURU, ANA MARIA",
+        "licencia": "19556",
+        "id": "19556"
+      },
+      "Y": {
+        "nombre": "TRALLERO GARCIA, ONA",
+        "licencia": "14307",
+        "id": "14307"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      {
+        "nombre": "DE LA FUENTE, NATIVIDAD",
+        "licencia": "21067",
+        "id": "21067"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "TRALLERO GARCIA, ONA",
+        "licencia": "14307",
+        "id": "14307"
+      },
+      {
+        "nombre": "CAYELLAS BONILLO, CARLA",
+        "licencia": "14384",
+        "id": "14384"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HERNANDEZ ARAMBURU, ANA MARIA",
+        "licencia": "19556",
+        "id": "19556"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "DE LA FUENTE, NATIVIDAD",
+        "licencia": "21067",
+        "id": "21067"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "TRALLERO GARCIA, ONA",
+        "licencia": "14307",
+        "id": "14307"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 0,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "AGUILERA GOMEZ, CRISTINA",
+            "licencia": "18307",
+            "id": "18307"
+          },
+          {
+            "nombre": "DE LA FUENTE, NATIVIDAD",
+            "licencia": "21067",
+            "id": "21067"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "TRALLERO GARCIA, ONA",
+            "licencia": "14307",
+            "id": "14307"
+          },
+          {
+            "nombre": "CAYELLAS BONILLO, CARLA",
+            "licencia": "14384",
+            "id": "14384"
+          }
+        ],
+        "nombre": "TRALLERO GARCIA, ONA",
+        "licencia": "14307",
+        "id": "14307"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "TRALLERO GARCIA, ONA",
+        "licencia": "14307",
+        "id": "14307"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "RUEDA CLEMENTE, LAURA",
+        "licencia": "21068",
+        "id": "21068"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HERNANDEZ ARAMBURU, ANA MARIA",
+        "licencia": "19556",
+        "id": "19556"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS SBD - SMATSA AGORA GRUP",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

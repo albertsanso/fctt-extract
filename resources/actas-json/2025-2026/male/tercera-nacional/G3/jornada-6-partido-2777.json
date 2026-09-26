@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
+        "licencia": "0"
       },
       "B": {
         "nombre": "LIN CHEN, HONGXIANG",
-        "licencia": "6779",
-        "id": "6779"
+        "licencia": "0"
       },
       "C": {
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
+        "licencia": "0"
       },
       "X": {
         "nombre": "GAVIN MOLINS, JORDI",
-        "licencia": "1198",
-        "id": "1198"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "GRAU DULCET, XAVIER",
-        "licencia": "6184",
-        "id": "6184"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -129,14 +121,12 @@
       "local": {
         "letra": "B",
         "nombre": "LIN CHEN, HONGXIANG",
-        "licencia": "6779",
-        "id": "6779"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "GAVIN MOLINS, JORDI",
-        "licencia": "1198",
-        "id": "1198"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -177,14 +167,12 @@
       "local": {
         "letra": "C",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "GRAU DULCET, XAVIER",
-        "licencia": "6184",
-        "id": "6184"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -225,14 +213,12 @@
       "local": {
         "letra": "A",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "GAVIN MOLINS, JORDI",
-        "licencia": "1198",
-        "id": "1198"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -278,14 +264,12 @@
       "local": {
         "letra": "C",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -321,14 +305,12 @@
       "local": {
         "letra": "B",
         "nombre": "LIN CHEN, HONGXIANG",
-        "licencia": "6779",
-        "id": "6779"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "GRAU DULCET, XAVIER",
-        "licencia": "6184",
-        "id": "6184"
+        "licencia": "0"
       },
       "sets": [
         {

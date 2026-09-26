@@ -1,0 +1,318 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_106-119_3",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 3,
+  "fecha": "2026-01-10",
+  "hora": "18:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT DEL NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "106",
+      "nombre": "CLUB NATACIÓ SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "119",
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "0"
+      },
+      "B": {
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "HUSSAINI, MOMINA",
+        "licencia": "0"
+      },
+      "Y": {
+        "nombre": "LENIS ODSTRCIL, JO",
+        "licencia": "0"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "JURADO HERRERO, LAIA BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "HUSSAINI, MOMINA LENIS ODSTRCIL, JO",
+        "licencia": "0"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HUSSAINI, MOMINA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LENIS ODSTRCIL, JO",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "JURADO HERRERO, LAIA BALASTEGUI HERNANDEZ, ABRIL",
+            "licencia": "0"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "HUSSAINI, MOMINA LENIS ODSTRCIL, JO",
+            "licencia": "0"
+          }
+        ],
+        "nombre": "HUSSAINI, MOMINA LENIS ODSTRCIL, JO",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LENIS ODSTRCIL, JO",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HUSSAINI, MOMINA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS DE GRÀCIA",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

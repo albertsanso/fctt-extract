@@ -40,61 +40,43 @@
     "local": {
       "Y": {
         "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "15118",
-        "id": "15118"
+        "licencia": "0"
       },
       "X": {
         "nombre": "MORATO VILA, EDUARD",
-        "licencia": "3108",
-        "id": "3108"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
+        "licencia": "0"
       },
       "B": {
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "C": {
         "nombre": "MOLINA NAVARRO, MIGUEL",
-        "licencia": "755",
-        "id": "755"
+        "licencia": "0"
       }
     }
   },
   "dobles": {
     "local": [
       {
-        "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "15118",
-        "id": "15118"
-      },
-      {
-        "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "nombre": "CABRA SUREDA, BIEL TURA POCH, DANIEL",
+        "licencia": "0"
       }
     ],
     "visitante": [
       {
-        "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
-      },
-      {
-        "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "nombre": "HUGUET MOLIST, SERGI GARRELL GARCIA, AMADOR",
+        "licencia": "0"
       }
     ]
   },
@@ -106,14 +88,12 @@
       "local": {
         "letra": "Y",
         "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "15118",
-        "id": "15118"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -159,14 +139,12 @@
       "local": {
         "letra": "X",
         "nombre": "MORATO VILA, EDUARD",
-        "licencia": "3108",
-        "id": "3108"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -202,14 +180,12 @@
       "local": {
         "letra": "Z",
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "MOLINA NAVARRO, MIGUEL",
-        "licencia": "755",
-        "id": "755"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -250,14 +226,12 @@
       "local": {
         "letra": "X",
         "nombre": "MORATO VILA, EDUARD",
-        "licencia": "3108",
-        "id": "3108"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -303,14 +277,12 @@
       "local": {
         "letra": "Y",
         "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "15118",
-        "id": "15118"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "MOLINA NAVARRO, MIGUEL",
-        "licencia": "755",
-        "id": "755"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -346,14 +318,12 @@
       "local": {
         "letra": "Z",
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -395,32 +365,19 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "CABRA SUREDA, BIEL",
-            "licencia": "15118",
-            "id": "15118"
-          },
-          {
-            "nombre": "TURA POCH, DANIEL",
-            "licencia": "10239",
-            "id": "10239"
+            "nombre": "CABRA SUREDA, BIEL TURA POCH, DANIEL",
+            "licencia": "0"
           }
         ],
-        "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "15118",
-        "id": "15118"
+        "nombre": "CABRA SUREDA, BIEL TURA POCH, DANIEL",
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "HUGUET MOLIST, SERGI",
-            "licencia": "7149",
-            "id": "7149"
-          },
-          {
-            "nombre": "GARRELL GARCIA, AMADOR",
-            "licencia": "10740",
-            "id": "10740"
+            "nombre": "HUGUET MOLIST, SERGI GARRELL GARCIA, AMADOR",
+            "licencia": "0"
           }
         ]
       },

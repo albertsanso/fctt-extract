@@ -7,6 +7,8 @@ the JSON files mirror that hierarchy as ``.../jornada-{n}-partido-{id}.json``.
 Encounters that have not been played yet, or whose acta is not published, are emitted with
 ``acta_publicada: false`` and empty ``partidos``/``alineaciones``; they are named after the team
 ids (``jornada-{n}-partido-{home}-{away}.json``) and replaced once the real acta appears.
+Female jornada pages without any encounter yet still yield ``jornada-{n}-partido-pendiente.json``
+with the minimum required fields, replaced once the encounters are published.
 It intentionally uses only Python's standard library.
 """
 
@@ -35,6 +37,7 @@ FEMALE_CATEGORY_PREFIX = "copa-catalana-femenina"
 SEASON_PATTERN = re.compile(r"\d{4}-\d{4}")
 GROUP_PATTERN = re.compile(r"G(\d+)|Other", re.I)
 DEFAULT_PHASE = "1a Fase"
+PENDING_ID = "pendiente"
 LOGGER = logging.getLogger("fctt-parser")
 
 
@@ -175,8 +178,15 @@ def participant_from_cell(cell: Node | None) -> list[dict[str, object]]:
         if identifier:
             player["id"] = identifier
         players.append(player)
-    if not players and clean(cell.text()):
-        players.append({"nombre": clean(cell.text()), "licencia": "0"})
+    if not players:
+        # Unlinked names; a doubles pair is separated by <br>.
+        names = [""]
+        for child in cell.children:
+            if isinstance(child, Node) and child.tag == "br":
+                names.append("")
+            else:
+                names[-1] += " " + (child if isinstance(child, str) else child.text())
+        players.extend({"nombre": clean(name), "licencia": "0"} for name in names if clean(name))
     return players
 
 
@@ -225,6 +235,9 @@ def parse_season_title(root: Node) -> tuple[str | None, str | None, int | None]:
     season_match = re.search(r"Temporada\s+(\d{4})\s*/\s*(\d{4})", title, re.I)
     group_match = re.search(r"GRUP\s+(\d+)", title, re.I)
     competition = re.sub(r"\s*-?\s*Temporada\s+\d{4}\s*/\s*\d{4}.*$", "", title, flags=re.I).strip(" -") or None
+    if not competition:
+        # Pages without encounters lack the league title; fall back to the page heading ("1a Divisió").
+        competition = class_text(root, "entry-title") or None
     return (f"{season_match.group(1)}/{season_match.group(2)}" if season_match else None, competition, int(group_match.group(1)) if group_match else None)
 
 
@@ -353,6 +366,27 @@ def parse_match(match_node: Node, *, common: dict[str, object], number: int) -> 
     }
 
 
+def pending_record(common: dict[str, object]) -> dict[str, object]:
+    """Minimum acta for a jornada page that lists no encounters yet."""
+    team = {"id": None, "nombre": None, "delegado": None, "entrenador": None}
+    return {
+        "acta_publicada": False,
+        **common,
+        "fecha": None,
+        "hora": None,
+        "lugar": None,
+        "equipos": {"local": dict(team), "visitante": dict(team)},
+        "abc_es_local": None,
+        "arbitros": {"principal": None, "asistente": None},
+        "alineaciones": {"local": {}, "visitante": {}},
+        "dobles": None,
+        "partidos": [],
+        "resultado_final": {"ganador": None, "marcador_partidos": None, "marcador_juegos": None},
+        "acta_protestada": False,
+        "_id": PENDING_ID,
+    }
+
+
 def placeholder_id(teams: dict[str, dict[str, object]]) -> str | None:
     """Stable id for an encounter without published acta, built from the home and away team ids."""
     home, away = teams["local"]["id"], teams["visitante"]["id"]
@@ -371,11 +405,15 @@ def group_folder(location: Location, gender: str, group: int | None) -> str | No
     return f"G{group}" if gender == "male" and group else None
 
 
-def match_identifier(record: dict[str, object], *, season: str, category: str, group: str) -> str:
-    """``{season}_{category}_{group}_{phase}_{home}-{away}_{jornada}``, e.g. 2026-2027_tercera-nacional_G1_1aFase_123-149_5."""
+def match_identifier(record: dict[str, object], *, season: str, category: str, group: str | None) -> str:
+    """``{season}_{category}_[{group}_]{phase}_{home}-{away}_{jornada}``, mirroring the output folders.
+
+    e.g. 2026-2027_tercera-nacional_G1_1aFase_123-149_5 or 2025-2026_copa-catalana-femenina-1a_1aFase_120-112_1.
+    """
     phase = re.sub(r"[\s_]+", "", str(record["fase"]))
-    teams = placeholder_id(record["equipos"]) or f"partido-{record['_id']}"
-    return "_".join((season, category.replace("_", "-"), group, phase, f"{teams}_{record['jornada']}"))
+    teams = placeholder_id(record["equipos"]) or (PENDING_ID if record["_id"] == PENDING_ID else f"partido-{record['_id']}")
+    parts = (season, category.replace("_", "-"), group, phase, f"{teams}_{record['jornada']}")
+    return "_".join(part for part in parts if part)
 
 
 def swap_score(score: dict[str, object] | None) -> dict[str, object] | None:
@@ -410,9 +448,11 @@ def parse_file(source: Path) -> list[dict[str, object]]:
         "fase": DEFAULT_PHASE, "grupo": group, "jornada": extract_jornada(root, source),
     }
     records = [parse_match(node, common=common, number=index) for index, node in enumerate(root.find_all(class_name="match-container"), start=1)]
+    if not records and gender == "female":
+        records = [pending_record(common)]
     season_slug = location.season or (season or "").replace("/", "-")
     category = category_for(location, gender, competition)
-    group_slug = group_folder(location, gender, group) or f"G{group}"
+    group_slug = group_folder(location, gender, group)
     return [
         {"id_partido": match_identifier(record, season=season_slug, category=category, group=group_slug), **record}
         for record in records
@@ -464,7 +504,12 @@ def parse_all(
             except ValueError as error:
                 LOGGER.error("%s", error)
                 continue
-            record.pop("_id", None)
+            record_id = record.pop("_id", None)
+            if record_id != PENDING_ID:
+                pending = destination.with_name(f"jornada-{record['jornada']}-partido-{PENDING_ID}.json")
+                if pending.exists():
+                    LOGGER.info("Jornada amb partits; s'elimina el provisional %s", pending)
+                    pending.unlink()
             placeholder = placeholder_id(record["equipos"])
             if record["acta_publicada"] and placeholder:
                 stale = destination.with_name(f"jornada-{record['jornada']}-partido-{placeholder}.json")

@@ -40,18 +40,15 @@
     "local": {
       "Y": {
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "X": {
         "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
+        "licencia": "0"
       }
     },
     "visitante": {
@@ -81,8 +78,7 @@
       "local": {
         "letra": "Y",
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
@@ -129,8 +125,7 @@
       "local": {
         "letra": "X",
         "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
@@ -172,8 +167,7 @@
       "local": {
         "letra": "Z",
         "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
@@ -220,8 +214,7 @@
       "local": {
         "letra": "X",
         "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
@@ -268,8 +261,7 @@
       "local": {
         "letra": "Y",
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
@@ -311,8 +303,7 @@
       "local": {
         "letra": "Z",
         "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",

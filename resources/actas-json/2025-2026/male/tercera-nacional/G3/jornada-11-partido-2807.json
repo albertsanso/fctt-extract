@@ -37,29 +37,35 @@
     "local": {
       "A": {
         "nombre": "CHIC VALLS, DAVID",
-        "licencia": "0"
+        "licencia": "7632",
+        "id": "7632"
       },
       "B": {
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "0"
+        "licencia": "10740",
+        "id": "10740"
       },
       "C": {
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "0"
+        "licencia": "7149",
+        "id": "7149"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "0"
+        "licencia": "4618",
+        "id": "4618"
       },
       "X": {
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "0"
+        "licencia": "13683",
+        "id": "13683"
       },
       "Z": {
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "0"
+        "licencia": "1266",
+        "id": "1266"
       }
     }
   },
@@ -72,12 +78,14 @@
       "local": {
         "letra": "A",
         "nombre": "CHIC VALLS, DAVID",
-        "licencia": "0"
+        "licencia": "7632",
+        "id": "7632"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "0"
+        "licencia": "4618",
+        "id": "4618"
       },
       "sets": [
         {
@@ -118,12 +126,14 @@
       "local": {
         "letra": "B",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "0"
+        "licencia": "10740",
+        "id": "10740"
       },
       "visitante": {
         "letra": "X",
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "0"
+        "licencia": "13683",
+        "id": "13683"
       },
       "sets": [
         {
@@ -159,12 +169,14 @@
       "local": {
         "letra": "C",
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "0"
+        "licencia": "7149",
+        "id": "7149"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "0"
+        "licencia": "1266",
+        "id": "1266"
       },
       "sets": [
         {
@@ -210,12 +222,14 @@
       "local": {
         "letra": "A",
         "nombre": "CHIC VALLS, DAVID",
-        "licencia": "0"
+        "licencia": "7632",
+        "id": "7632"
       },
       "visitante": {
         "letra": "X",
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "0"
+        "licencia": "13683",
+        "id": "13683"
       },
       "sets": [
         {
@@ -256,12 +270,14 @@
       "local": {
         "letra": "C",
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "0"
+        "licencia": "7149",
+        "id": "7149"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "0"
+        "licencia": "4618",
+        "id": "4618"
       },
       "sets": [
         {
@@ -302,12 +318,14 @@
       "local": {
         "letra": "B",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "0"
+        "licencia": "10740",
+        "id": "10740"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "0"
+        "licencia": "1266",
+        "id": "1266"
       },
       "sets": [
         {

@@ -40,15 +40,18 @@
     "local": {
       "A": {
         "nombre": "VOISIN, MAXIME",
-        "licencia": "0"
+        "licencia": "20945",
+        "id": "20945"
       },
       "B": {
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "0"
+        "licencia": "13097",
+        "id": "13097"
       },
       "C": {
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "0"
+        "licencia": "11633",
+        "id": "11633"
       }
     },
     "visitante": {
@@ -78,7 +81,8 @@
       "local": {
         "letra": "A",
         "nombre": "VOISIN, MAXIME",
-        "licencia": "0"
+        "licencia": "20945",
+        "id": "20945"
       },
       "visitante": {
         "letra": "Y",
@@ -120,7 +124,8 @@
       "local": {
         "letra": "B",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "0"
+        "licencia": "13097",
+        "id": "13097"
       },
       "visitante": {
         "letra": "X",
@@ -167,7 +172,8 @@
       "local": {
         "letra": "C",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "0"
+        "licencia": "11633",
+        "id": "11633"
       },
       "visitante": {
         "letra": "Z",
@@ -209,7 +215,8 @@
       "local": {
         "letra": "A",
         "nombre": "VOISIN, MAXIME",
-        "licencia": "0"
+        "licencia": "20945",
+        "id": "20945"
       },
       "visitante": {
         "letra": "X",
@@ -251,7 +258,8 @@
       "local": {
         "letra": "C",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "0"
+        "licencia": "11633",
+        "id": "11633"
       },
       "visitante": {
         "letra": "Y",
@@ -293,7 +301,8 @@
       "local": {
         "letra": "B",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "0"
+        "licencia": "13097",
+        "id": "13097"
       },
       "visitante": {
         "letra": "Z",

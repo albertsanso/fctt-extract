@@ -1,0 +1,335 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_105-114_5",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2026-03-21",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "105",
+      "nombre": "C.T.T. ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "114",
+      "nombre": "CTT VILASSAR",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "Y": {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      },
+      "B": {
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      },
+      {
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "OSUNA CRUZ, LOLA",
+            "licencia": "16271",
+            "id": "16271"
+          },
+          {
+            "nombre": "CARREÑO PASTOR, ARIADNA",
+            "licencia": "6303",
+            "id": "6303"
+          }
+        ],
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CARBONELL VINYET, TURA",
+            "licencia": "12981",
+            "id": "12981"
+          },
+          {
+            "nombre": "CUMPLIDO CHACON, GUADALUPE",
+            "licencia": "11942",
+            "id": "11942"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILASSAR",
+    "marcador_partidos": {
+      "local": 0,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,318 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_108-112_3",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2026-01-10",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "108",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "112",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "0"
+      },
+      "B": {
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "0"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "0"
+      },
+      "Y": {
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "0"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "HERNÀNDEZ SANS, MARTINA SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "0"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "NONO BONANY, ELISENDA NONÓ RIUS, GEMMA",
+        "licencia": "0"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 5,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "HERNÀNDEZ SANS, MARTINA SANCHEZ LUGAN, MARI CARMEN",
+            "licencia": "0"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "NONO BONANY, ELISENDA NONÓ RIUS, GEMMA",
+            "licencia": "0"
+          }
+        ],
+        "nombre": "NONO BONANY, ELISENDA NONÓ RIUS, GEMMA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALÍ",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

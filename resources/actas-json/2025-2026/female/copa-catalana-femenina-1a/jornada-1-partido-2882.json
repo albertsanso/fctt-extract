@@ -1,0 +1,345 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_113-108_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2025-10-25",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS DEL COL·LEGI ATENEU INSTRUCTIU. FRANCESC MACIÀ, 57. ENFRONT DEL CAMP DE FUTBOL I AL COSTAT DEL C.A.P.,08970 SANT JOAN DESPÍ"
+  },
+  "equipos": {
+    "local": {
+      "id": "113",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "108",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "B": {
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "11864",
+        "id": "11864"
+      },
+      "Y": {
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "15059",
+        "id": "15059"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      {
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      {
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "11864",
+        "id": "11864"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "11864",
+        "id": "11864"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "DIPOLLINA ANAYA, GIULIA",
+            "licencia": "12654",
+            "id": "12654"
+          },
+          {
+            "nombre": "NUÑEZ GARCIA, LIDIA",
+            "licencia": "16491",
+            "id": "16491"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "NÁJAR ARRIETA, PAULA",
+            "licencia": "17725",
+            "id": "17725"
+          },
+          {
+            "nombre": "RODRIGUEZ JORDAN, MIREIA",
+            "licencia": "11864",
+            "id": "11864"
+          }
+        ],
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "15059",
+        "id": "15059"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "11864",
+        "id": "11864"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALÍ",
+    "marcador_partidos": {
+      "local": 0,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

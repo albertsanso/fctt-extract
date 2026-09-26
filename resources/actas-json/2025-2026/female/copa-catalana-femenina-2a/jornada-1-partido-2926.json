@@ -1,0 +1,345 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_119-107_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2025-10-25",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "LOCAL TENNIS TAULA PAVELLÓ DE LES COMES. CARRER CARLES RIBA, S/N. ENTRADA PER LA PORTA DE L'ANFITEATRE,08700 IGUALADA"
+  },
+  "equipos": {
+    "local": {
+      "id": "119",
+      "nombre": "LLUÏSOS DE GRÀCIA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "107",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "LENIS ODSTRCIL, JO",
+        "licencia": "18961",
+        "id": "18961"
+      },
+      "B": {
+        "nombre": "CILLERO VIVERO, DELIA",
+        "licencia": "19214",
+        "id": "19214"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      "Y": {
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "CILLERO VIVERO, DELIA",
+        "licencia": "19214",
+        "id": "19214"
+      },
+      {
+        "nombre": "CILLERO VIVERO, DELIA",
+        "licencia": "19214",
+        "id": "19214"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      {
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "LENIS ODSTRCIL, JO",
+        "licencia": "18961",
+        "id": "18961"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "CILLERO VIVERO, DELIA",
+        "licencia": "19214",
+        "id": "19214"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CILLERO VIVERO, DELIA",
+            "licencia": "19214",
+            "id": "19214"
+          },
+          {
+            "nombre": "CILLERO VIVERO, DELIA",
+            "licencia": "19214",
+            "id": "19214"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "GARCIA ORTEGA, MARIBEL",
+            "licencia": "17807",
+            "id": "17807"
+          },
+          {
+            "nombre": "VALLES, FINA",
+            "licencia": "20277",
+            "id": "20277"
+          }
+        ],
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "LENIS ODSTRCIL, JO",
+        "licencia": "18961",
+        "id": "18961"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CILLERO VIVERO, DELIA",
+        "licencia": "19214",
+        "id": "19214"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LLUÏSOS DE GRÀCIA",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

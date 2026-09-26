@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "CAMPOS MATA, SERGI",
-        "licencia": "6794",
-        "id": "6794"
+        "licencia": "0"
       },
       "B": {
         "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
+        "licencia": "0"
       },
       "C": {
         "nombre": "MARTINEZ FONTANE, JUAN",
-        "licencia": "8137",
-        "id": "8137"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
+        "licencia": "0"
       },
       "X": {
         "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "CAMPOS MATA, SERGI",
-        "licencia": "6794",
-        "id": "6794"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -129,14 +121,12 @@
       "local": {
         "letra": "B",
         "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "C",
         "nombre": "MARTINEZ FONTANE, JUAN",
-        "licencia": "8137",
-        "id": "8137"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -220,14 +208,12 @@
       "local": {
         "letra": "A",
         "nombre": "CAMPOS MATA, SERGI",
-        "licencia": "6794",
-        "id": "6794"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PETROVICI, PAUL",
-        "licencia": "15006",
-        "id": "15006"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -263,14 +249,12 @@
       "local": {
         "letra": "C",
         "nombre": "MARTINEZ FONTANE, JUAN",
-        "licencia": "8137",
-        "id": "8137"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "BUSQUETS GONZALEZ, FERRAN",
-        "licencia": "5747",
-        "id": "5747"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -306,14 +290,12 @@
       "local": {
         "letra": "B",
         "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "SANCHEZ VALIENTE, DIDAC",
-        "licencia": "6500",
-        "id": "6500"
+        "licencia": "0"
       },
       "sets": [
         {

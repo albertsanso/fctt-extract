@@ -1,0 +1,308 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_106-116_3",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 3,
+  "fecha": "2026-01-10",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT DEL NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "106",
+      "nombre": "CLUB NATACIÓ SABADELL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "116",
+      "nombre": "EL CENTRE-NYX",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      },
+      "Y": {
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "0"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "BADER DARRIULAT, LAUREN",
+        "licencia": "0"
+      },
+      "B": {
+        "nombre": "BERTRAN RIBÓ, MARIA",
+        "licencia": "0"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL JURADO HERRERO, LAIA",
+        "licencia": "0"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "BADER DARRIULAT, LAUREN BERTRAN RIBÓ, MARIA",
+        "licencia": "0"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BADER DARRIULAT, LAUREN",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "BERTRAN RIBÓ, MARIA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "BALASTEGUI HERNANDEZ, ABRIL JURADO HERRERO, LAIA",
+            "licencia": "0"
+          }
+        ],
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL JURADO HERRERO, LAIA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "BADER DARRIULAT, LAUREN BERTRAN RIBÓ, MARIA",
+            "licencia": "0"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "JURADO HERRERO, LAIA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BADER DARRIULAT, LAUREN",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "BALASTEGUI HERNANDEZ, ABRIL",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "BERTRAN RIBÓ, MARIA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 16,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB NATACIÓ SABADELL",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

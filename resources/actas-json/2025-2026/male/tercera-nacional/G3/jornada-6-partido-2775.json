@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "FLORES BARRANCO, VICTOR",
-        "licencia": "6544",
-        "id": "6544"
+        "licencia": "0"
       },
       "B": {
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "1266",
-        "id": "1266"
+        "licencia": "0"
       },
       "C": {
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "MALDONADO VIZCARRA, MARIA FERNANDA",
-        "licencia": "18068",
-        "id": "18068"
+        "licencia": "0"
       },
       "X": {
         "nombre": "MUNNÉ SANS, LAIA",
-        "licencia": "5954",
-        "id": "5954"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "CHAPALAIN, LAURENT",
-        "licencia": "4036",
-        "id": "4036"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "FLORES BARRANCO, VICTOR",
-        "licencia": "6544",
-        "id": "6544"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "MALDONADO VIZCARRA, MARIA FERNANDA",
-        "licencia": "18068",
-        "id": "18068"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -124,14 +116,12 @@
       "local": {
         "letra": "B",
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "1266",
-        "id": "1266"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "MUNNÉ SANS, LAIA",
-        "licencia": "5954",
-        "id": "5954"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "C",
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "CHAPALAIN, LAURENT",
-        "licencia": "4036",
-        "id": "4036"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -215,14 +203,12 @@
       "local": {
         "letra": "A",
         "nombre": "FLORES BARRANCO, VICTOR",
-        "licencia": "6544",
-        "id": "6544"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "MUNNÉ SANS, LAIA",
-        "licencia": "5954",
-        "id": "5954"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -263,14 +249,12 @@
       "local": {
         "letra": "C",
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "MALDONADO VIZCARRA, MARIA FERNANDA",
-        "licencia": "18068",
-        "id": "18068"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -316,14 +300,12 @@
       "local": {
         "letra": "B",
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "1266",
-        "id": "1266"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "CHAPALAIN, LAURENT",
-        "licencia": "4036",
-        "id": "4036"
+        "licencia": "0"
       },
       "sets": [
         {

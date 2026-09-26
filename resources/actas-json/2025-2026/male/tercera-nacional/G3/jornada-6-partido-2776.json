@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "6082",
-        "id": "6082"
+        "licencia": "0"
       },
       "B": {
         "nombre": "HURTÓS COLOMÉ, ORIOL",
-        "licencia": "1505",
-        "id": "1505"
+        "licencia": "0"
       },
       "C": {
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "6596",
-        "id": "6596"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "licencia": "0"
       },
       "X": {
         "nombre": "DACHS ESCOBAR, GIL",
-        "licencia": "11949",
-        "id": "11949"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "MORATO VILA, EDUARD",
-        "licencia": "3108",
-        "id": "3108"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "6082",
-        "id": "6082"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -124,14 +116,12 @@
       "local": {
         "letra": "B",
         "nombre": "HURTÓS COLOMÉ, ORIOL",
-        "licencia": "1505",
-        "id": "1505"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "DACHS ESCOBAR, GIL",
-        "licencia": "11949",
-        "id": "11949"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -167,14 +157,12 @@
       "local": {
         "letra": "C",
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "6596",
-        "id": "6596"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "MORATO VILA, EDUARD",
-        "licencia": "3108",
-        "id": "3108"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -210,14 +198,12 @@
       "local": {
         "letra": "A",
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "6082",
-        "id": "6082"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "DACHS ESCOBAR, GIL",
-        "licencia": "11949",
-        "id": "11949"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -253,14 +239,12 @@
       "local": {
         "letra": "C",
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "6596",
-        "id": "6596"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "10239",
-        "id": "10239"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -296,14 +280,12 @@
       "local": {
         "letra": "B",
         "nombre": "HURTÓS COLOMÉ, ORIOL",
-        "licencia": "1505",
-        "id": "1505"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "MORATO VILA, EDUARD",
-        "licencia": "3108",
-        "id": "3108"
+        "licencia": "0"
       },
       "sets": [
         {

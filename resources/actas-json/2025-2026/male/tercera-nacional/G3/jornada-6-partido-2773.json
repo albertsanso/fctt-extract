@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
+        "licencia": "0"
       },
       "B": {
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "701",
-        "id": "701"
+        "licencia": "0"
       },
       "C": {
         "nombre": "BERNADES MAYORDOMO, RAMON",
-        "licencia": "16272",
-        "id": "16272"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "licencia": "0"
       },
       "X": {
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "RAKVIASHVILI, GURAMI",
-        "licencia": "21167",
-        "id": "21167"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -134,14 +126,12 @@
       "local": {
         "letra": "B",
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "701",
-        "id": "701"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -182,14 +172,12 @@
       "local": {
         "letra": "C",
         "nombre": "BERNADES MAYORDOMO, RAMON",
-        "licencia": "16272",
-        "id": "16272"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "RIMBAU PLANAS, JOAQUIM",
-        "licencia": "5016",
-        "id": "5016"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -225,14 +213,12 @@
       "local": {
         "letra": "A",
         "nombre": "RIBAS XUCLÀ, JORDI",
-        "licencia": "1081",
-        "id": "1081"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -268,14 +254,12 @@
       "local": {
         "letra": "C",
         "nombre": "BERNADES MAYORDOMO, RAMON",
-        "licencia": "16272",
-        "id": "16272"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -311,14 +295,12 @@
       "local": {
         "letra": "B",
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "701",
-        "id": "701"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "RAKVIASHVILI, GURAMI",
-        "licencia": "21167",
-        "id": "21167"
+        "licencia": "0"
       },
       "sets": [
         {

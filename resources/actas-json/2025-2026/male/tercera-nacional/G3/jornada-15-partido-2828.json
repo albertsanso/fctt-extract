@@ -40,61 +40,43 @@
     "local": {
       "Y": {
         "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
+        "licencia": "0"
       },
       "X": {
         "nombre": "HUERTAS ARTO, BRUNO",
-        "licencia": "10139",
-        "id": "10139"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "MUNNÉ SANS, LAIA",
-        "licencia": "5954",
-        "id": "5954"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
+        "licencia": "0"
       },
       "B": {
         "nombre": "RIMBAU PLANAS, JOAQUIM",
-        "licencia": "5016",
-        "id": "5016"
+        "licencia": "0"
       },
       "C": {
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "licencia": "0"
       }
     }
   },
   "dobles": {
     "local": [
       {
-        "nombre": "HUERTAS ARTO, BRUNO",
-        "licencia": "10139",
-        "id": "10139"
-      },
-      {
-        "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
+        "nombre": "HUERTAS ARTO, BRUNO CASTILLO HEREDIA, FRANCESC",
+        "licencia": "0"
       }
     ],
     "visitante": [
       {
-        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
-      },
-      {
-        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "0"
       }
     ]
   },
@@ -106,14 +88,12 @@
       "local": {
         "letra": "Y",
         "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -149,14 +129,12 @@
       "local": {
         "letra": "X",
         "nombre": "HUERTAS ARTO, BRUNO",
-        "licencia": "10139",
-        "id": "10139"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "RIMBAU PLANAS, JOAQUIM",
-        "licencia": "5016",
-        "id": "5016"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -202,14 +180,12 @@
       "local": {
         "letra": "Z",
         "nombre": "MUNNÉ SANS, LAIA",
-        "licencia": "5954",
-        "id": "5954"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -245,14 +221,12 @@
       "local": {
         "letra": "X",
         "nombre": "HUERTAS ARTO, BRUNO",
-        "licencia": "10139",
-        "id": "10139"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "3912",
-        "id": "3912"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -288,14 +262,12 @@
       "local": {
         "letra": "Y",
         "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "972",
-        "id": "972"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "328",
-        "id": "328"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -336,14 +308,12 @@
       "local": {
         "letra": "Z",
         "nombre": "MUNNÉ SANS, LAIA",
-        "licencia": "5954",
-        "id": "5954"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "RIMBAU PLANAS, JOAQUIM",
-        "licencia": "5016",
-        "id": "5016"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -385,32 +355,19 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "HUERTAS ARTO, BRUNO",
-            "licencia": "10139",
-            "id": "10139"
-          },
-          {
-            "nombre": "CASTILLO HEREDIA, FRANCESC",
-            "licencia": "972",
-            "id": "972"
+            "nombre": "HUERTAS ARTO, BRUNO CASTILLO HEREDIA, FRANCESC",
+            "licencia": "0"
           }
         ],
-        "nombre": "HUERTAS ARTO, BRUNO",
-        "licencia": "10139",
-        "id": "10139"
+        "nombre": "HUERTAS ARTO, BRUNO CASTILLO HEREDIA, FRANCESC",
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-            "licencia": "3912",
-            "id": "3912"
-          },
-          {
-            "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-            "licencia": "328",
-            "id": "328"
+            "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS BOIX LAMAÑA, ANGEL ANTONIO",
+            "licencia": "0"
           }
         ]
       },

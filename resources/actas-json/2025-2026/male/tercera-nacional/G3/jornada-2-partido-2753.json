@@ -40,18 +40,15 @@
     "local": {
       "Y": {
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "licencia": "0"
       },
       "X": {
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       }
     },
     "visitante": {
@@ -81,8 +78,7 @@
       "local": {
         "letra": "Y",
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
@@ -134,8 +130,7 @@
       "local": {
         "letra": "X",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
@@ -177,8 +172,7 @@
       "local": {
         "letra": "Z",
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
@@ -230,8 +224,7 @@
       "local": {
         "letra": "X",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
@@ -283,8 +276,7 @@
       "local": {
         "letra": "Y",
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
@@ -326,8 +318,7 @@
       "local": {
         "letra": "Z",
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",

@@ -40,35 +40,29 @@
     "local": {
       "Y": {
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "X": {
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "GARCIA TAPIA, SANTIAGO",
-        "licencia": "14578",
-        "id": "14578"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "MIRO TARDY, SERGI",
-        "licencia": "18203",
-        "id": "18203"
+        "licencia": "0"
       },
       "B": {
         "nombre": "CERVANTES CABAS, JOEL",
-        "licencia": "8679",
-        "id": "8679"
+        "licencia": "0"
       },
       "C": {
         "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "15782",
-        "id": "15782"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "Y",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "MIRO TARDY, SERGI",
-        "licencia": "18203",
-        "id": "18203"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -129,14 +121,12 @@
       "local": {
         "letra": "X",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "CERVANTES CABAS, JOEL",
-        "licencia": "8679",
-        "id": "8679"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GARCIA TAPIA, SANTIAGO",
-        "licencia": "14578",
-        "id": "14578"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "15782",
-        "id": "15782"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -225,14 +213,12 @@
       "local": {
         "letra": "X",
         "nombre": "HUGUET MOLIST, SERGI",
-        "licencia": "7149",
-        "id": "7149"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "MIRO TARDY, SERGI",
-        "licencia": "18203",
-        "id": "18203"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -268,14 +254,12 @@
       "local": {
         "letra": "Y",
         "nombre": "GARRELL GARCIA, AMADOR",
-        "licencia": "10740",
-        "id": "10740"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "15782",
-        "id": "15782"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -311,14 +295,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GARCIA TAPIA, SANTIAGO",
-        "licencia": "14578",
-        "id": "14578"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "CERVANTES CABAS, JOEL",
-        "licencia": "8679",
-        "id": "8679"
+        "licencia": "0"
       },
       "sets": [
         {

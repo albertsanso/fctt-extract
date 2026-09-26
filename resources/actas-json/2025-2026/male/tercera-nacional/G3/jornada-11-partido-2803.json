@@ -40,29 +40,35 @@
     "local": {
       "A": {
         "nombre": "LU, MING PU",
-        "licencia": "0"
+        "licencia": "17889",
+        "id": "17889"
       },
       "B": {
         "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "0"
+        "licencia": "15118",
+        "id": "15118"
       },
       "C": {
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "0"
+        "licencia": "10239",
+        "id": "10239"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "CERVANTES CABAS, JOEL",
-        "licencia": "0"
+        "licencia": "8679",
+        "id": "8679"
       },
       "X": {
         "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "0"
+        "licencia": "15782",
+        "id": "15782"
       },
       "Z": {
         "nombre": "ABIO BUIL, XAVIER",
-        "licencia": "0"
+        "licencia": "10526",
+        "id": "10526"
       }
     }
   },
@@ -75,12 +81,14 @@
       "local": {
         "letra": "A",
         "nombre": "LU, MING PU",
-        "licencia": "0"
+        "licencia": "17889",
+        "id": "17889"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CERVANTES CABAS, JOEL",
-        "licencia": "0"
+        "licencia": "8679",
+        "id": "8679"
       },
       "sets": [
         {
@@ -121,12 +129,14 @@
       "local": {
         "letra": "B",
         "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "0"
+        "licencia": "15118",
+        "id": "15118"
       },
       "visitante": {
         "letra": "X",
         "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "0"
+        "licencia": "15782",
+        "id": "15782"
       },
       "sets": [
         {
@@ -172,12 +182,14 @@
       "local": {
         "letra": "C",
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "0"
+        "licencia": "10239",
+        "id": "10239"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "ABIO BUIL, XAVIER",
-        "licencia": "0"
+        "licencia": "10526",
+        "id": "10526"
       },
       "sets": [
         {
@@ -218,12 +230,14 @@
       "local": {
         "letra": "A",
         "nombre": "LU, MING PU",
-        "licencia": "0"
+        "licencia": "17889",
+        "id": "17889"
       },
       "visitante": {
         "letra": "X",
         "nombre": "MARTÍNEZ SEGURA, BIEL",
-        "licencia": "0"
+        "licencia": "15782",
+        "id": "15782"
       },
       "sets": [
         {
@@ -264,12 +278,14 @@
       "local": {
         "letra": "C",
         "nombre": "TURA POCH, DANIEL",
-        "licencia": "0"
+        "licencia": "10239",
+        "id": "10239"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CERVANTES CABAS, JOEL",
-        "licencia": "0"
+        "licencia": "8679",
+        "id": "8679"
       },
       "sets": [
         {
@@ -305,12 +321,14 @@
       "local": {
         "letra": "B",
         "nombre": "CABRA SUREDA, BIEL",
-        "licencia": "0"
+        "licencia": "15118",
+        "id": "15118"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "ABIO BUIL, XAVIER",
-        "licencia": "0"
+        "licencia": "10526",
+        "id": "10526"
       },
       "sets": [
         {

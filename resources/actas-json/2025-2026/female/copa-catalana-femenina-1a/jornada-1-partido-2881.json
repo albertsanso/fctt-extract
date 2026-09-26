@@ -1,0 +1,355 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_105-109_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2025-10-25",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS DEL COL·LEGI ATENEU INSTRUCTIU. FRANCESC MACIÀ, 57. ENFRONT DEL CAMP DE FUTBOL I AL COSTAT DEL C.A.P.,08970 SANT JOAN DESPÍ"
+  },
+  "equipos": {
+    "local": {
+      "id": "105",
+      "nombre": "C.T.T. ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "109",
+      "nombre": "CTT ELS AMICS TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "Y": {
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      },
+      "B": {
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "15602",
+        "id": "15602"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      {
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "15602",
+        "id": "15602"
+      },
+      {
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CORDON CANTÓ, MARIA",
+        "licencia": "17683",
+        "id": "17683"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CARREÑO PASTOR, ARIADNA",
+            "licencia": "6303",
+            "id": "6303"
+          },
+          {
+            "nombre": "INFANTE LOPE, JULIA",
+            "licencia": "220",
+            "id": "220"
+          }
+        ],
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ROCABERT FONTANET, AINA",
+            "licencia": "15602",
+            "id": "15602"
+          },
+          {
+            "nombre": "ROCABERT FONTANET, JUDIT",
+            "licencia": "15601",
+            "id": "15601"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 16,
+          "visitante": 14
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "15602",
+        "id": "15602"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. ATENEU 1882",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

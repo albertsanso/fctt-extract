@@ -40,35 +40,29 @@
     "local": {
       "Y": {
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "X": {
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "RICO RODRIGUEZ, LIDIA",
-        "licencia": "4432",
-        "id": "4432"
+        "licencia": "0"
       },
       "B": {
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "C": {
         "nombre": "MOGAS PLADEVALL, AINA",
-        "licencia": "4717",
-        "id": "4717"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "RICO RODRIGUEZ, LIDIA",
-        "licencia": "4432",
-        "id": "4432"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -129,14 +121,12 @@
       "local": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "MOGAS PLADEVALL, AINA",
-        "licencia": "4717",
-        "id": "4717"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -215,14 +203,12 @@
       "local": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "RICO RODRIGUEZ, LIDIA",
-        "licencia": "4432",
-        "id": "4432"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -258,14 +244,12 @@
       "local": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "MOGAS PLADEVALL, AINA",
-        "licencia": "4717",
-        "id": "4717"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -311,14 +295,12 @@
       "local": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "sets": [
         {

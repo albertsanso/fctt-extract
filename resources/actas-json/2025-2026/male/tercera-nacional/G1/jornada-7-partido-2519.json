@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
+        "licencia": "0"
       },
       "B": {
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "C": {
         "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
+        "licencia": "0"
       },
       "X": {
         "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -124,14 +116,12 @@
       "local": {
         "letra": "B",
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -177,14 +167,12 @@
       "local": {
         "letra": "C",
         "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -230,14 +218,12 @@
       "local": {
         "letra": "A",
         "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -278,14 +264,12 @@
       "local": {
         "letra": "C",
         "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -331,14 +315,12 @@
       "local": {
         "letra": "B",
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "CONDE LORENTE, F. XAVIER",
-        "licencia": "1752",
-        "id": "1752"
+        "licencia": "0"
       },
       "sets": [
         {

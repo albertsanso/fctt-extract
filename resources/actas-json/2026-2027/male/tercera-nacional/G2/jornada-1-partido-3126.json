@@ -1,0 +1,355 @@
+{
+  "id_partido": "2026-2027_tercera-nacional_G2_1aFase_134-144_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2026-09-26",
+  "hora": "18:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CEIP ÀNGEL GUIMERÀ. C/ÀNGEL GUIMERÀ, S/N,25600 BALAGUER"
+  },
+  "equipos": {
+    "local": {
+      "id": "134",
+      "nombre": "CTT BALAGUER PÀMIES VÍTAE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "144",
+      "nombre": "UNIÓ ESPORTIVA SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "DAVID CAMPANYA BASSEDA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "PÀMIES GALLEGO, ALEIX",
+        "licencia": "10235",
+        "id": "10235"
+      },
+      "B": {
+        "nombre": "PORTAY, JULIEN",
+        "licencia": "18501",
+        "id": "18501"
+      },
+      "C": {
+        "nombre": "HIDISAN, LUCIAN RAZVAN",
+        "licencia": "12204",
+        "id": "12204"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "X": {
+        "nombre": "ESCODA LÓPEZ, ABRIL",
+        "licencia": "12244",
+        "id": "12244"
+      },
+      "Z": {
+        "nombre": "AGULLÓ SESÉ, GERARD",
+        "licencia": "14325",
+        "id": "14325"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "PÀMIES GALLEGO, ALEIX",
+        "licencia": "10235",
+        "id": "10235"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "PORTAY, JULIEN",
+        "licencia": "18501",
+        "id": "18501"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ESCODA LÓPEZ, ABRIL",
+        "licencia": "12244",
+        "id": "12244"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "HIDISAN, LUCIAN RAZVAN",
+        "licencia": "12204",
+        "id": "12204"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "AGULLÓ SESÉ, GERARD",
+        "licencia": "14325",
+        "id": "14325"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "PÀMIES GALLEGO, ALEIX",
+        "licencia": "10235",
+        "id": "10235"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ESCODA LÓPEZ, ABRIL",
+        "licencia": "12244",
+        "id": "12244"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 13,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "HIDISAN, LUCIAN RAZVAN",
+        "licencia": "12204",
+        "id": "12204"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "PORTAY, JULIEN",
+        "licencia": "18501",
+        "id": "18501"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "AGULLÓ SESÉ, GERARD",
+        "licencia": "14325",
+        "id": "14325"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BALAGUER PÀMIES VÍTAE",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

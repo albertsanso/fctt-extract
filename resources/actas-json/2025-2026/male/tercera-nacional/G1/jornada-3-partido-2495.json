@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "B": {
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "C": {
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "X": {
         "nombre": "PRETEL GARRIDO, JOSEP",
-        "licencia": "61",
-        "id": "61"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -134,14 +126,12 @@
       "local": {
         "letra": "B",
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PRETEL GARRIDO, JOSEP",
-        "licencia": "61",
-        "id": "61"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -177,14 +167,12 @@
       "local": {
         "letra": "C",
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -230,14 +218,12 @@
       "local": {
         "letra": "A",
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PRETEL GARRIDO, JOSEP",
-        "licencia": "61",
-        "id": "61"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -273,14 +259,12 @@
       "local": {
         "letra": "C",
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -316,14 +300,12 @@
       "local": {
         "letra": "B",
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "sets": [
         {

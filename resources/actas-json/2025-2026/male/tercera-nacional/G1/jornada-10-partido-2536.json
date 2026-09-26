@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "MARTINEZ FONTANE, JUAN",
-        "licencia": "8137",
-        "id": "8137"
+        "licencia": "0"
       },
       "B": {
         "nombre": "DOMINGO CHAVARRIA, DAVID",
-        "licencia": "11332",
-        "id": "11332"
+        "licencia": "0"
       },
       "C": {
         "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "X": {
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "MARTINEZ FONTANE, JUAN",
-        "licencia": "8137",
-        "id": "8137"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -129,14 +121,12 @@
       "local": {
         "letra": "B",
         "nombre": "CAMPOS MATA, SERGI",
-        "licencia": "6794",
-        "id": "6794"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -177,14 +167,12 @@
       "local": {
         "letra": "C",
         "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -220,14 +208,12 @@
       "local": {
         "letra": "A",
         "nombre": "MARTINEZ FONTANE, JUAN",
-        "licencia": "8137",
-        "id": "8137"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "CUSSÓ PUJOL, JOAN",
-        "licencia": "484",
-        "id": "484"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -273,14 +259,12 @@
       "local": {
         "letra": "C",
         "nombre": "QUEROL COLL, JAUME",
-        "licencia": "5578",
-        "id": "5578"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "TORRADES TORNER, DOMENEC",
-        "licencia": "867",
-        "id": "867"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -316,14 +300,12 @@
       "local": {
         "letra": "B",
         "nombre": "DOMINGO CHAVARRIA, DAVID",
-        "licencia": "11332",
-        "id": "11332"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "PICH SERRA, GUILLEM",
-        "licencia": "13163",
-        "id": "13163"
+        "licencia": "0"
       },
       "sets": [
         {

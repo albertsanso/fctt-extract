@@ -1,0 +1,340 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_107-115_4",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 4,
+  "fecha": "2026-02-07",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CLUB TENNIS TAULA GANXETS DE REUS. CARRER D'EVARIST FÀBREGAS, 9,43205 REUS"
+  },
+  "equipos": {
+    "local": {
+      "id": "107",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "115",
+      "nombre": "CTT VILASSAR B",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      "B": {
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "JULIÀ GIRALDO, CARMEN",
+        "licencia": "18557",
+        "id": "18557"
+      },
+      "Y": {
+        "nombre": "BALLESTA ALBA, MARIA",
+        "licencia": "18558",
+        "id": "18558"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      },
+      {
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "JULIÀ GIRALDO, CARMEN",
+        "licencia": "18557",
+        "id": "18557"
+      },
+      {
+        "nombre": "BALLESTA ALBA, MARIA",
+        "licencia": "18558",
+        "id": "18558"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "SOTERAS GIBERT, SILVIA",
+        "licencia": "17602",
+        "id": "17602"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "JULIÀ GIRALDO, CARMEN",
+        "licencia": "18557",
+        "id": "18557"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "GONZÁLEZ VALERO, M. JOSÉ",
+        "licencia": "19494",
+        "id": "19494"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "BALLESTA ALBA, MARIA",
+        "licencia": "18558",
+        "id": "18558"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "VALLES, FINA",
+            "licencia": "20277",
+            "id": "20277"
+          },
+          {
+            "nombre": "GARCIA ORTEGA, MARIBEL",
+            "licencia": "17807",
+            "id": "17807"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "JULIÀ GIRALDO, CARMEN",
+            "licencia": "18557",
+            "id": "18557"
+          },
+          {
+            "nombre": "BALLESTA ALBA, MARIA",
+            "licencia": "18558",
+            "id": "18558"
+          }
+        ],
+        "nombre": "JULIÀ GIRALDO, CARMEN",
+        "licencia": "18557",
+        "id": "18557"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "GARCIA ORTEGA, MARIBEL",
+        "licencia": "17807",
+        "id": "17807"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "BALLESTA ALBA, MARIA",
+        "licencia": "18558",
+        "id": "18558"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "VALLES, FINA",
+        "licencia": "20277",
+        "id": "20277"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "JULIÀ GIRALDO, CARMEN",
+        "licencia": "18557",
+        "id": "18557"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILASSAR B",
+    "marcador_partidos": {
+      "local": 0,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

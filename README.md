@@ -63,9 +63,13 @@ resources/actas-json/{temporada}/{categoria}/{grup}/jornada_{N}_partido_{id}.jso
 Cada JSON sigue el modelo de `resources/actas-json/model-definition.json` e
 incluye equipos, alineaciones, partidos individuales, dobles, sets, resultado,
 fecha, hora, lugar y árbitro cuando están disponibles.
-Si una página HTML contiene `No s'han trobat resultats.` o no tiene ningún
-partido, no se crea un JSON porque el modelo exige al menos un partido; el
-parser lo informa mediante un warning.
+Si una página HTML masculina contiene `No s'han trobat resultats.` o no tiene
+ningún partido, no se crea un JSON; el parser lo informa mediante un warning.
+En cambio, para `female` se genera igualmente
+`jornada-{N}-partido-pendiente.json` con la información mínima exigida por el
+modelo (`acta_publicada: false`, temporada, género, competición, fase, grupo y
+jornada; el resto a `null` o vacío). Se sustituye automáticamente en cuanto la
+jornada publica sus encuentros.
 
 Para procesar todos los HTML:
 

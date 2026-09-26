@@ -1,0 +1,340 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_105-120_2",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2025-11-22",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE VILABLAREIX. MARROC S/N,17180 VILABLAREIX"
+  },
+  "equipos": {
+    "local": {
+      "id": "105",
+      "nombre": "C.T.T. ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "120",
+      "nombre": "MASQUEFA TRANSPORTES FLORES",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "B": {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "LOPEZ RECHI, NAIARA",
+        "licencia": "11315",
+        "id": "11315"
+      },
+      "Y": {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "LOPEZ RECHI, NAIARA",
+        "licencia": "11315",
+        "id": "11315"
+      },
+      {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LOPEZ RECHI, NAIARA",
+        "licencia": "11315",
+        "id": "11315"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "OSUNA CRUZ, LOLA",
+            "licencia": "16271",
+            "id": "16271"
+          },
+          {
+            "nombre": "CARREÑO PASTOR, ARIADNA",
+            "licencia": "6303",
+            "id": "6303"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LOPEZ RECHI, NAIARA",
+            "licencia": "11315",
+            "id": "11315"
+          },
+          {
+            "nombre": "LÓPEZ RECHI, LEIRE",
+            "licencia": "14192",
+            "id": "14192"
+          }
+        ],
+        "nombre": "LOPEZ RECHI, NAIARA",
+        "licencia": "11315",
+        "id": "11315"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LOPEZ RECHI, NAIARA",
+        "licencia": "11315",
+        "id": "11315"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. ATENEU 1882",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

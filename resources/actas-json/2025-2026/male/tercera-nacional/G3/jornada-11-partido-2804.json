@@ -40,29 +40,35 @@
     "local": {
       "Y": {
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "0"
+        "licencia": "11863",
+        "id": "11863"
       },
       "X": {
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "0"
+        "licencia": "12296",
+        "id": "12296"
       },
       "Z": {
         "nombre": "GRAU DULCET, XAVIER",
-        "licencia": "0"
+        "licencia": "6184",
+        "id": "6184"
       }
     },
     "visitante": {
       "A": {
         "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "0"
+        "licencia": "1002",
+        "id": "1002"
       },
       "B": {
         "nombre": "PONCE SAEZ, CARLOS",
-        "licencia": "0"
+        "licencia": "14735",
+        "id": "14735"
       },
       "C": {
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "0"
+        "licencia": "701",
+        "id": "701"
       }
     }
   },
@@ -75,12 +81,14 @@
       "local": {
         "letra": "Y",
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "0"
+        "licencia": "11863",
+        "id": "11863"
       },
       "visitante": {
         "letra": "A",
         "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "0"
+        "licencia": "1002",
+        "id": "1002"
       },
       "sets": [
         {
@@ -126,12 +134,14 @@
       "local": {
         "letra": "X",
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "0"
+        "licencia": "12296",
+        "id": "12296"
       },
       "visitante": {
         "letra": "B",
         "nombre": "PONCE SAEZ, CARLOS",
-        "licencia": "0"
+        "licencia": "14735",
+        "id": "14735"
       },
       "sets": [
         {
@@ -172,12 +182,14 @@
       "local": {
         "letra": "Z",
         "nombre": "GRAU DULCET, XAVIER",
-        "licencia": "0"
+        "licencia": "6184",
+        "id": "6184"
       },
       "visitante": {
         "letra": "C",
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "0"
+        "licencia": "701",
+        "id": "701"
       },
       "sets": [
         {
@@ -223,12 +235,14 @@
       "local": {
         "letra": "X",
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "0"
+        "licencia": "12296",
+        "id": "12296"
       },
       "visitante": {
         "letra": "A",
         "nombre": "FONTANET PÉREZ, FRANCESC",
-        "licencia": "0"
+        "licencia": "1002",
+        "id": "1002"
       },
       "sets": [
         {
@@ -264,12 +278,14 @@
       "local": {
         "letra": "Y",
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "0"
+        "licencia": "11863",
+        "id": "11863"
       },
       "visitante": {
         "letra": "C",
         "nombre": "ARTACHO CORTÉS, JOAN MANEL",
-        "licencia": "0"
+        "licencia": "701",
+        "id": "701"
       },
       "sets": [
         {
@@ -305,12 +321,14 @@
       "local": {
         "letra": "Z",
         "nombre": "GRAU DULCET, XAVIER",
-        "licencia": "0"
+        "licencia": "6184",
+        "id": "6184"
       },
       "visitante": {
         "letra": "B",
         "nombre": "PONCE SAEZ, CARLOS",
-        "licencia": "0"
+        "licencia": "14735",
+        "id": "14735"
       },
       "sets": [
         {

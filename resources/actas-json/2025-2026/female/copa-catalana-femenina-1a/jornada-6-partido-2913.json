@@ -1,0 +1,335 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_108-114_6",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2026-04-18",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "108",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "114",
+      "nombre": "CTT VILASSAR",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "B": {
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "20728",
+        "id": "20728"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      "Y": {
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      {
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "20728",
+        "id": "20728"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      {
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "20728",
+        "id": "20728"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "NÁJAR ARRIETA, PAULA",
+            "licencia": "17725",
+            "id": "17725"
+          },
+          {
+            "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+            "licencia": "20728",
+            "id": "20728"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CUMPLIDO CHACON, GUADALUPE",
+            "licencia": "11942",
+            "id": "11942"
+          },
+          {
+            "nombre": "CARBONELL VINYET, TURA",
+            "licencia": "12981",
+            "id": "12981"
+          }
+        ],
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "12981",
+        "id": "12981"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "20728",
+        "id": "20728"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "11942",
+        "id": "11942"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILASSAR",
+    "marcador_partidos": {
+      "local": 0,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -122,6 +122,44 @@ class ParseActasTests(unittest.TestCase):
             empty.write_text("<html><body><h2>Temporada 2025/2026</h2><p>No s'han trobat resultats</p></body></html>", encoding="utf-8")
             self.assertEqual(parse_actas.parse_file(empty), [])
 
+    def test_unlinked_doubles_pair_is_split_into_two_players(self):
+        cell = parse_actas.parse_document('<td class="player-info">ROCABERT FONTANET, AINA<br>ROCABERT FONTANET, JUDIT</td>').find_first(tag="td")
+        self.assertEqual(parse_actas.participant_from_cell(cell), [
+            {"nombre": "ROCABERT FONTANET, AINA", "licencia": "0"},
+            {"nombre": "ROCABERT FONTANET, JUDIT", "licencia": "0"},
+        ])
+
+    def test_empty_female_jornada_produces_pending_record(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory) / "2026-2027" / "female" / "copa-catalana-femenina-2a"
+            folder.mkdir(parents=True)
+            (folder / "jornada-3.html").write_text(
+                "<html><body><h1 class=\"entry-title\">2a Divisió</h1><p>No s'han trobat resultats.</p>"
+                "<p>No s'han trobat partits.</p></body></html>", encoding="utf-8")
+            [record] = parse_actas.parse_file(folder / "jornada-3.html")
+            self.assertFalse(record["acta_publicada"])
+            self.assertEqual(record["id_partido"], "2026-2027_copa-catalana-femenina-2a_1aFase_pendiente_3")
+            self.assertEqual((record["temporada"], record["genero"], record["competicion"], record["jornada"]),
+                             ("2026/2027", "femenino", "2a Divisió", 3))
+            self.assertEqual(record["partidos"], [])
+            self.assertEqual(record["alineaciones"], {"local": {}, "visitante": {}})
+            self.assertEqual(parse_actas.output_path(Path("out"), folder / "jornada-3.html", record),
+                             Path("out") / "2026-2027" / "female" / "copa-catalana-femenina-2a" / "jornada-3-partido-pendiente.json")
+
+    def test_female_jornada_with_matches_replaces_pending_record(self):
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory) / "html" / "2026-2027" / "female" / "copa-catalana-femenina-1a"
+            folder.mkdir(parents=True)
+            source = folder / "jornada-1.html"
+            source.write_text("<html><body><h1 class=\"entry-title\">1a Divisió</h1></body></html>", encoding="utf-8")
+            output = Path(directory) / "json"
+            self.assertEqual(parse_actas.parse_all(Path(directory) / "html", output), 1)
+            pending = output / "2026-2027" / "female" / "copa-catalana-femenina-1a" / "jornada-1-partido-pendiente.json"
+            self.assertTrue(pending.exists())
+            shutil.copy2(ROOT / "jornada-1.html", source)
+            self.assertEqual(parse_actas.parse_all(Path(directory) / "html", output), 6)
+            self.assertFalse(pending.exists())
+
     def test_parse_all_writes_one_json_per_match_and_same_hierarchy(self):
         with tempfile.TemporaryDirectory() as directory:
             input_root = Path(directory) / "html"
@@ -160,7 +198,11 @@ class ParseActasTests(unittest.TestCase):
             female_files = sorted((output / "2026-2027" / "female" / "copa-catalana-femenina-1a").glob("jornada-1-partido-*.json"))
             self.assertEqual((len(male_files), len(female_files)), (6, 6))
             self.assertEqual(json.loads(male_files[0].read_text(encoding="utf-8"))["genero"], "masculino")
-            self.assertEqual(json.loads(female_files[0].read_text(encoding="utf-8"))["genero"], "femenino")
+            female_record = json.loads(female_files[0].read_text(encoding="utf-8"))
+            self.assertEqual(female_record["genero"], "femenino")
+            self.assertRegex(female_record["id_partido"], r"^2026-2027_copa-catalana-femenina-1a_1aFase_\d+-\d+_1$")
+            self.assertRegex(json.loads(male_files[0].read_text(encoding="utf-8"))["id_partido"],
+                             r"^2026-2027_tercera-nacional_G1_1aFase_\d+-\d+_1$")
 
     def test_parse_all_filters_by_season_and_gender(self):
         with tempfile.TemporaryDirectory() as directory:

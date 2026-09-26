@@ -1,0 +1,313 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_120-109_3",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2026-01-10",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "120",
+      "nombre": "MASQUEFA TRANSPORTES FLORES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "109",
+      "nombre": "CTT ELS AMICS TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "0"
+      },
+      "Y": {
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "0"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "0"
+      },
+      "B": {
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "0"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "LÓPEZ RECHI, LEIRE RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "0"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "ROCABERT FONTANET, JUDIT CORDON CANTÓ, MARIA",
+        "licencia": "0"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LÓPEZ RECHI, LEIRE RODRIGUEZ VEGA, Mª JOSE",
+            "licencia": "0"
+          }
+        ],
+        "nombre": "LÓPEZ RECHI, LEIRE RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ROCABERT FONTANET, JUDIT CORDON CANTÓ, MARIA",
+            "licencia": "0"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 14,
+          "visitante": 16
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS TERRASSA",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

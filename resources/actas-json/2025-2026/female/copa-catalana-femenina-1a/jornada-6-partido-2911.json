@@ -1,0 +1,350 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_120-108_6",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2026-04-18",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "120",
+      "nombre": "MASQUEFA TRANSPORTES FLORES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "108",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      },
+      "Y": {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "B": {
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "15059",
+        "id": "15059"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      {
+        "nombre": "LOPEZ RECHI, NAIARA",
+        "licencia": "11315",
+        "id": "11315"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "15059",
+        "id": "15059"
+      },
+      {
+        "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+        "licencia": "20728",
+        "id": "20728"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "15059",
+        "id": "15059"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LÓPEZ RECHI, LEIRE",
+            "licencia": "14192",
+            "id": "14192"
+          },
+          {
+            "nombre": "LOPEZ RECHI, NAIARA",
+            "licencia": "11315",
+            "id": "11315"
+          }
+        ],
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "HERNÀNDEZ SANS, MARTINA",
+            "licencia": "15059",
+            "id": "15059"
+          },
+          {
+            "nombre": "SANCHEZ LUGAN, MARI CARMEN",
+            "licencia": "20728",
+            "id": "20728"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "NÁJAR ARRIETA, PAULA",
+        "licencia": "17725",
+        "id": "17725"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "15059",
+        "id": "15059"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALÍ",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

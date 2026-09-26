@@ -37,15 +37,18 @@
     "local": {
       "Y": {
         "nombre": "VELAZQUEZ ANTON, JOSEP",
-        "licencia": "0"
+        "licencia": "935",
+        "id": "935"
       },
       "X": {
         "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "0"
+        "licencia": "972",
+        "id": "972"
       },
       "Z": {
         "nombre": "GIBERT BADIA, FRANCESC",
-        "licencia": "0"
+        "licencia": "734",
+        "id": "734"
       }
     },
     "visitante": {
@@ -69,8 +72,14 @@
   "dobles": {
     "local": [
       {
-        "nombre": "CASTILLO HEREDIA, FRANCESC VELAZQUEZ ANTON, JOSEP",
-        "licencia": "0"
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      {
+        "nombre": "VELAZQUEZ ANTON, JOSEP",
+        "licencia": "935",
+        "id": "935"
       }
     ],
     "visitante": [
@@ -94,7 +103,8 @@
       "local": {
         "letra": "Y",
         "nombre": "VELAZQUEZ ANTON, JOSEP",
-        "licencia": "0"
+        "licencia": "935",
+        "id": "935"
       },
       "visitante": {
         "letra": "A",
@@ -146,7 +156,8 @@
       "local": {
         "letra": "X",
         "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "0"
+        "licencia": "972",
+        "id": "972"
       },
       "visitante": {
         "letra": "B",
@@ -193,7 +204,8 @@
       "local": {
         "letra": "Z",
         "nombre": "GIBERT BADIA, FRANCESC",
-        "licencia": "0"
+        "licencia": "734",
+        "id": "734"
       },
       "visitante": {
         "letra": "C",
@@ -235,7 +247,8 @@
       "local": {
         "letra": "X",
         "nombre": "CASTILLO HEREDIA, FRANCESC",
-        "licencia": "0"
+        "licencia": "972",
+        "id": "972"
       },
       "visitante": {
         "letra": "A",
@@ -282,7 +295,8 @@
       "local": {
         "letra": "Y",
         "nombre": "VELAZQUEZ ANTON, JOSEP",
-        "licencia": "0"
+        "licencia": "935",
+        "id": "935"
       },
       "visitante": {
         "letra": "C",
@@ -324,7 +338,8 @@
       "local": {
         "letra": "Z",
         "nombre": "GIBERT BADIA, FRANCESC",
-        "licencia": "0"
+        "licencia": "734",
+        "id": "734"
       },
       "visitante": {
         "letra": "B",
@@ -377,12 +392,19 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "CASTILLO HEREDIA, FRANCESC VELAZQUEZ ANTON, JOSEP",
-            "licencia": "0"
+            "nombre": "CASTILLO HEREDIA, FRANCESC",
+            "licencia": "972",
+            "id": "972"
+          },
+          {
+            "nombre": "VELAZQUEZ ANTON, JOSEP",
+            "licencia": "935",
+            "id": "935"
           }
         ],
-        "nombre": "CASTILLO HEREDIA, FRANCESC VELAZQUEZ ANTON, JOSEP",
-        "licencia": "0"
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
       },
       "visitante": {
         "letra": "Db",

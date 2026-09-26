@@ -40,61 +40,43 @@
     "local": {
       "Y": {
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
-        "licencia": "11280",
-        "id": "11280"
+        "licencia": "0"
       },
       "X": {
         "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
+        "licencia": "0"
       },
       "B": {
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "C": {
         "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "licencia": "0"
       }
     }
   },
   "dobles": {
     "local": [
       {
-        "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
-      },
-      {
-        "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "nombre": "NÚÑEZ PROVENCIO, POL GRANADOS GRÍFOL, JOAN",
+        "licencia": "0"
       }
     ],
     "visitante": [
       {
-        "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
-      },
-      {
-        "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "nombre": "BARCELÓ MAS, PAU SILVA ROMERO, ADRIAN",
+        "licencia": "0"
       }
     ]
   },
@@ -106,14 +88,12 @@
       "local": {
         "letra": "Y",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
-        "licencia": "11280",
-        "id": "11280"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -154,14 +134,12 @@
       "local": {
         "letra": "X",
         "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -207,14 +185,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -260,14 +236,12 @@
       "local": {
         "letra": "X",
         "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "BARCELÓ MAS, PAU",
-        "licencia": "6545",
-        "id": "6545"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -313,14 +287,12 @@
       "local": {
         "letra": "Y",
         "nombre": "MARTÍNEZ GONZÁLEZ, CARLOS",
-        "licencia": "11280",
-        "id": "11280"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "SILVA ROMERO, ADRIAN",
-        "licencia": "10912",
-        "id": "10912"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -356,14 +328,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "LLORENS RAMOS, VICTOR",
-        "licencia": "6247",
-        "id": "6247"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -405,32 +375,19 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "NÚÑEZ PROVENCIO, POL",
-            "licencia": "14077",
-            "id": "14077"
-          },
-          {
-            "nombre": "GRANADOS GRÍFOL, JOAN",
-            "licencia": "14223",
-            "id": "14223"
+            "nombre": "NÚÑEZ PROVENCIO, POL GRANADOS GRÍFOL, JOAN",
+            "licencia": "0"
           }
         ],
-        "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "nombre": "NÚÑEZ PROVENCIO, POL GRANADOS GRÍFOL, JOAN",
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "BARCELÓ MAS, PAU",
-            "licencia": "6545",
-            "id": "6545"
-          },
-          {
-            "nombre": "SILVA ROMERO, ADRIAN",
-            "licencia": "10912",
-            "id": "10912"
+            "nombre": "BARCELÓ MAS, PAU SILVA ROMERO, ADRIAN",
+            "licencia": "0"
           }
         ]
       },

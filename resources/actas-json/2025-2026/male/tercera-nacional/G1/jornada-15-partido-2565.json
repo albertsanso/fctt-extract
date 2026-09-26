@@ -37,35 +37,29 @@
     "local": {
       "Y": {
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
-        "licencia": "14003",
-        "id": "14003"
+        "licencia": "0"
       },
       "X": {
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "MARTÍNEZ OJEDA, RAFAEL",
-        "licencia": "15279",
-        "id": "15279"
+        "licencia": "0"
       },
       "B": {
         "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
+        "licencia": "0"
       },
       "C": {
         "nombre": "GAO, SHANG",
-        "licencia": "15815",
-        "id": "15815"
+        "licencia": "0"
       }
     }
   },
@@ -78,14 +72,12 @@
       "local": {
         "letra": "Y",
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
-        "licencia": "14003",
-        "id": "14003"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "MARTÍNEZ OJEDA, RAFAEL",
-        "licencia": "15279",
-        "id": "15279"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -131,14 +123,12 @@
       "local": {
         "letra": "X",
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -179,14 +169,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "GAO, SHANG",
-        "licencia": "15815",
-        "id": "15815"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -232,14 +220,12 @@
       "local": {
         "letra": "X",
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "MARTÍNEZ OJEDA, RAFAEL",
-        "licencia": "15279",
-        "id": "15279"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -280,14 +266,12 @@
       "local": {
         "letra": "Y",
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
-        "licencia": "14003",
-        "id": "14003"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "GAO, SHANG",
-        "licencia": "15815",
-        "id": "15815"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -328,14 +312,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GÜELL ARAQUE, PAU",
-        "licencia": "11836",
-        "id": "11836"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
+        "licencia": "0"
       },
       "sets": [
         {

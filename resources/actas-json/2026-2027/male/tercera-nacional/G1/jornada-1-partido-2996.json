@@ -1,0 +1,380 @@
+{
+  "id_partido": "2026-2027_tercera-nacional_G1_1aFase_140-152_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2026-09-26",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ DEL CLUB GIMNÀSTIC DE TARRAGONA. PARTIDA BUDALLERA S/N,43007 TARRAGONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "140",
+      "nombre": "NÀSTIC DE TARRAGONA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "152",
+      "nombre": "CTT L'HOSPITALET - B",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ORIOL BOSCH MOLINÉ",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ORCERA FERNANDEZ, GABRIEL",
+        "licencia": "6755",
+        "id": "6755"
+      },
+      "B": {
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "C": {
+        "nombre": "FERRAS RUIZ, DAVID",
+        "licencia": "15703",
+        "id": "15703"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "COSTA SALGUEIRO, TOMAS",
+        "licencia": "8843",
+        "id": "8843"
+      },
+      "X": {
+        "nombre": "HE, MARK ZI YAN",
+        "licencia": "18305",
+        "id": "18305"
+      },
+      "Z": {
+        "nombre": "GUTIÉRREZ MOLINA, RAMIRO FRANCISCO",
+        "licencia": "13092",
+        "id": "13092"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ORCERA FERNANDEZ, GABRIEL",
+        "licencia": "6755",
+        "id": "6755"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "COSTA SALGUEIRO, TOMAS",
+        "licencia": "8843",
+        "id": "8843"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HE, MARK ZI YAN",
+        "licencia": "18305",
+        "id": "18305"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "FERRAS RUIZ, DAVID",
+        "licencia": "15703",
+        "id": "15703"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GUTIÉRREZ MOLINA, RAMIRO FRANCISCO",
+        "licencia": "13092",
+        "id": "13092"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 13,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ORCERA FERNANDEZ, GABRIEL",
+        "licencia": "6755",
+        "id": "6755"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HE, MARK ZI YAN",
+        "licencia": "18305",
+        "id": "18305"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "FERRAS RUIZ, DAVID",
+        "licencia": "15703",
+        "id": "15703"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "COSTA SALGUEIRO, TOMAS",
+        "licencia": "8843",
+        "id": "8843"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GUTIÉRREZ MOLINA, RAMIRO FRANCISCO",
+        "licencia": "13092",
+        "id": "13092"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "NÀSTIC DE TARRAGONA \"A\"",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

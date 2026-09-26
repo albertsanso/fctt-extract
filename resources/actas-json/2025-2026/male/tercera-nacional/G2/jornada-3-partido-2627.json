@@ -40,35 +40,29 @@
     "local": {
       "Y": {
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
+        "licencia": "0"
       },
       "X": {
         "nombre": "HERNANDEZ SANS, JORDI",
-        "licencia": "11191",
-        "id": "11191"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
-        "licencia": "1447",
-        "id": "1447"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "MONTANYÀ PUIG, ADRIÀ",
-        "licencia": "672",
-        "id": "672"
+        "licencia": "0"
       },
       "B": {
         "nombre": "CHENG, ZHONGYONG",
-        "licencia": "16395",
-        "id": "16395"
+        "licencia": "0"
       },
       "C": {
         "nombre": "BARLAM ASPACHS, VALENTI",
-        "licencia": "671",
-        "id": "671"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "Y",
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "MONTANYÀ PUIG, ADRIÀ",
-        "licencia": "672",
-        "id": "672"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -124,14 +116,12 @@
       "local": {
         "letra": "X",
         "nombre": "HERNANDEZ SANS, JORDI",
-        "licencia": "11191",
-        "id": "11191"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "CHENG, ZHONGYONG",
-        "licencia": "16395",
-        "id": "16395"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
-        "licencia": "1447",
-        "id": "1447"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "BARLAM ASPACHS, VALENTI",
-        "licencia": "671",
-        "id": "671"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -220,14 +208,12 @@
       "local": {
         "letra": "X",
         "nombre": "HERNANDEZ SANS, JORDI",
-        "licencia": "11191",
-        "id": "11191"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "MONTANYÀ PUIG, ADRIÀ",
-        "licencia": "672",
-        "id": "672"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -263,14 +249,12 @@
       "local": {
         "letra": "Y",
         "nombre": "ESCOBAR SANCHEZ, MATIAS",
-        "licencia": "20654",
-        "id": "20654"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "BARLAM ASPACHS, VALENTI",
-        "licencia": "671",
-        "id": "671"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -311,14 +295,12 @@
       "local": {
         "letra": "Z",
         "nombre": "MARTIN LOPEZ, JOSE ANTONIO",
-        "licencia": "1447",
-        "id": "1447"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "CHENG, ZHONGYONG",
-        "licencia": "16395",
-        "id": "16395"
+        "licencia": "0"
       },
       "sets": [
         {

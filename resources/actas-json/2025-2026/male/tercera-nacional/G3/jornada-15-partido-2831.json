@@ -37,35 +37,29 @@
     "local": {
       "Y": {
         "nombre": "ZHOU, YU",
-        "licencia": "13971",
-        "id": "13971"
+        "licencia": "0"
       },
       "X": {
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "6596",
-        "id": "6596"
+        "licencia": "0"
       },
       "B": {
         "nombre": "HURTÓS COLOMÉ, ORIOL",
-        "licencia": "1505",
-        "id": "1505"
+        "licencia": "0"
       },
       "C": {
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "6082",
-        "id": "6082"
+        "licencia": "0"
       }
     }
   },
@@ -78,14 +72,12 @@
       "local": {
         "letra": "Y",
         "nombre": "ZHOU, YU",
-        "licencia": "13971",
-        "id": "13971"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "6596",
-        "id": "6596"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -131,14 +123,12 @@
       "local": {
         "letra": "X",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "HURTÓS COLOMÉ, ORIOL",
-        "licencia": "1505",
-        "id": "1505"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -174,14 +164,12 @@
       "local": {
         "letra": "Z",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "6082",
-        "id": "6082"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -227,14 +215,12 @@
       "local": {
         "letra": "X",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "11633",
-        "id": "11633"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "6596",
-        "id": "6596"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -270,14 +256,12 @@
       "local": {
         "letra": "Y",
         "nombre": "ZHOU, YU",
-        "licencia": "13971",
-        "id": "13971"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "6082",
-        "id": "6082"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -313,14 +297,12 @@
       "local": {
         "letra": "Z",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "13097",
-        "id": "13097"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "HURTÓS COLOMÉ, ORIOL",
-        "licencia": "1505",
-        "id": "1505"
+        "licencia": "0"
       },
       "sets": [
         {

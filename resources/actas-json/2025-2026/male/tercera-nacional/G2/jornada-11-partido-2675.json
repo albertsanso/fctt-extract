@@ -37,61 +37,43 @@
     "local": {
       "A": {
         "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
+        "licencia": "0"
       },
       "B": {
         "nombre": "MORALES GARCIA, JORDI",
-        "licencia": "1106",
-        "id": "1106"
+        "licencia": "0"
       },
       "C": {
         "nombre": "CASQUERO MARÍN, DANIEL",
-        "licencia": "16415",
-        "id": "16415"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "ROSELLO AVILES, JOEL",
-        "licencia": "7039",
-        "id": "7039"
+        "licencia": "0"
       },
       "X": {
         "nombre": "PÀMIES GALLEGO, ALEIX",
-        "licencia": "10235",
-        "id": "10235"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "PORTAY, JULIEN",
-        "licencia": "18501",
-        "id": "18501"
+        "licencia": "0"
       }
     }
   },
   "dobles": {
     "local": [
       {
-        "nombre": "MORALES GARCIA, JORDI",
-        "licencia": "1106",
-        "id": "1106"
-      },
-      {
-        "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
+        "nombre": "MORALES GARCIA, JORDI NEVADO MORENO, SAMUEL",
+        "licencia": "0"
       }
     ],
     "visitante": [
       {
-        "nombre": "PORTAY, JULIEN",
-        "licencia": "18501",
-        "id": "18501"
-      },
-      {
-        "nombre": "PÀMIES GALLEGO, ALEIX",
-        "licencia": "10235",
-        "id": "10235"
+        "nombre": "PORTAY, JULIEN PÀMIES GALLEGO, ALEIX",
+        "licencia": "0"
       }
     ]
   },
@@ -103,14 +85,12 @@
       "local": {
         "letra": "A",
         "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "ROSELLO AVILES, JOEL",
-        "licencia": "7039",
-        "id": "7039"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -146,14 +126,12 @@
       "local": {
         "letra": "B",
         "nombre": "MORALES GARCIA, JORDI",
-        "licencia": "1106",
-        "id": "1106"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PÀMIES GALLEGO, ALEIX",
-        "licencia": "10235",
-        "id": "10235"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -189,14 +167,12 @@
       "local": {
         "letra": "C",
         "nombre": "CASQUERO MARÍN, DANIEL",
-        "licencia": "16415",
-        "id": "16415"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "PORTAY, JULIEN",
-        "licencia": "18501",
-        "id": "18501"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -232,14 +208,12 @@
       "local": {
         "letra": "A",
         "nombre": "NEVADO MORENO, SAMUEL",
-        "licencia": "11856",
-        "id": "11856"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PÀMIES GALLEGO, ALEIX",
-        "licencia": "10235",
-        "id": "10235"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -285,14 +259,12 @@
       "local": {
         "letra": "C",
         "nombre": "CASQUERO MARÍN, DANIEL",
-        "licencia": "16415",
-        "id": "16415"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "ROSELLO AVILES, JOEL",
-        "licencia": "7039",
-        "id": "7039"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -333,14 +305,12 @@
       "local": {
         "letra": "B",
         "nombre": "MORALES GARCIA, JORDI",
-        "licencia": "1106",
-        "id": "1106"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "PORTAY, JULIEN",
-        "licencia": "18501",
-        "id": "18501"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -382,14 +352,8 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "MORALES GARCIA, JORDI",
-            "licencia": "1106",
-            "id": "1106"
-          },
-          {
-            "nombre": "NEVADO MORENO, SAMUEL",
-            "licencia": "11856",
-            "id": "11856"
+            "nombre": "MORALES GARCIA, JORDI NEVADO MORENO, SAMUEL",
+            "licencia": "0"
           }
         ]
       },
@@ -397,19 +361,12 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "PORTAY, JULIEN",
-            "licencia": "18501",
-            "id": "18501"
-          },
-          {
-            "nombre": "PÀMIES GALLEGO, ALEIX",
-            "licencia": "10235",
-            "id": "10235"
+            "nombre": "PORTAY, JULIEN PÀMIES GALLEGO, ALEIX",
+            "licencia": "0"
           }
         ],
-        "nombre": "PORTAY, JULIEN",
-        "licencia": "18501",
-        "id": "18501"
+        "nombre": "PORTAY, JULIEN PÀMIES GALLEGO, ALEIX",
+        "licencia": "0"
       },
       "sets": [
         {

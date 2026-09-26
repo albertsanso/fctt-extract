@@ -40,35 +40,29 @@
     "local": {
       "Y": {
         "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "licencia": "0"
       },
       "X": {
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       }
     },
     "visitante": {
       "A": {
         "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
+        "licencia": "0"
       },
       "B": {
         "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
+        "licencia": "0"
       },
       "C": {
         "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "Y",
         "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -129,14 +121,12 @@
       "local": {
         "letra": "X",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -215,14 +203,12 @@
       "local": {
         "letra": "X",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "A",
         "nombre": "OBREGON LOPEZ, JOAN",
-        "licencia": "8474",
-        "id": "8474"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -258,14 +244,12 @@
       "local": {
         "letra": "Y",
         "nombre": "NÚÑEZ PROVENCIO, POL",
-        "licencia": "14077",
-        "id": "14077"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "C",
         "nombre": "GARROTE FERRE, BIEL",
-        "licencia": "7271",
-        "id": "7271"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -311,14 +295,12 @@
       "local": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "B",
         "nombre": "MESTRES MERCADER, ARNAU",
-        "licencia": "6811",
-        "id": "6811"
+        "licencia": "0"
       },
       "sets": [
         {

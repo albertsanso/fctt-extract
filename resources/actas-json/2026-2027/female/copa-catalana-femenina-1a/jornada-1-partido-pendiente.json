@@ -1,0 +1,45 @@
+{
+  "id_partido": "2026-2027_copa-catalana-femenina-1a_1aFase_pendiente_1",
+  "acta_publicada": false,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "femenino",
+  "competicion": "1a Divisió",
+  "fase": "1a Fase",
+  "grupo": 0,
+  "jornada": 1,
+  "fecha": null,
+  "hora": null,
+  "lugar": null,
+  "equipos": {
+    "local": {
+      "id": null,
+      "nombre": null,
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": null,
+      "nombre": null,
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": null,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": null,
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

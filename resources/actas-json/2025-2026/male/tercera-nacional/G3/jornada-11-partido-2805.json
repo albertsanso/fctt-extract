@@ -40,29 +40,35 @@
     "local": {
       "Y": {
         "nombre": "ZARAGOZA OLMO, XAVIER",
-        "licencia": "0"
+        "licencia": "1067",
+        "id": "1067"
       },
       "X": {
         "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-        "licencia": "0"
+        "licencia": "17614",
+        "id": "17614"
       },
       "Z": {
         "nombre": "DIAZ VIVAS, MARIANGEL PAOLA",
-        "licencia": "0"
+        "licencia": "20795",
+        "id": "20795"
       }
     },
     "visitante": {
       "A": {
         "nombre": "VOISIN, MAXIME",
-        "licencia": "0"
+        "licencia": "20945",
+        "id": "20945"
       },
       "B": {
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "0"
+        "licencia": "11633",
+        "id": "11633"
       },
       "C": {
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "0"
+        "licencia": "13097",
+        "id": "13097"
       }
     }
   },
@@ -75,12 +81,14 @@
       "local": {
         "letra": "Y",
         "nombre": "ZARAGOZA OLMO, XAVIER",
-        "licencia": "0"
+        "licencia": "1067",
+        "id": "1067"
       },
       "visitante": {
         "letra": "A",
         "nombre": "VOISIN, MAXIME",
-        "licencia": "0"
+        "licencia": "20945",
+        "id": "20945"
       },
       "sets": [
         {
@@ -121,12 +129,14 @@
       "local": {
         "letra": "X",
         "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-        "licencia": "0"
+        "licencia": "17614",
+        "id": "17614"
       },
       "visitante": {
         "letra": "B",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "0"
+        "licencia": "11633",
+        "id": "11633"
       },
       "sets": [
         {
@@ -167,12 +177,14 @@
       "local": {
         "letra": "Z",
         "nombre": "DIAZ VIVAS, MARIANGEL PAOLA",
-        "licencia": "0"
+        "licencia": "20795",
+        "id": "20795"
       },
       "visitante": {
         "letra": "C",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "0"
+        "licencia": "13097",
+        "id": "13097"
       },
       "sets": [
         {
@@ -213,12 +225,14 @@
       "local": {
         "letra": "X",
         "nombre": "CAMBRA PARRA, JHONNATAN ALEJANDRO",
-        "licencia": "0"
+        "licencia": "17614",
+        "id": "17614"
       },
       "visitante": {
         "letra": "A",
         "nombre": "VOISIN, MAXIME",
-        "licencia": "0"
+        "licencia": "20945",
+        "id": "20945"
       },
       "sets": [
         {
@@ -264,12 +278,14 @@
       "local": {
         "letra": "Y",
         "nombre": "ZARAGOZA OLMO, XAVIER",
-        "licencia": "0"
+        "licencia": "1067",
+        "id": "1067"
       },
       "visitante": {
         "letra": "C",
         "nombre": "CARDONA JORDAN, BIEL",
-        "licencia": "0"
+        "licencia": "13097",
+        "id": "13097"
       },
       "sets": [
         {
@@ -305,12 +321,14 @@
       "local": {
         "letra": "Z",
         "nombre": "DIAZ VIVAS, MARIANGEL PAOLA",
-        "licencia": "0"
+        "licencia": "20795",
+        "id": "20795"
       },
       "visitante": {
         "letra": "B",
         "nombre": "VANACLOCHA ESPONA, SANTI",
-        "licencia": "0"
+        "licencia": "11633",
+        "id": "11633"
       },
       "sets": [
         {

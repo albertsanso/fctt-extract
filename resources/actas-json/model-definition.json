@@ -165,7 +165,7 @@
   },
   "allOf": [
     {
-      "description": "Un acta no publicada no tiene partidos ni alineaciones; una publicada, al menos un partido y tres jugadores por lado.",
+      "description": "Un acta no publicada no tiene partidos ni alineaciones; una publicada, al menos un partido y tres jugadores por lado (dos en competiciones femeninas).",
       "if": { "required": ["acta_publicada"], "properties": { "acta_publicada": { "const": false } } },
       "then": {
         "properties": {
@@ -177,7 +177,13 @@
         "properties": {
           "abc_es_local": { "type": "boolean" },
           "partidos": { "minItems": 1 },
-          "alineaciones": { "properties": { "local": { "minProperties": 3 }, "visitante": { "minProperties": 3 } } }
+          "alineaciones": { "properties": { "local": { "minProperties": 2 }, "visitante": { "minProperties": 2 } } }
+        },
+        "if": { "required": ["genero"], "properties": { "genero": { "const": "femenino" } } },
+        "else": {
+          "properties": {
+            "alineaciones": { "properties": { "local": { "minProperties": 3 }, "visitante": { "minProperties": 3 } } }
+          }
         }
       }
     }

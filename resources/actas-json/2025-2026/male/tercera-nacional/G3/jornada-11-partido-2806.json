@@ -40,29 +40,35 @@
     "local": {
       "Y": {
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "0"
+        "licencia": "3912",
+        "id": "3912"
       },
       "X": {
         "nombre": "RAKVIASHVILI, GURAMI",
-        "licencia": "0"
+        "licencia": "21167",
+        "id": "21167"
       },
       "Z": {
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "0"
+        "licencia": "328",
+        "id": "328"
       }
     },
     "visitante": {
       "A": {
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "0"
+        "licencia": "6082",
+        "id": "6082"
       },
       "B": {
         "nombre": "LÓPEZ ORTEGA, IREN",
-        "licencia": "0"
+        "licencia": "14131",
+        "id": "14131"
       },
       "C": {
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "0"
+        "licencia": "6596",
+        "id": "6596"
       }
     }
   },
@@ -75,12 +81,14 @@
       "local": {
         "letra": "Y",
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "0"
+        "licencia": "3912",
+        "id": "3912"
       },
       "visitante": {
         "letra": "A",
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "0"
+        "licencia": "6082",
+        "id": "6082"
       },
       "sets": [
         {
@@ -116,12 +124,14 @@
       "local": {
         "letra": "X",
         "nombre": "RAKVIASHVILI, GURAMI",
-        "licencia": "0"
+        "licencia": "21167",
+        "id": "21167"
       },
       "visitante": {
         "letra": "B",
         "nombre": "LÓPEZ ORTEGA, IREN",
-        "licencia": "0"
+        "licencia": "14131",
+        "id": "14131"
       },
       "sets": [
         {
@@ -162,12 +172,14 @@
       "local": {
         "letra": "Z",
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "0"
+        "licencia": "328",
+        "id": "328"
       },
       "visitante": {
         "letra": "C",
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "0"
+        "licencia": "6596",
+        "id": "6596"
       },
       "sets": [
         {
@@ -203,12 +215,14 @@
       "local": {
         "letra": "X",
         "nombre": "RAKVIASHVILI, GURAMI",
-        "licencia": "0"
+        "licencia": "21167",
+        "id": "21167"
       },
       "visitante": {
         "letra": "A",
         "nombre": "VILARNAU GRABULEDA, PAU",
-        "licencia": "0"
+        "licencia": "6082",
+        "id": "6082"
       },
       "sets": [
         {
@@ -244,12 +258,14 @@
       "local": {
         "letra": "Y",
         "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
-        "licencia": "0"
+        "licencia": "3912",
+        "id": "3912"
       },
       "visitante": {
         "letra": "C",
         "nombre": "LLORENTE PLANELLAS, ELOI",
-        "licencia": "0"
+        "licencia": "6596",
+        "id": "6596"
       },
       "sets": [
         {
@@ -295,12 +311,14 @@
       "local": {
         "letra": "Z",
         "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
-        "licencia": "0"
+        "licencia": "328",
+        "id": "328"
       },
       "visitante": {
         "letra": "B",
         "nombre": "LÓPEZ ORTEGA, IREN",
-        "licencia": "0"
+        "licencia": "14131",
+        "id": "14131"
       },
       "sets": [
         {

@@ -1,0 +1,350 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_112-113_5",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2026-03-21",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "112",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "113",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "NONÓ RIUS, GEMMA",
+        "licencia": "13227",
+        "id": "13227"
+      },
+      "Y": {
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "LLOS CASADELLA, BERTA",
+        "licencia": "13132",
+        "id": "13132"
+      },
+      "B": {
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      },
+      {
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "8065",
+        "id": "8065"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "LLOS CASADELLA, BERTA",
+        "licencia": "13132",
+        "id": "13132"
+      },
+      {
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "NONÓ RIUS, GEMMA",
+        "licencia": "13227",
+        "id": "13227"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LLOS CASADELLA, BERTA",
+        "licencia": "13132",
+        "id": "13132"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "SITJÀ I SEGURA, LIA",
+            "licencia": "13829",
+            "id": "13829"
+          },
+          {
+            "nombre": "NONO BONANY, ELISENDA",
+            "licencia": "8065",
+            "id": "8065"
+          }
+        ],
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LLOS CASADELLA, BERTA",
+            "licencia": "13132",
+            "id": "13132"
+          },
+          {
+            "nombre": "DIPOLLINA ANAYA, GIULIA",
+            "licencia": "12654",
+            "id": "12654"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LLOS CASADELLA, BERTA",
+        "licencia": "13132",
+        "id": "13132"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "NONÓ RIUS, GEMMA",
+        "licencia": "13227",
+        "id": "13227"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILABLAREIX SFY",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

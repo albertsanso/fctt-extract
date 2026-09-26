@@ -1,0 +1,355 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_109-120_6",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2026-04-18",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "109",
+      "nombre": "CTT ELS AMICS TERRASSA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "120",
+      "nombre": "MASQUEFA TRANSPORTES FLORES",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      },
+      "B": {
+        "nombre": "CORDON CANTÓ, MARIA",
+        "licencia": "17683",
+        "id": "17683"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "Y": {
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "15602",
+        "id": "15602"
+      },
+      {
+        "nombre": "CORDON CANTÓ, MARIA",
+        "licencia": "17683",
+        "id": "17683"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      {
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 16,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "ROCABERT FONTANET, AINA",
+        "licencia": "15602",
+        "id": "15602"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ROCABERT FONTANET, AINA",
+            "licencia": "15602",
+            "id": "15602"
+          },
+          {
+            "nombre": "CORDON CANTÓ, MARIA",
+            "licencia": "17683",
+            "id": "17683"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LÓPEZ RECHI, LEIRE",
+            "licencia": "14192",
+            "id": "14192"
+          },
+          {
+            "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+            "licencia": "3205",
+            "id": "3205"
+          }
+        ],
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 14,
+          "visitante": 16
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ROCABERT FONTANET, JUDIT",
+        "licencia": "15601",
+        "id": "15601"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "RODRIGUEZ VEGA, Mª JOSE",
+        "licencia": "3205",
+        "id": "3205"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CORDON CANTÓ, MARIA",
+        "licencia": "17683",
+        "id": "17683"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LÓPEZ RECHI, LEIRE",
+        "licencia": "14192",
+        "id": "14192"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT ELS AMICS TERRASSA",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

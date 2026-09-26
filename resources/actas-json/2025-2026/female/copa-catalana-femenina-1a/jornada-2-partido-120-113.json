@@ -1,0 +1,51 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_120-113_2",
+  "acta_publicada": false,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2025-11-22",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE VILABLAREIX. MARROC S/N,17180 VILABLAREIX"
+  },
+  "equipos": {
+    "local": {
+      "id": "120",
+      "nombre": "MASQUEFA TRANSPORTES FLORES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "113",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": null,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": "MASQUEFA TRANSPORTES FLORES",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,380 @@
+{
+  "id_partido": "2026-2027_tercera-nacional_G3_1aFase_137-154_1",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "fase": "1a Fase",
+  "grupo": 3,
+  "jornada": 1,
+  "fecha": "2026-09-26",
+  "hora": "16:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE VILABLAREIX. MARROC S/N,17180 VILABLAREIX"
+  },
+  "equipos": {
+    "local": {
+      "id": "137",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "154",
+      "nombre": "CN MATARÓ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "X": {
+        "nombre": "NADAL MEDINYÀ, MET",
+        "licencia": "13370",
+        "id": "13370"
+      },
+      "Z": {
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MATARÓ MARTÍNEZ, ISAAC",
+        "licencia": "11537",
+        "id": "11537"
+      },
+      "B": {
+        "nombre": "CABRERA VIVÓ, MANEL",
+        "licencia": "17672",
+        "id": "17672"
+      },
+      "C": {
+        "nombre": "SÁEZ CEREZO, HIRAM",
+        "licencia": "16791",
+        "id": "16791"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MATARÓ MARTÍNEZ, ISAAC",
+        "licencia": "11537",
+        "id": "11537"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 18,
+          "visitante": 16
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "NADAL MEDINYÀ, MET",
+        "licencia": "13370",
+        "id": "13370"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CABRERA VIVÓ, MANEL",
+        "licencia": "17672",
+        "id": "17672"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SÁEZ CEREZO, HIRAM",
+        "licencia": "16791",
+        "id": "16791"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "NADAL MEDINYÀ, MET",
+        "licencia": "13370",
+        "id": "13370"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MATARÓ MARTÍNEZ, ISAAC",
+        "licencia": "11537",
+        "id": "11537"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SÁEZ CEREZO, HIRAM",
+        "licencia": "16791",
+        "id": "16791"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CABRERA VIVÓ, MANEL",
+        "licencia": "17672",
+        "id": "17672"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 14,
+          "visitante": 16
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILABLAREIX SFY",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

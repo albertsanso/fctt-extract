@@ -1,0 +1,355 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_105-112_5",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 5,
+  "fecha": "2026-03-21",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS INSTITUT JAUME ALMERA. CARRER TORRENT GALBANYA, S/N. DAVANT NUM. 5,08339 VILASSAR DE DALT"
+  },
+  "equipos": {
+    "local": {
+      "id": "105",
+      "nombre": "C.T.T. ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "112",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "Y": {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "8065",
+        "id": "8065"
+      },
+      "B": {
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "NONÓ RIUS, GEMMA",
+        "licencia": "13227",
+        "id": "13227"
+      },
+      {
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "8065",
+        "id": "8065"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "8065",
+        "id": "8065"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "OSUNA CRUZ, LOLA",
+            "licencia": "16271",
+            "id": "16271"
+          },
+          {
+            "nombre": "CARREÑO PASTOR, ARIADNA",
+            "licencia": "6303",
+            "id": "6303"
+          }
+        ],
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "NONÓ RIUS, GEMMA",
+            "licencia": "13227",
+            "id": "13227"
+          },
+          {
+            "nombre": "NONO BONANY, ELISENDA",
+            "licencia": "8065",
+            "id": "8065"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "NONO BONANY, ELISENDA",
+        "licencia": "8065",
+        "id": "8065"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "INFANTE LOPE, JULIA",
+        "licencia": "220",
+        "id": "220"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "SITJÀ I SEGURA, LIA",
+        "licencia": "13829",
+        "id": "13829"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILABLAREIX SFY",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

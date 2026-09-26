@@ -40,61 +40,43 @@
     "local": {
       "A": {
         "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
+        "licencia": "0"
       },
       "B": {
         "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
+        "licencia": "0"
       },
       "C": {
         "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "X": {
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "licencia": "0"
       }
     }
   },
   "dobles": {
     "local": [
       {
-        "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
-      },
-      {
-        "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "nombre": "ARCE GOMEZ, IKER AMILL BORRULL, MARC",
+        "licencia": "0"
       }
     ],
     "visitante": [
       {
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
-      },
-      {
-        "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC VILLORO CARDONER, XAVIER",
+        "licencia": "0"
       }
     ]
   },
@@ -106,14 +88,12 @@
       "local": {
         "letra": "A",
         "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -159,14 +139,12 @@
       "local": {
         "letra": "B",
         "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -202,14 +180,12 @@
       "local": {
         "letra": "C",
         "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -250,14 +226,12 @@
       "local": {
         "letra": "A",
         "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -298,14 +272,12 @@
       "local": {
         "letra": "C",
         "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -346,14 +318,12 @@
       "local": {
         "letra": "B",
         "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -390,14 +360,8 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "ARCE GOMEZ, IKER",
-            "licencia": "15008",
-            "id": "15008"
-          },
-          {
-            "nombre": "AMILL BORRULL, MARC",
-            "licencia": "10969",
-            "id": "10969"
+            "nombre": "ARCE GOMEZ, IKER AMILL BORRULL, MARC",
+            "licencia": "0"
           }
         ]
       },
@@ -405,19 +369,12 @@
         "letra": "Db",
         "jugadores": [
           {
-            "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-            "licencia": "199",
-            "id": "199"
-          },
-          {
-            "nombre": "VILLORO CARDONER, XAVIER",
-            "licencia": "557",
-            "id": "557"
+            "nombre": "CASTELLS MONTSERRAT, FRANCESC VILLORO CARDONER, XAVIER",
+            "licencia": "0"
           }
         ],
-        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC VILLORO CARDONER, XAVIER",
+        "licencia": "0"
       },
       "sets": [
         {

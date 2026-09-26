@@ -1,0 +1,350 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_113-105_6",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 6,
+  "fecha": "2026-04-18",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS DEL COL·LEGI ATENEU INSTRUCTIU. FRANCESC MACIÀ, 57. ENFRONT DEL CAMP DE FUTBOL I AL COSTAT DEL C.A.P.,08970 SANT JOAN DESPÍ"
+  },
+  "equipos": {
+    "local": {
+      "id": "113",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "105",
+      "nombre": "C.T.T. ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "B": {
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "PALLARÉS SÀNCHEZ, LAIA",
+        "licencia": "20663",
+        "id": "20663"
+      },
+      "Y": {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      {
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "PALLARÉS SÀNCHEZ, LAIA",
+        "licencia": "20663",
+        "id": "20663"
+      },
+      {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PALLARÉS SÀNCHEZ, LAIA",
+        "licencia": "20663",
+        "id": "20663"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "DIPOLLINA ANAYA, GIULIA",
+            "licencia": "12654",
+            "id": "12654"
+          },
+          {
+            "nombre": "CALAVIA DE ORBE, NURIA",
+            "licencia": "19042",
+            "id": "19042"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "PALLARÉS SÀNCHEZ, LAIA",
+            "licencia": "20663",
+            "id": "20663"
+          },
+          {
+            "nombre": "CARREÑO PASTOR, ARIADNA",
+            "licencia": "6303",
+            "id": "6303"
+          }
+        ],
+        "nombre": "PALLARÉS SÀNCHEZ, LAIA",
+        "licencia": "20663",
+        "id": "20663"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "DIPOLLINA ANAYA, GIULIA",
+        "licencia": "12654",
+        "id": "12654"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PALLARÉS SÀNCHEZ, LAIA",
+        "licencia": "20663",
+        "id": "20663"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. ATENEU 1882",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

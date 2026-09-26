@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "B": {
         "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "licencia": "0"
       },
       "C": {
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
+        "licencia": "0"
       },
       "X": {
         "nombre": "LABARTA SERRA, ORIOL",
-        "licencia": "17277",
-        "id": "17277"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -124,14 +116,12 @@
       "local": {
         "letra": "B",
         "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "LABARTA SERRA, ORIOL",
-        "licencia": "17277",
-        "id": "17277"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -172,14 +162,12 @@
       "local": {
         "letra": "C",
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -220,14 +208,12 @@
       "local": {
         "letra": "A",
         "nombre": "CASTELLS MONTSERRAT, FRANCESC",
-        "licencia": "199",
-        "id": "199"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "LABARTA SERRA, ORIOL",
-        "licencia": "17277",
-        "id": "17277"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -268,14 +254,12 @@
       "local": {
         "letra": "C",
         "nombre": "VILA LLUIS, JORDI",
-        "licencia": "6223",
-        "id": "6223"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "CARMONA DE LA ROSA, ALBERT",
-        "licencia": "6952",
-        "id": "6952"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -311,14 +295,12 @@
       "local": {
         "letra": "B",
         "nombre": "VILLORO CARDONER, XAVIER",
-        "licencia": "557",
-        "id": "557"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "SOLER MORENO, ALBERT",
-        "licencia": "1133",
-        "id": "1133"
+        "licencia": "0"
       },
       "sets": [
         {

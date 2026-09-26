@@ -1,0 +1,345 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_117-110_4",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 4,
+  "fecha": "2026-02-07",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS EXTERIOR PISTES ATLETISME DE GRANOLLERS. CAMP DE LES MORERES S/N,08401 GRANOLLERS"
+  },
+  "equipos": {
+    "local": {
+      "id": "117",
+      "nombre": "FALCONS SBD - SMATSA AGORA GRUP",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "110",
+      "nombre": "CTT GRANOLLERS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "CAYELLAS BONILLO, CARLA",
+        "licencia": "14384",
+        "id": "14384"
+      },
+      "B": {
+        "nombre": "CAPILLAS NOSAS, LAIA",
+        "licencia": "14738",
+        "id": "14738"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "PAZ MOLLEDA, JENNY CECILIA",
+        "licencia": "19724",
+        "id": "19724"
+      },
+      "Y": {
+        "nombre": "CAUSSA SERRA, MERITXELL",
+        "licencia": "19723",
+        "id": "19723"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "CAYELLAS BONILLO, CARLA",
+        "licencia": "14384",
+        "id": "14384"
+      },
+      {
+        "nombre": "CAPILLAS NOSAS, LAIA",
+        "licencia": "14738",
+        "id": "14738"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CAUSSA SERRA, MERITXELL",
+        "licencia": "19723",
+        "id": "19723"
+      },
+      {
+        "nombre": "ARXER RIBAS, MARIA DEL MAR",
+        "licencia": "17700",
+        "id": "17700"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "CAYELLAS BONILLO, CARLA",
+        "licencia": "14384",
+        "id": "14384"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ARXER RIBAS, MARIA DEL MAR",
+        "licencia": "17700",
+        "id": "17700"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "CAPILLAS NOSAS, LAIA",
+        "licencia": "14738",
+        "id": "14738"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CAUSSA SERRA, MERITXELL",
+        "licencia": "19723",
+        "id": "19723"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CAYELLAS BONILLO, CARLA",
+            "licencia": "14384",
+            "id": "14384"
+          },
+          {
+            "nombre": "CAPILLAS NOSAS, LAIA",
+            "licencia": "14738",
+            "id": "14738"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CAUSSA SERRA, MERITXELL",
+            "licencia": "19723",
+            "id": "19723"
+          },
+          {
+            "nombre": "ARXER RIBAS, MARIA DEL MAR",
+            "licencia": "17700",
+            "id": "17700"
+          }
+        ],
+        "nombre": "CAUSSA SERRA, MERITXELL",
+        "licencia": "19723",
+        "id": "19723"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "CAYELLAS BONILLO, CARLA",
+        "licencia": "14384",
+        "id": "14384"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CAUSSA SERRA, MERITXELL",
+        "licencia": "19723",
+        "id": "19723"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CAPILLAS NOSAS, LAIA",
+        "licencia": "14738",
+        "id": "14738"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PAZ MOLLEDA, JENNY CECILIA",
+        "licencia": "19724",
+        "id": "19724"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "FALCONS SBD - SMATSA AGORA GRUP",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

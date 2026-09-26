@@ -1,0 +1,350 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_107-111_2",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 2,
+  "fecha": "2025-11-22",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CLUB TENNIS TAULA GANXETS DE REUS. CARRER D'EVARIST FÀBREGAS, 9,43205 REUS"
+  },
+  "equipos": {
+    "local": {
+      "id": "107",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "111",
+      "nombre": "CTT RUBI",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "TARRAGO ROLDAN, ELSA",
+        "licencia": "19304",
+        "id": "19304"
+      },
+      "Y": {
+        "nombre": "SOTERAS GIBERT, SILVIA",
+        "licencia": "17602",
+        "id": "17602"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      "B": {
+        "nombre": "RUEDA CLEMENTE, LAURA",
+        "licencia": "21068",
+        "id": "21068"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "TARRAGO ROLDAN, ELSA",
+        "licencia": "19304",
+        "id": "19304"
+      },
+      {
+        "nombre": "GONZÁLEZ VALERO, M. JOSÉ",
+        "licencia": "19494",
+        "id": "19494"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      {
+        "nombre": "RUEDA CLEMENTE, LAURA",
+        "licencia": "21068",
+        "id": "21068"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "TARRAGO ROLDAN, ELSA",
+        "licencia": "19304",
+        "id": "19304"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "SOTERAS GIBERT, SILVIA",
+        "licencia": "17602",
+        "id": "17602"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RUEDA CLEMENTE, LAURA",
+        "licencia": "21068",
+        "id": "21068"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "TARRAGO ROLDAN, ELSA",
+            "licencia": "19304",
+            "id": "19304"
+          },
+          {
+            "nombre": "GONZÁLEZ VALERO, M. JOSÉ",
+            "licencia": "19494",
+            "id": "19494"
+          }
+        ],
+        "nombre": "TARRAGO ROLDAN, ELSA",
+        "licencia": "19304",
+        "id": "19304"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "AGUILERA GOMEZ, CRISTINA",
+            "licencia": "18307",
+            "id": "18307"
+          },
+          {
+            "nombre": "RUEDA CLEMENTE, LAURA",
+            "licencia": "21068",
+            "id": "21068"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "SOTERAS GIBERT, SILVIA",
+        "licencia": "17602",
+        "id": "17602"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "AGUILERA GOMEZ, CRISTINA",
+        "licencia": "18307",
+        "id": "18307"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "TARRAGO ROLDAN, ELSA",
+        "licencia": "19304",
+        "id": "19304"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RUEDA CLEMENTE, LAURA",
+        "licencia": "21068",
+        "id": "21068"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CPP IGUALADA",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

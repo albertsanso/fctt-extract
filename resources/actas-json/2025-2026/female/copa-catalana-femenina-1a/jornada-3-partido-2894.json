@@ -1,0 +1,313 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_114-108_3",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2026-01-10",
+  "hora": "12:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT ELS AMICS TERRASSA. CTRA. MATADEPERA, 323,08225 TERRASSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "114",
+      "nombre": "CTT VILASSAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "108",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "X": {
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "0"
+      },
+      "Y": {
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "0"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "0"
+      },
+      "B": {
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "0"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "CARBONELL VINYET, TURA CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "0"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "RODRIGUEZ JORDAN, MIREIA NÁJAR ARRIETA, PAULA",
+        "licencia": "0"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 18,
+          "visitante": 16
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CARBONELL VINYET, TURA CUMPLIDO CHACON, GUADALUPE",
+            "licencia": "0"
+          }
+        ],
+        "nombre": "CARBONELL VINYET, TURA CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "RODRIGUEZ JORDAN, MIREIA NÁJAR ARRIETA, PAULA",
+            "licencia": "0"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CUMPLIDO CHACON, GUADALUPE",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "RODRIGUEZ JORDAN, MIREIA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARBONELL VINYET, TURA",
+        "licencia": "0"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "HERNÀNDEZ SANS, MARTINA",
+        "licencia": "0"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILASSAR",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

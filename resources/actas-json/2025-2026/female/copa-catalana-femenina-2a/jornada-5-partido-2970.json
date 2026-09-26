@@ -1,0 +1,335 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-2a_1aFase_118-110_5",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 2",
+  "fase": "1a Fase",
+  "grupo": 2,
+  "jornada": 5,
+  "fecha": "2026-03-21",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CLUB TENNIS TAULA GANXETS DE REUS. CARRER D'EVARIST FÀBREGAS, 9,43205 REUS"
+  },
+  "equipos": {
+    "local": {
+      "id": "118",
+      "nombre": "MIRÓ GANXETS REUS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "110",
+      "nombre": "CTT GRANOLLERS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "PADILLA SANCHEZ, ALICIA",
+        "licencia": "17340",
+        "id": "17340"
+      },
+      "B": {
+        "nombre": "CALDERÓ SOLÉ, OLGA",
+        "licencia": "17287",
+        "id": "17287"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "ARXER RIBAS, MARIA DEL MAR",
+        "licencia": "17700",
+        "id": "17700"
+      },
+      "Y": {
+        "nombre": "CARBÓ FONT, NATÀLIA",
+        "licencia": "17017",
+        "id": "17017"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "CALDERÓ SOLÉ, OLGA",
+        "licencia": "17287",
+        "id": "17287"
+      },
+      {
+        "nombre": "PADILLA SANCHEZ, ALICIA",
+        "licencia": "17340",
+        "id": "17340"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CARBÓ FONT, NATÀLIA",
+        "licencia": "17017",
+        "id": "17017"
+      },
+      {
+        "nombre": "ARXER RIBAS, MARIA DEL MAR",
+        "licencia": "17700",
+        "id": "17700"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "PADILLA SANCHEZ, ALICIA",
+        "licencia": "17340",
+        "id": "17340"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ARXER RIBAS, MARIA DEL MAR",
+        "licencia": "17700",
+        "id": "17700"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "CALDERÓ SOLÉ, OLGA",
+        "licencia": "17287",
+        "id": "17287"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARBÓ FONT, NATÀLIA",
+        "licencia": "17017",
+        "id": "17017"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CALDERÓ SOLÉ, OLGA",
+            "licencia": "17287",
+            "id": "17287"
+          },
+          {
+            "nombre": "PADILLA SANCHEZ, ALICIA",
+            "licencia": "17340",
+            "id": "17340"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CARBÓ FONT, NATÀLIA",
+            "licencia": "17017",
+            "id": "17017"
+          },
+          {
+            "nombre": "ARXER RIBAS, MARIA DEL MAR",
+            "licencia": "17700",
+            "id": "17700"
+          }
+        ],
+        "nombre": "CARBÓ FONT, NATÀLIA",
+        "licencia": "17017",
+        "id": "17017"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "PADILLA SANCHEZ, ALICIA",
+        "licencia": "17340",
+        "id": "17340"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARBÓ FONT, NATÀLIA",
+        "licencia": "17017",
+        "id": "17017"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CALDERÓ SOLÉ, OLGA",
+        "licencia": "17287",
+        "id": "17287"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ARXER RIBAS, MARIA DEL MAR",
+        "licencia": "17700",
+        "id": "17700"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "MIRÓ GANXETS REUS",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

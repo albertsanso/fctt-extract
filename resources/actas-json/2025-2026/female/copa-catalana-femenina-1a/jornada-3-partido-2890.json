@@ -1,0 +1,335 @@
+{
+  "id_partido": "2025-2026_copa-catalana-femenina-1a_1aFase_105-113_3",
+  "acta_publicada": true,
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "femenino",
+  "competicion": "COPA CATALANA FEMENINA GRUP 1",
+  "fase": "1a Fase",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2026-01-10",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLO MUNICIPAL D´ESPORTS. PLAÇA CASERNES S/N,08800 VILANOVA I LA GELTRÚ"
+  },
+  "equipos": {
+    "local": {
+      "id": "105",
+      "nombre": "C.T.T. ATENEU 1882",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "113",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "B": {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    },
+    "visitante": {
+      "X": {
+        "nombre": "GIRALT GIRALT, JOSEFINA",
+        "licencia": "62",
+        "id": "62"
+      },
+      "Y": {
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      {
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      },
+      {
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs Y",
+      "local": {
+        "letra": "B",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "OSUNA CRUZ, LOLA",
+            "licencia": "16271",
+            "id": "16271"
+          },
+          {
+            "nombre": "CARREÑO PASTOR, ARIADNA",
+            "licencia": "6303",
+            "id": "6303"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CALAVIA DE ORBE, NURIA",
+            "licencia": "19042",
+            "id": "19042"
+          },
+          {
+            "nombre": "NUÑEZ GARCIA, LIDIA",
+            "licencia": "16491",
+            "id": "16491"
+          }
+        ],
+        "nombre": "CALAVIA DE ORBE, NURIA",
+        "licencia": "19042",
+        "id": "19042"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "OSUNA CRUZ, LOLA",
+        "licencia": "16271",
+        "id": "16271"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "NUÑEZ GARCIA, LIDIA",
+        "licencia": "16491",
+        "id": "16491"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CARREÑO PASTOR, ARIADNA",
+        "licencia": "6303",
+        "id": "6303"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "GIRALT GIRALT, JOSEFINA",
+        "licencia": "62",
+        "id": "62"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 0
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 0
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. ATENEU 1882",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

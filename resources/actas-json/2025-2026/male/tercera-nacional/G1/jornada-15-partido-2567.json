@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
+        "licencia": "0"
       },
       "B": {
         "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
+        "licencia": "0"
       },
       "C": {
         "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
-        "licencia": "20500",
-        "id": "20500"
+        "licencia": "0"
       },
       "X": {
         "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
-        "licencia": "12350",
-        "id": "12350"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
-        "licencia": "20500",
-        "id": "20500"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -134,14 +126,12 @@
       "local": {
         "letra": "B",
         "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -187,14 +177,12 @@
       "local": {
         "letra": "C",
         "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
-        "licencia": "12350",
-        "id": "12350"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -240,14 +228,12 @@
       "local": {
         "letra": "A",
         "nombre": "ARCE GOMEZ, IKER",
-        "licencia": "15008",
-        "id": "15008"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "HERRERO RABASO, IVAN",
-        "licencia": "7442",
-        "id": "7442"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -288,14 +274,12 @@
       "local": {
         "letra": "C",
         "nombre": "AMILL BORRULL, MARC",
-        "licencia": "10969",
-        "id": "10969"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
-        "licencia": "20500",
-        "id": "20500"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -341,14 +325,12 @@
       "local": {
         "letra": "B",
         "nombre": "ALTARRIBA BARRAU, VICTOR",
-        "licencia": "1862",
-        "id": "1862"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
-        "licencia": "12350",
-        "id": "12350"
+        "licencia": "0"
       },
       "sets": [
         {

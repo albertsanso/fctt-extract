@@ -37,35 +37,29 @@
     "local": {
       "A": {
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
+        "licencia": "0"
       },
       "B": {
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "12296",
-        "id": "12296"
+        "licencia": "0"
       },
       "C": {
         "nombre": "RELLOSO ESTRADE, POL",
-        "licencia": "5612",
-        "id": "5612"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "1266",
-        "id": "1266"
+        "licencia": "0"
       },
       "X": {
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "licencia": "0"
       }
     }
   },
@@ -78,14 +72,12 @@
       "local": {
         "letra": "A",
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "SINGH BAIDWAN, ARASHBIR",
-        "licencia": "10949",
-        "id": "10949"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -131,14 +123,12 @@
       "local": {
         "letra": "B",
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "12296",
-        "id": "12296"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -179,14 +169,12 @@
       "local": {
         "letra": "C",
         "nombre": "RELLOSO ESTRADE, POL",
-        "licencia": "5612",
-        "id": "5612"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -222,14 +210,12 @@
       "local": {
         "letra": "A",
         "nombre": "MONTAGUT ARIN, JOAN",
-        "licencia": "11863",
-        "id": "11863"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "PUIGMAL PÒLIT, ORIOL",
-        "licencia": "4618",
-        "id": "4618"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -275,14 +261,12 @@
       "local": {
         "letra": "C",
         "nombre": "RELLOSO ESTRADE, POL",
-        "licencia": "5612",
-        "id": "5612"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "TOLEDO FREIXAS, JOAN",
-        "licencia": "1266",
-        "id": "1266"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -318,14 +302,12 @@
       "local": {
         "letra": "B",
         "nombre": "COROMINAS FERNANDEZ, ALBERT",
-        "licencia": "12296",
-        "id": "12296"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "MOLINÉ LOZANO, NICO",
-        "licencia": "13683",
-        "id": "13683"
+        "licencia": "0"
       },
       "sets": [
         {

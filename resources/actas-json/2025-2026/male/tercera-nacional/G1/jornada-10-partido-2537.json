@@ -40,35 +40,29 @@
     "local": {
       "A": {
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
-        "licencia": "14003",
-        "id": "14003"
+        "licencia": "0"
       },
       "B": {
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "C": {
         "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
+        "licencia": "0"
       }
     },
     "visitante": {
       "Y": {
         "nombre": "BOUZA YERGA, ARAN",
-        "licencia": "10347",
-        "id": "10347"
+        "licencia": "0"
       },
       "X": {
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "licencia": "0"
       },
       "Z": {
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       }
     }
   },
@@ -81,14 +75,12 @@
       "local": {
         "letra": "A",
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
-        "licencia": "14003",
-        "id": "14003"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "BOUZA YERGA, ARAN",
-        "licencia": "10347",
-        "id": "10347"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -124,14 +116,12 @@
       "local": {
         "letra": "B",
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -167,14 +157,12 @@
       "local": {
         "letra": "C",
         "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -210,14 +198,12 @@
       "local": {
         "letra": "A",
         "nombre": "SERRANO NARVAEZ, ÀLVARO",
-        "licencia": "14003",
-        "id": "14003"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "X",
         "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
-        "licencia": "11283",
-        "id": "11283"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -258,14 +244,12 @@
       "local": {
         "letra": "C",
         "nombre": "BENET GIL, ADRIÀ",
-        "licencia": "13679",
-        "id": "13679"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Y",
         "nombre": "BOUZA YERGA, ARAN",
-        "licencia": "10347",
-        "id": "10347"
+        "licencia": "0"
       },
       "sets": [
         {
@@ -306,14 +290,12 @@
       "local": {
         "letra": "B",
         "nombre": "SOLÉ ACUNUNEI, ANDREU",
-        "licencia": "14428",
-        "id": "14428"
+        "licencia": "0"
       },
       "visitante": {
         "letra": "Z",
         "nombre": "GRANADOS GRÍFOL, JOAN",
-        "licencia": "14223",
-        "id": "14223"
+        "licencia": "0"
       },
       "sets": [
         {
