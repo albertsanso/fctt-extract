@@ -60,7 +60,7 @@ por encuentro en:
 resources/actas-json/{temporada}/{categoria}/{grup}/jornada_{N}_partido_{id}.json
 ```
 
-Cada JSON sigue el modelo de `resources/actas-json/model-definition.json` e
+Cada JSON sigue el modelo de `docs/model-definition.json` e
 incluye equipos, alineaciones, partidos individuales, dobles, sets, resultado,
 fecha, hora, lugar y árbitro cuando están disponibles.
 Si una página HTML masculina contiene `No s'han trobat resultats.` o no tiene
