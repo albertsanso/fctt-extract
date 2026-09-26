@@ -1,0 +1,352 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 19,
+  "fecha": "2026-04-18",
+  "hora": "16:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE VILABLAREIX. MARROC S/N. ,17180 VILABLAREIX"
+  },
+  "equipos": {
+    "local": {
+      "id": "93",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "81",
+      "nombre": "TARINAS CALELLA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "X": {
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "Z": {
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "B": {
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "C": {
+        "nombre": "MIRO TARDY, SERGI",
+        "licencia": "18203",
+        "id": "18203"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MIRO TARDY, SERGI",
+        "licencia": "18203",
+        "id": "18203"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "VILARNAU GRABULEDA, PAU",
+        "licencia": "6082",
+        "id": "6082"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "HURTÓS COLOMÉ, ORIOL",
+        "licencia": "1505",
+        "id": "1505"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MIRO TARDY, SERGI",
+        "licencia": "18203",
+        "id": "18203"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VILABLAREIX SFY",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

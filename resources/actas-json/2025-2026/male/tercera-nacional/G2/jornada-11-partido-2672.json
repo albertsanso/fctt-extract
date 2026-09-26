@@ -1,0 +1,357 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 11,
+  "fecha": "2026-01-10",
+  "hora": "19:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE SALLENT. C.VERGE DEL PILAR S/N. SI NO ESTÀ OBERT EL PAVELLÓ, S'ENTRA PER L'ESCALA COSTAT PAVELLÓ,08650 SALLENT"
+  },
+  "equipos": {
+    "local": {
+      "id": "90",
+      "nombre": "CTTSALLENT.RESET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "85",
+      "nombre": "GRANDVALIRA CTT ENCAMP",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "IRINA KOZHUKHOVA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "B": {
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "C": {
+        "nombre": "CHENG, ZHONGYONG",
+        "licencia": "16395",
+        "id": "16395"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
+      "X": {
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
+      "Z": {
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 1
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "CHENG, ZHONGYONG",
+        "licencia": "16395",
+        "id": "16395"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PEREIRA GARCIA, BRUNO",
+        "licencia": "18530",
+        "id": "18530"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "CHENG, ZHONGYONG",
+        "licencia": "16395",
+        "id": "16395"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "RODRIGUEZ CHALAIS, PATRICK",
+        "licencia": "1360",
+        "id": "1360"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTTSALLENT.RESET",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

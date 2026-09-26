@@ -1,0 +1,367 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 1,
+  "fecha": "2025-09-27",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "AEC REUS. CARRER ORIENT 17. ,43204 REUS"
+  },
+  "equipos": {
+    "local": {
+      "id": "70",
+      "nombre": "AEC REUS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "94",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "JORDI FERRATE AGUILAR",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
+      "X": {
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      "Z": {
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "B": {
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
+      "C": {
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CHICO ZURANO, MIGUEL ANGEL",
+        "licencia": "1861",
+        "id": "1861"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 1
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "AEC REUS",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

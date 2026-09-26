@@ -1,0 +1,397 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 1,
+  "fecha": "2025-09-27",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL 1 AV. . RAMBLA DEL CELLER S/N, PRIMER PIS. ,08172 SANT CUGAT DEL VALLÈS"
+  },
+  "equipos": {
+    "local": {
+      "id": "104",
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "81",
+      "nombre": "TARINAS CALELLA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "JOAN MUÑOZ SIMON",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "X": {
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
+      "Z": {
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CERVANTES CABAS, JOEL",
+        "licencia": "8679",
+        "id": "8679"
+      },
+      "B": {
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "C": {
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CERVANTES CABAS, JOEL",
+        "licencia": "8679",
+        "id": "8679"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 14,
+          "visitante": 16
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CERVANTES CABAS, JOEL",
+        "licencia": "8679",
+        "id": "8679"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 4,
+          "local": 16,
+          "visitante": 18
+        },
+        {
+          "set": 5,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 16,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,364 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 10,
+  "fecha": "2025-12-13",
+  "hora": "16:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "GIMNÀS DEL COL·LEGI POMPEU FABRA. C/ DR. JOSEP LLUC S/N. ENTRADA PER LA PORTA GRISA,25230 MOLLERUSSA"
+  },
+  "equipos": {
+    "local": {
+      "id": "87",
+      "nombre": "CTT MOLLERUSSA ARCUSIN",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "74",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
+      },
+      "X": {
+        "nombre": "LLANES VILARASAU, ALEIX",
+        "licencia": "15322",
+        "id": "15322"
+      },
+      "Z": {
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "TRONCOSO ACETE, NESTOR",
+        "licencia": "8311",
+        "id": "8311"
+      },
+      "B": {
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "C": {
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "TRONCOSO ACETE, NESTOR",
+        "licencia": "8311",
+        "id": "8311"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "LLANES VILARASAU, ALEIX",
+        "licencia": "15322",
+        "id": "15322"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "LLANES VILARASAU, ALEIX",
+        "licencia": "15322",
+        "id": "15322"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "TRONCOSO ACETE, NESTOR",
+        "licencia": "8311",
+        "id": "8311"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARCIA ÁLVAREZ, EUDALD",
+        "licencia": "13776",
+        "id": "13776"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "VIÑALS SERRANO, DAVID",
+        "licencia": "1537",
+        "id": "1537"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "LLOBERA BOSCH, ALBERT",
+        "licencia": "8204",
+        "id": "8204"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 5
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CPP IGUALADA",
+    "marcador_partidos": {
+      "local": 1,
+      "visitante": 5
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

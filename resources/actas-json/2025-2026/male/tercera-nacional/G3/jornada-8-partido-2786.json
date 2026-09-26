@@ -1,0 +1,446 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 8,
+  "fecha": "2025-11-23",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL D'ESPORTS DE LA BISBAL D'EMPORDÀ. AVINGUDA MAS CLARA S/N. ,17100 LA BISBAL D'EMPORDÀ"
+  },
+  "equipos": {
+    "local": {
+      "id": "86",
+      "nombre": "C.T.T. LA BISBAL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "88",
+      "nombre": "CTT OLOT - FAIBO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "B": {
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "C": {
+        "nombre": "PONCE SAEZ, CARLOS",
+        "licencia": "14735",
+        "id": "14735"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "X": {
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "Z": {
+        "nombre": "SINGH BAIDWAN, ARASHBIR",
+        "licencia": "10949",
+        "id": "10949"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      {
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      {
+        "nombre": "SINGH BAIDWAN, ARASHBIR",
+        "licencia": "10949",
+        "id": "10949"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "PONCE SAEZ, CARLOS",
+        "licencia": "14735",
+        "id": "14735"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "SINGH BAIDWAN, ARASHBIR",
+        "licencia": "10949",
+        "id": "10949"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MOLINÉ LOZANO, NICO",
+        "licencia": "13683",
+        "id": "13683"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "PONCE SAEZ, CARLOS",
+        "licencia": "14735",
+        "id": "14735"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "SINGH BAIDWAN, ARASHBIR",
+        "licencia": "10949",
+        "id": "10949"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "FONTANET PÉREZ, FRANCESC",
+            "licencia": "1002",
+            "id": "1002"
+          },
+          {
+            "nombre": "RIBAS XUCLÀ, JORDI",
+            "licencia": "1081",
+            "id": "1081"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "PUIGMAL PÒLIT, ORIOL",
+            "licencia": "4618",
+            "id": "4618"
+          },
+          {
+            "nombre": "SINGH BAIDWAN, ARASHBIR",
+            "licencia": "10949",
+            "id": "10949"
+          }
+        ],
+        "nombre": "PUIGMAL PÒLIT, ORIOL",
+        "licencia": "4618",
+        "id": "4618"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "C.T.T. LA BISBAL",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

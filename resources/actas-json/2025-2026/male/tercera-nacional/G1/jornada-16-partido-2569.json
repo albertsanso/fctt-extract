@@ -1,0 +1,362 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 16,
+  "fecha": "2026-02-28",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "COMPLEX EDUCATIU DE TARRAGONA. AUTOVIA SALOU S/N.,43006 TARRAGONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "100",
+      "nombre": "CLUB GIMNÀSTIC DE TARRAGONA \"B\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "91",
+      "nombre": "CTT TORTOSA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "DAVID CAMPANYA BASSEDA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
+        "licencia": "20500",
+        "id": "20500"
+      },
+      "X": {
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "Z": {
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MARTINEZ FONTANE, JUAN",
+        "licencia": "8137",
+        "id": "8137"
+      },
+      "B": {
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
+      "C": {
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
+        "licencia": "20500",
+        "id": "20500"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MARTINEZ FONTANE, JUAN",
+        "licencia": "8137",
+        "id": "8137"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 15
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MARTINEZ FONTANE, JUAN",
+        "licencia": "8137",
+        "id": "8137"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "AMZAEV RIDVANOVICH, RUSLAN",
+        "licencia": "20500",
+        "id": "20500"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "QUEROL COLL, JAUME",
+        "licencia": "5578",
+        "id": "5578"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "DOMINGO CHAVARRIA, DAVID",
+        "licencia": "11332",
+        "id": "11332"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB GIMNÀSTIC DE TARRAGONA \"B\"",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

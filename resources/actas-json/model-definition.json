@@ -7,6 +7,7 @@
   "required": [
     "federacion",
     "temporada",
+    "genero",
     "competicion",
     "grupo",
     "jornada",
@@ -33,6 +34,12 @@
       "description": "Temporada deportiva a la que pertenece el encuentro. Puede no estar disponible en actas incompletas.",
       "pattern": "^[0-9]{4}/[0-9]{4}$",
       "examples": ["2025/2026", null]
+    },
+    "genero": {
+      "type": "string",
+      "description": "Género de la competición del acta, derivado de la carpeta male/female de origen.",
+      "enum": ["masculino", "femenino"],
+      "examples": ["masculino", "femenino"]
     },
     "competicion": {
       "type": ["string", "null"],

@@ -1,0 +1,382 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 15,
+  "fecha": "2026-02-07",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CTT CASTELLGALI. CARRER DELS AFORES 11. COSTAT FÀBRICA RETO,08297 CASTELLGALÍ"
+  },
+  "equipos": {
+    "local": {
+      "id": "83",
+      "nombre": "CTT CASTELLGALI",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "73",
+      "nombre": "CN SABADELL",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "GIL ARUMI CROSAS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "B": {
+        "nombre": "GARRACHON GARCIA, ORIOL",
+        "licencia": "16318",
+        "id": "16318"
+      },
+      "C": {
+        "nombre": "HERNANDEZ SANS, JORDI",
+        "licencia": "11191",
+        "id": "11191"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "TOMAS FUERTES, UNAI",
+        "licencia": "16524",
+        "id": "16524"
+      },
+      "X": {
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "Z": {
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "TOMAS FUERTES, UNAI",
+        "licencia": "16524",
+        "id": "16524"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "GARRACHON GARCIA, ORIOL",
+        "licencia": "16318",
+        "id": "16318"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "HERNANDEZ SANS, JORDI",
+        "licencia": "11191",
+        "id": "11191"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ESCOBAR SANCHEZ, MATIAS",
+        "licencia": "20654",
+        "id": "20654"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "BARBERÀ SOLER, QUIM",
+        "licencia": "11643",
+        "id": "11643"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "HERNANDEZ SANS, JORDI",
+        "licencia": "11191",
+        "id": "11191"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "TOMAS FUERTES, UNAI",
+        "licencia": "16524",
+        "id": "16524"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "GARRACHON GARCIA, ORIOL",
+        "licencia": "16318",
+        "id": "16318"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "SALA PUJOL, JORDI",
+        "licencia": "15899",
+        "id": "15899"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLGALI",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

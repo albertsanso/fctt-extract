@@ -1,0 +1,369 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 9,
+  "fecha": "2025-11-29",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "SCR EL CIERVO. VILADOMAT 26. ,08205 SABADELL"
+  },
+  "equipos": {
+    "local": {
+      "id": "95",
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "100",
+      "nombre": "CLUB GIMNÀSTIC DE TARRAGONA \"B\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "B": {
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "C": {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "X": {
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "Z": {
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "MONTES MARTINEZ, FRANCISCO JAVIER",
+        "licencia": "12350",
+        "id": "12350"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EL CIERVO",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

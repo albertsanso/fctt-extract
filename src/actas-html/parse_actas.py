@@ -2,6 +2,8 @@
 
 Each downloaded jornada page contains several encounters.  This script emits
 one JSON object per encounter so every output file follows model-definition.json.
+Input pages live at ``{season}/{male|female}/{category}/[G{n}/]jornada-{n}.html`` and
+the JSON files mirror that hierarchy as ``.../jornada-{n}-partido-{id}.json``.
 It intentionally uses only Python's standard library.
 """
 
@@ -17,12 +19,18 @@ from datetime import datetime
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from typing import Iterable
 from urllib.parse import parse_qs, urlparse
 
 
 DEFAULT_INPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-html"
 DEFAULT_OUTPUT = Path(__file__).resolve().parents[2] / "resources" / "actas-json"
 FEDERATION = "Federació Catalana de Tennis Taula"
+GENDERS = {"male": "masculino", "female": "femenino"}
+MALE_CATEGORY = "tercera-nacional"
+FEMALE_CATEGORY_PREFIX = "copa-catalana-femenina"
+SEASON_PATTERN = re.compile(r"\d{4}-\d{4}")
+GROUP_PATTERN = re.compile(r"G(\d+)", re.I)
 LOGGER = logging.getLogger("fctt-parser")
 
 
@@ -55,6 +63,40 @@ class Node:
     def find_first(self, *, tag: str | None = None, class_name: str | None = None) -> "Node | None":
         matches = self.find_all(tag=tag, class_name=class_name)
         return matches[0] if matches else None
+
+
+@dataclass(frozen=True)
+class Location:
+    """Position of a jornada page inside the ``{season}/{gender}/{category}/[G{n}]`` tree."""
+
+    season: str | None = None
+    gender: str | None = None
+    category: str | None = None
+    group: str | None = None
+
+
+def source_location(source: Path) -> Location:
+    parts = source.resolve().parent.parts
+    for index in range(len(parts) - 1, -1, -1):
+        if SEASON_PATTERN.fullmatch(parts[index]):
+            rest = list(parts[index + 1:])
+            gender = rest.pop(0) if rest and rest[0] in GENDERS else None
+            category = rest.pop(0) if rest and not GROUP_PATTERN.fullmatch(rest[0]) else None
+            group = rest[0] if rest and GROUP_PATTERN.fullmatch(rest[0]) else None
+            return Location(parts[index], gender, category, group)
+    group = parts[-1] if parts and GROUP_PATTERN.fullmatch(parts[-1]) else None
+    return Location(group=group)
+
+
+def gender_from_competition(competition: str | None) -> str:
+    return "female" if competition and re.search(r"FEMEN", competition, re.I) else "male"
+
+
+def default_category(gender: str, competition: str | None) -> str:
+    if gender == "male":
+        return MALE_CATEGORY
+    division = re.search(r"\b(\d+)\s*[aª]\b", competition or "", re.I)
+    return f"{FEMALE_CATEGORY_PREFIX}-{division.group(1)}a" if division else FEMALE_CATEGORY_PREFIX
 
 
 class DocumentParser(HTMLParser):
@@ -187,7 +229,7 @@ def extract_jornada(root: Node, source: Path) -> int:
     match = re.search(r"Jornada\s+(\d+)", heading.text() if heading else "", re.I)
     if match:
         return int(match.group(1))
-    match = re.search(r"jornada_(\d+)", source.name, re.I)
+    match = re.search(r"jornada[_-](\d+)", source.name, re.I)
     if match:
         return int(match.group(1))
     raise ValueError(f"No s'ha pogut determinar la jornada de {source}")
@@ -321,24 +363,52 @@ def swap_sides(partido: dict[str, object]) -> dict[str, object]:
 def parse_file(source: Path) -> list[dict[str, object]]:
     root = parse_document(source.read_text(encoding="utf-8", errors="replace"))
     season, competition, title_group = parse_season_title(root)
-    group_match = re.search(r"(?:^|[\\/])G(\d+)(?:[\\/]|$)", str(source))
+    location = source_location(source)
+    group_match = GROUP_PATTERN.fullmatch(location.group or "")
     group = title_group or (int(group_match.group(1)) if group_match else 0)
-    common = {"federacion": FEDERATION, "temporada": season, "competicion": competition, "grupo": group, "jornada": extract_jornada(root, source)}
+    gender = location.gender or gender_from_competition(competition)
+    if not season and location.season:
+        season = location.season.replace("-", "/")
+    common = {
+        "federacion": FEDERATION, "temporada": season, "genero": GENDERS[gender], "competicion": competition,
+        "grupo": group, "jornada": extract_jornada(root, source),
+    }
     return [parse_match(node, common=common, number=index) for index, node in enumerate(root.find_all(class_name="match-container"), start=1)]
 
 
 def output_path(output_root: Path, source: Path, data: dict[str, object]) -> Path:
-    season = str(data["temporada"] or "2025-2026").replace("/", "-")
-    category = "tercera nacional"
-    group = f"G{data['grupo']}"
-    jornada = data["jornada"]
-    return output_root / season / category / group / f"jornada_{jornada}_partido_{data['_id']}.json"
+    location = source_location(source)
+    season = location.season or str(data["temporada"] or "").replace("/", "-")
+    if not SEASON_PATTERN.fullmatch(season):
+        raise ValueError(f"No s'ha pogut determinar la temporada de {source}")
+    gender = next(key for key, value in GENDERS.items() if value == data["genero"])
+    category = location.category or default_category(gender, data["competicion"])
+    folder = output_root / season / gender / category
+    if location.group:
+        folder /= location.group
+    elif gender == "male" and data["grupo"]:
+        folder /= f"G{data['grupo']}"
+    return folder / f"jornada-{data['jornada']}-partido-{data['_id']}.json"
 
 
-def parse_all(input_root: Path, output_root: Path, *, overwrite: bool = False) -> int:
+def parse_all(
+    input_root: Path,
+    output_root: Path,
+    *,
+    overwrite: bool = False,
+    seasons: Iterable[str] | None = None,
+    genders: Iterable[str] | None = None,
+) -> int:
     written = 0
+    seasons = set(seasons) if seasons is not None else None
+    genders = set(genders) if genders is not None else None
     sources = [input_root] if input_root.is_file() else sorted(input_root.rglob("*.html"))
     for source in sources:
+        location = source_location(source)
+        if seasons is not None and location.season not in seasons:
+            continue
+        if genders is not None and location.gender not in genders:
+            continue
         try:
             records = parse_file(source)
         except (OSError, ValueError) as error:
@@ -348,7 +418,11 @@ def parse_all(input_root: Path, output_root: Path, *, overwrite: bool = False) -
             LOGGER.warning("Sense partits a %s; no es generarà cap JSON", source)
             continue
         for record in records:
-            destination = output_path(output_root, source, record)
+            try:
+                destination = output_path(output_root, source, record)
+            except ValueError as error:
+                LOGGER.error("%s", error)
+                continue
             record.pop("_id", None)
             if destination.exists() and not overwrite:
                 LOGGER.info("Ja existeix: %s", destination)
@@ -363,6 +437,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
+    parser.add_argument("--seasons", nargs="+", metavar="YYYY-YYYY", help="Temporades a processar (per defecte, totes)")
+    parser.add_argument("--genders", nargs="+", choices=sorted(GENDERS), help="male i/o female (per defecte, tots dos)")
     parser.add_argument("--overwrite", action="store_true")
     parser.add_argument("--verbose", action="store_true")
     return parser
@@ -374,7 +450,7 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO if args.verbose else logging.WARNING, format="%(levelname)s: %(message)s")
     if not args.input.exists():
         parser.error(f"No existeix el directori d'entrada: {args.input}")
-    count = parse_all(args.input, args.output, overwrite=args.overwrite)
+    count = parse_all(args.input, args.output, overwrite=args.overwrite, seasons=args.seasons, genders=args.genders)
     LOGGER.warning("JSON nous: %s", count)
     return 0
 

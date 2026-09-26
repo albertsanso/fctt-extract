@@ -1,0 +1,367 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 14,
+  "fecha": "2026-01-31",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CEIP PAU VILA. C/ DEL PARE JOAN RAMON IMBERT. ENTRADA PER AV. PEDRA DEL DIABLE S/N,08150 PARETS DEL VALLÈS"
+  },
+  "equipos": {
+    "local": {
+      "id": "102",
+      "nombre": "TT PARETS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "96",
+      "nombre": "TT ELS 8 LA GARRIGA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "MARC ROMERO VIAPLANA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "GARCIA TAPIA, SANTIAGO",
+        "licencia": "14578",
+        "id": "14578"
+      },
+      "X": {
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "Z": {
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "B": {
+        "nombre": "GAVIN MOLINS, JORDI",
+        "licencia": "1198",
+        "id": "1198"
+      },
+      "C": {
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARCIA TAPIA, SANTIAGO",
+        "licencia": "14578",
+        "id": "14578"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GAVIN MOLINS, JORDI",
+        "licencia": "1198",
+        "id": "1198"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HUGUET MOLIST, SERGI",
+        "licencia": "7149",
+        "id": "7149"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MONTAGUT ARIN, JOAN",
+        "licencia": "11863",
+        "id": "11863"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "GARCIA TAPIA, SANTIAGO",
+        "licencia": "14578",
+        "id": "14578"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "COROMINAS FERNANDEZ, ALBERT",
+        "licencia": "12296",
+        "id": "12296"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GARRELL GARCIA, AMADOR",
+        "licencia": "10740",
+        "id": "10740"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "GAVIN MOLINS, JORDI",
+        "licencia": "1198",
+        "id": "1198"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TT ELS 8 LA GARRIGA",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

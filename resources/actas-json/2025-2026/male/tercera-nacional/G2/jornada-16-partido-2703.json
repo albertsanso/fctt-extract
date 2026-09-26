@@ -1,0 +1,377 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2026-02-28",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "SALA JOAN ROMEU. C/MESTRE TOMÀS CABEZA 13. ,08292 ESPARREGUERA"
+  },
+  "equipos": {
+    "local": {
+      "id": "72",
+      "nombre": "CETT ESPARREGUERA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "74",
+      "nombre": "CPP IGUALADA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "FRANCISCO FERNANDEZ QUESADA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "CASQUERO MARÍN, ERIC",
+        "licencia": "16414",
+        "id": "16414"
+      },
+      "X": {
+        "nombre": "HERMIDA ALLENDE, ALEIX",
+        "licencia": "14611",
+        "id": "14611"
+      },
+      "Z": {
+        "nombre": "GONZALEZ LIZANA, DAVID",
+        "licencia": "6740",
+        "id": "6740"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      "B": {
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "C": {
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CASQUERO MARÍN, ERIC",
+        "licencia": "16414",
+        "id": "16414"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HERMIDA ALLENDE, ALEIX",
+        "licencia": "14611",
+        "id": "14611"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GONZALEZ LIZANA, DAVID",
+        "licencia": "6740",
+        "id": "6740"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HERMIDA ALLENDE, ALEIX",
+        "licencia": "14611",
+        "id": "14611"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LUCO MANUBENS, DANIEL",
+        "licencia": "659",
+        "id": "659"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CASQUERO MARÍN, ERIC",
+        "licencia": "16414",
+        "id": "16414"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CRUSI LOPEZ, ADRIA",
+        "licencia": "3420",
+        "id": "3420"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "GONZALEZ LIZANA, DAVID",
+        "licencia": "6740",
+        "id": "6740"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "REALES RAMOS, ADRIÀ",
+        "licencia": "2342",
+        "id": "2342"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CETT ESPARREGUERA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

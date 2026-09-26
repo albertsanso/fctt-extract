@@ -1,0 +1,347 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 2,
+  "fecha": "2025-10-05",
+  "hora": "10:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "ESCOLA MONSERRAT . CARRER D'ANTONI GAUDÍ, 30. ,08330 PREMIÀ DE MAR"
+  },
+  "equipos": {
+    "local": {
+      "id": "71",
+      "nombre": "ATT PREMIA DE MAR",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "92",
+      "nombre": "CTT VALLS DE TORROELLA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ROSANA CEBALLOS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "B": {
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "C": {
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
+      "X": {
+        "nombre": "PICH SERRA, GUILLEM",
+        "licencia": "13163",
+        "id": "13163"
+      },
+      "Z": {
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PICH SERRA, GUILLEM",
+        "licencia": "13163",
+        "id": "13163"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 1
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "PICH SERRA, GUILLEM",
+        "licencia": "13163",
+        "id": "13163"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CUSSÓ PUJOL, JOAN",
+        "licencia": "484",
+        "id": "484"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 16,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "DOMINGUEZ BLAZQUEZ, PABLO",
+        "licencia": "12483",
+        "id": "12483"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 1
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT VALLS DE TORROELLA",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

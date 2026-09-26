@@ -1,0 +1,362 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 22,
+  "fecha": "2026-05-09",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ DEL CLUB GIMNÀSTIC DE TARRAGONA. PARTIDA BUDALLERA S/N . DEVANT DEL CAMP DE FUTBOL,43007 TARRAGONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "100",
+      "nombre": "CLUB GIMNÀSTIC DE TARRAGONA \"B\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "94",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "ENRIC CASADO PAGES",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "X": {
+        "nombre": "FERNÁNDEZ CESTER, JAN",
+        "licencia": "15052",
+        "id": "15052"
+      },
+      "Z": {
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "VALLVERDÚ MORALES, PAU",
+        "licencia": "15763",
+        "id": "15763"
+      },
+      "B": {
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "C": {
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "VALLVERDÚ MORALES, PAU",
+        "licencia": "15763",
+        "id": "15763"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "FERNÁNDEZ CESTER, JAN",
+        "licencia": "15052",
+        "id": "15052"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "FERNÁNDEZ CESTER, JAN",
+        "licencia": "15052",
+        "id": "15052"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "VALLVERDÚ MORALES, PAU",
+        "licencia": "15763",
+        "id": "15763"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "HERRERO RABASO, IVAN",
+        "licencia": "7442",
+        "id": "7442"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "DEL RIO FERNANDEZ, JOAQUIN",
+        "licencia": "17643",
+        "id": "17643"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "BUENO MOYA, IZAN",
+        "licencia": "12351",
+        "id": "12351"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "OBREGON LOPEZ, JOAN",
+        "licencia": "8474",
+        "id": "8474"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CLUB GIMNÀSTIC DE TARRAGONA \"B\"",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

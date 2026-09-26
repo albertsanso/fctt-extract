@@ -1,0 +1,377 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 1,
+  "fecha": "2025-09-27",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CENTRE DE TECNIFICACIÓ ENRIC VALL. C/ MESTRA MARIA CODINA, 1. ,25400 LES BORGES BLANQUES"
+  },
+  "equipos": {
+    "local": {
+      "id": "80",
+      "nombre": "LES BORGES MASIA TERO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "82",
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "RAIMOND ALOY ROCAMADÓ",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "MIR FERNÀNDEZ, ORIOL",
+        "licencia": "1110",
+        "id": "1110"
+      },
+      "X": {
+        "nombre": "ROMA ROS, XÈNIA",
+        "licencia": "12201",
+        "id": "12201"
+      },
+      "Z": {
+        "nombre": "ROMA ROS, NEUS",
+        "licencia": "12203",
+        "id": "12203"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "B": {
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "C": {
+        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
+        "licencia": "13638",
+        "id": "13638"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "MIR FERNÀNDEZ, ORIOL",
+        "licencia": "1110",
+        "id": "1110"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ROMA ROS, XÈNIA",
+        "licencia": "12201",
+        "id": "12201"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ROMA ROS, NEUS",
+        "licencia": "12203",
+        "id": "12203"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
+        "licencia": "13638",
+        "id": "13638"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ROMA ROS, XÈNIA",
+        "licencia": "12201",
+        "id": "12201"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "MIR FERNÀNDEZ, ORIOL",
+        "licencia": "1110",
+        "id": "1110"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "GUTIÉRREZ GONZÁLEZ, MARC",
+        "licencia": "13638",
+        "id": "13638"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "ROMA ROS, NEUS",
+        "licencia": "12203",
+        "id": "12203"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MARTÍ AGUADO, VICTOR",
+        "licencia": "13637",
+        "id": "13637"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "LES BORGES MASIA TERO",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

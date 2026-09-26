@@ -1,0 +1,456 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 15,
+  "fecha": "2026-02-07",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL 1 AV. . RAMBLA DEL CELLER S/N, PRIMER PIS. ,08172 SANT CUGAT DEL VALLÈS"
+  },
+  "equipos": {
+    "local": {
+      "id": "104",
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "101",
+      "nombre": "CTT POBLENOU",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "ERIC MOGEDANO SERRANO",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "X": {
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "Z": {
+        "nombre": "MUNNÉ SANS, LAIA",
+        "licencia": "5954",
+        "id": "5954"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "B": {
+        "nombre": "RIMBAU PLANAS, JOAQUIM",
+        "licencia": "5016",
+        "id": "5016"
+      },
+      "C": {
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      {
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      {
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RIMBAU PLANAS, JOAQUIM",
+        "licencia": "5016",
+        "id": "5016"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MUNNÉ SANS, LAIA",
+        "licencia": "5954",
+        "id": "5954"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+        "licencia": "3912",
+        "id": "3912"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "CASTILLO HEREDIA, FRANCESC",
+        "licencia": "972",
+        "id": "972"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+        "licencia": "328",
+        "id": "328"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MUNNÉ SANS, LAIA",
+        "licencia": "5954",
+        "id": "5954"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RIMBAU PLANAS, JOAQUIM",
+        "licencia": "5016",
+        "id": "5016"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 2,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "HUERTAS ARTO, BRUNO",
+            "licencia": "10139",
+            "id": "10139"
+          },
+          {
+            "nombre": "CASTILLO HEREDIA, FRANCESC",
+            "licencia": "972",
+            "id": "972"
+          }
+        ],
+        "nombre": "HUERTAS ARTO, BRUNO",
+        "licencia": "10139",
+        "id": "10139"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "SÀNCHEZ SÀNCHEZ, CARLOS",
+            "licencia": "3912",
+            "id": "3912"
+          },
+          {
+            "nombre": "BOIX LAMAÑA, ANGEL ANTONIO",
+            "licencia": "328",
+            "id": "328"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 15
+        },
+        {
+          "set": 4,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT POBLENOU",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

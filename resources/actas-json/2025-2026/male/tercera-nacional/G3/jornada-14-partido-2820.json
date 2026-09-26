@@ -1,0 +1,466 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 14,
+  "fecha": "2026-01-31",
+  "hora": "16:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL DE VILABLAREIX. MARROC S/N. ,17180 VILABLAREIX"
+  },
+  "equipos": {
+    "local": {
+      "id": "93",
+      "nombre": "CTT VILABLAREIX SFY",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "103",
+      "nombre": "T.T.PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "IRINA KOZHUKHOVA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "B": {
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "C": {
+        "nombre": "LÓPEZ ORTEGA, IREN",
+        "licencia": "14131",
+        "id": "14131"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "X": {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "Z": {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      {
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "LÓPEZ ORTEGA, IREN",
+        "licencia": "14131",
+        "id": "14131"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 2,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "LLORENTE PLANELLAS, ELOI",
+        "licencia": "6596",
+        "id": "6596"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 14,
+          "visitante": 16
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "LÓPEZ ORTEGA, IREN",
+        "licencia": "14131",
+        "id": "14131"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ARDILA MARQUEZ, JUAN CARLOS",
+        "licencia": "744",
+        "id": "744"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "DIAZ SOLDADO, EVAN",
+        "licencia": "13818",
+        "id": "13818"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "LLORENTE PLANELLAS, ELOI",
+            "licencia": "6596",
+            "id": "6596"
+          },
+          {
+            "nombre": "DIAZ SOLDADO, EVAN",
+            "licencia": "13818",
+            "id": "13818"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "RUIZ VAREA, AMADOR",
+            "licencia": "842",
+            "id": "842"
+          },
+          {
+            "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+            "licencia": "850",
+            "id": "850"
+          }
+        ],
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "T.T.PRAT LISANT",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

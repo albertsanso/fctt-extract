@@ -1,0 +1,347 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 2,
+  "fecha": "2025-10-05",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "FÀBRICA LLOBET I GURI. C/SANT JAUME, 339. ENTRADA PER NACIONAL II,08370 CALELLA"
+  },
+  "equipos": {
+    "local": {
+      "id": "81",
+      "nombre": "TARINAS CALELLA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "103",
+      "nombre": "T.T.PRAT LISANT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "RAIMOND ALOY ROCAMADÓ",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "B": {
+        "nombre": "CERVANTES CABAS, JOEL",
+        "licencia": "8679",
+        "id": "8679"
+      },
+      "C": {
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "JULIÀ LAMBEA, FÈLIX",
+        "licencia": "684",
+        "id": "684"
+      },
+      "X": {
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "Z": {
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "JULIÀ LAMBEA, FÈLIX",
+        "licencia": "684",
+        "id": "684"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "CERVANTES CABAS, JOEL",
+        "licencia": "8679",
+        "id": "8679"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ABIO BUIL, XAVIER",
+        "licencia": "10526",
+        "id": "10526"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "DURAN SALGUEIRO, ROBERTO CARLOS",
+        "licencia": "850",
+        "id": "850"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "MARTÍNEZ SEGURA, BIEL",
+        "licencia": "15782",
+        "id": "15782"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "JULIÀ LAMBEA, FÈLIX",
+        "licencia": "684",
+        "id": "684"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "CERVANTES CABAS, JOEL",
+        "licencia": "8679",
+        "id": "8679"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "RUIZ VAREA, AMADOR",
+        "licencia": "842",
+        "id": "842"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "TARINAS CALELLA",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

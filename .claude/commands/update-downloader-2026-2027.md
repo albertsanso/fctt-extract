@@ -5,7 +5,8 @@ description: Add female teams and restructure resources folder to fit male and f
 
 # Summary
 
-This command modifies the script `src/actas-html/download_actas.py` in order to update to new 2026-2027 season and add female teams data. It also restructures the resources folder to accommodate both male and female teams.
+This command modifies the script `src/actas-html/download_actas.py` in order to update to new 2026-2027 season and add female teams data. 
+It also restructures the resources folder to accommodate both male and female teams.
 
 # Description
 Modify the script `src/actas-html/download_actas.py` for:

@@ -1,0 +1,456 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 10,
+  "fecha": "2025-12-13",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "AEC REUS. CARRER ORIENT 17. ,43204 REUS"
+  },
+  "equipos": {
+    "local": {
+      "id": "70",
+      "nombre": "AEC REUS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "95",
+      "nombre": "EL CIERVO",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "DAVID CAMPANYA BASSEDA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      "B": {
+        "nombre": "ALTARRIBA BARRAU, VICTOR",
+        "licencia": "1862",
+        "id": "1862"
+      },
+      "C": {
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "X": {
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "Z": {
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      {
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      {
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "ALTARRIBA BARRAU, VICTOR",
+        "licencia": "1862",
+        "id": "1862"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "ARCE GOMEZ, IKER",
+        "licencia": "15008",
+        "id": "15008"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "VILA LLUIS, JORDI",
+        "licencia": "6223",
+        "id": "6223"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "AMILL BORRULL, MARC",
+        "licencia": "10969",
+        "id": "10969"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 16,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 15,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "ALTARRIBA BARRAU, VICTOR",
+        "licencia": "1862",
+        "id": "1862"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VILLORO CARDONER, XAVIER",
+        "licencia": "557",
+        "id": "557"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 14,
+          "visitante": 16
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ARCE GOMEZ, IKER",
+            "licencia": "15008",
+            "id": "15008"
+          },
+          {
+            "nombre": "AMILL BORRULL, MARC",
+            "licencia": "10969",
+            "id": "10969"
+          }
+        ]
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+            "licencia": "199",
+            "id": "199"
+          },
+          {
+            "nombre": "VILLORO CARDONER, XAVIER",
+            "licencia": "557",
+            "id": "557"
+          }
+        ],
+        "nombre": "CASTELLS MONTSERRAT, FRANCESC",
+        "licencia": "199",
+        "id": "199"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 3
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "AEC REUS",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 3
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,382 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 6,
+  "fecha": "2025-11-09",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "SALA POLIVALENT CEM PITORT. PASSEIG DEL PITORT 198-200. ,08860 CASTELLDEFELS"
+  },
+  "equipos": {
+    "local": {
+      "id": "82",
+      "nombre": "CTT CASTELLDEFELS",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "90",
+      "nombre": "CTTSALLENT.RESET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "CARLOS GARCIA MOMBLONA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "GARCIA RAMIREZ, CARLOS",
+        "licencia": "713",
+        "id": "713"
+      },
+      "B": {
+        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
+        "licencia": "15313",
+        "id": "15313"
+      },
+      "C": {
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "SIBILA BUITRAGO, JOEL",
+        "licencia": "12139",
+        "id": "12139"
+      },
+      "X": {
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "Z": {
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "GARCIA RAMIREZ, CARLOS",
+        "licencia": "713",
+        "id": "713"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "SIBILA BUITRAGO, JOEL",
+        "licencia": "12139",
+        "id": "12139"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
+        "licencia": "15313",
+        "id": "15313"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "GARCIA RAMIREZ, CARLOS",
+        "licencia": "713",
+        "id": "713"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "MAZCUÑAN GARCIA, PAU",
+        "licencia": "8497",
+        "id": "8497"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 16,
+          "visitante": 14
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 9
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "SANTIAGO GASCÓ, CRISTIAN",
+        "licencia": "1130",
+        "id": "1130"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "SIBILA BUITRAGO, JOEL",
+        "licencia": "12139",
+        "id": "12139"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 15
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "EL MOUHMOUH OUAALI, OUMNIA",
+        "licencia": "15313",
+        "id": "15313"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "VILA BIOSCA, JOAN",
+        "licencia": "527",
+        "id": "527"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 6,
+        "visitante": 0
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT CASTELLDEFELS",
+    "marcador_partidos": {
+      "local": 6,
+      "visitante": 0
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

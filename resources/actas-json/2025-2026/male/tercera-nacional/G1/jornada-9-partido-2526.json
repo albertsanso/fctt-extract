@@ -1,0 +1,377 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 9,
+  "fecha": "2025-11-29",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CENTRE DE TECNIFICACIÓ ENRIC VALL. C/ MESTRA MARIA CODINA, 1. ,25400 LES BORGES BLANQUES"
+  },
+  "equipos": {
+    "local": {
+      "id": "79",
+      "nombre": "BORGES MAS BLANCH I JOVÉ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "71",
+      "nombre": "ATT PREMIA DE MAR",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "DAVID CAMPANYA BASSEDA",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
+      "B": {
+        "nombre": "SOLÉ ACUNUNEI, ANDREU",
+        "licencia": "14428",
+        "id": "14428"
+      },
+      "C": {
+        "nombre": "MACIA ARCE, JOAN RAMON",
+        "licencia": "8706",
+        "id": "8706"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "X": {
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "Z": {
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "SOLÉ ACUNUNEI, ANDREU",
+        "licencia": "14428",
+        "id": "14428"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "MACIA ARCE, JOAN RAMON",
+        "licencia": "8706",
+        "id": "8706"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 19,
+          "visitante": 21
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 5,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "ROCAMORA MARTORELL, ANDREU",
+        "licencia": "7452",
+        "id": "7452"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "MACIA ARCE, JOAN RAMON",
+        "licencia": "8706",
+        "id": "8706"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "ESCOLA SANCHEZ, FRANCISCO JAVIER",
+        "licencia": "2983",
+        "id": "2983"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "SOLÉ ACUNUNEI, ANDREU",
+        "licencia": "14428",
+        "id": "14428"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "GARCIA HIJARRUBIA, XAVIER",
+        "licencia": "707",
+        "id": "707"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "BORGES MAS BLANCH I JOVÉ",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

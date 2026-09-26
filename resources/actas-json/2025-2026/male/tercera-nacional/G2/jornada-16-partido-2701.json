@@ -1,0 +1,456 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 16,
+  "fecha": "2026-02-28",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "COMPLEX EDUCATIU DE TARRAGONA. AUTOVIA SALOU S/N.,43006 TARRAGONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "99",
+      "nombre": "CLUB GIMNÀSTIC DE TARRAGONA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "85",
+      "nombre": "GRANDVALIRA CTT ENCAMP",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "JOSEP Mª SERRET G. DE CACERES",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "BIBI ORTIZ, RACHID DAVID",
+        "licencia": "15897",
+        "id": "15897"
+      },
+      "X": {
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "Z": {
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "GONZALEZ LLANES, JAN",
+        "licencia": "18572",
+        "id": "18572"
+      },
+      "B": {
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      },
+      "C": {
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "BIBI ORTIZ, RACHID DAVID",
+        "licencia": "15897",
+        "id": "15897"
+      },
+      {
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      },
+      {
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "BIBI ORTIZ, RACHID DAVID",
+        "licencia": "15897",
+        "id": "15897"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GONZALEZ LLANES, JAN",
+        "licencia": "18572",
+        "id": "18572"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 12,
+          "visitante": 14
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "DE BLAS FOIX, XAVIER",
+        "licencia": "2309",
+        "id": "2309"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "GONZALEZ LLANES, JAN",
+        "licencia": "18572",
+        "id": "18572"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "BIBI ORTIZ, RACHID DAVID",
+        "licencia": "15897",
+        "id": "15897"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "DORCA, LOREDANA-CARMEN",
+        "licencia": "1073",
+        "id": "1073"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "SANCHEZ NAVARRO, GREGORIO",
+        "licencia": "7348",
+        "id": "7348"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "RODRIGUEZ CHALAIS, JORDI",
+        "licencia": "3056",
+        "id": "3056"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 1
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "BIBI ORTIZ, RACHID DAVID",
+            "licencia": "15897",
+            "id": "15897"
+          },
+          {
+            "nombre": "SANCHEZ NAVARRO, GREGORIO",
+            "licencia": "7348",
+            "id": "7348"
+          }
+        ],
+        "nombre": "BIBI ORTIZ, RACHID DAVID",
+        "licencia": "15897",
+        "id": "15897"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "DORCA, LOREDANA-CARMEN",
+            "licencia": "1073",
+            "id": "1073"
+          },
+          {
+            "nombre": "RODRIGUEZ CHALAIS, JORDI",
+            "licencia": "3056",
+            "id": "3056"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 5,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 2,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "GRANDVALIRA CTT ENCAMP",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

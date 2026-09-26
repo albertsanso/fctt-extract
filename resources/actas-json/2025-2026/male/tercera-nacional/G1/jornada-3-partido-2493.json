@@ -1,0 +1,357 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 3,
+  "fecha": "2025-10-18",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CENTRE DE TECNIFICACIÓ ENRIC VALL. C/ MESTRA MARIA CODINA, 1. ,25400 LES BORGES BLANQUES"
+  },
+  "equipos": {
+    "local": {
+      "id": "79",
+      "nombre": "BORGES MAS BLANCH I JOVÉ",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "94",
+      "nombre": "C.T.T.VILANOVA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "GUILLEM SANTIAGO FERNANDEZ",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "SOLÉ ACUNUNEI, ANDREU",
+        "licencia": "14428",
+        "id": "14428"
+      },
+      "X": {
+        "nombre": "GÜELL ARAQUE, PAU",
+        "licencia": "11836",
+        "id": "11836"
+      },
+      "Z": {
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "B": {
+        "nombre": "MALVAR RAMIREZ, JUAN ANDRES",
+        "licencia": "15001",
+        "id": "15001"
+      },
+      "C": {
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "SOLÉ ACUNUNEI, ANDREU",
+        "licencia": "14428",
+        "id": "14428"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "GÜELL ARAQUE, PAU",
+        "licencia": "11836",
+        "id": "11836"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MALVAR RAMIREZ, JUAN ANDRES",
+        "licencia": "15001",
+        "id": "15001"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "GÜELL ARAQUE, PAU",
+        "licencia": "11836",
+        "id": "11836"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "MESTRES MERCADER, ARNAU",
+        "licencia": "6811",
+        "id": "6811"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "SOLÉ ACUNUNEI, ANDREU",
+        "licencia": "14428",
+        "id": "14428"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CONDE LORENTE, F. XAVIER",
+        "licencia": "1752",
+        "id": "1752"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 8
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "BENET GIL, ADRIÀ",
+        "licencia": "13679",
+        "id": "13679"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "MALVAR RAMIREZ, JUAN ANDRES",
+        "licencia": "15001",
+        "id": "15001"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 5,
+        "visitante": 1
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "BORGES MAS BLANCH I JOVÉ",
+    "marcador_partidos": {
+      "local": 5,
+      "visitante": 1
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

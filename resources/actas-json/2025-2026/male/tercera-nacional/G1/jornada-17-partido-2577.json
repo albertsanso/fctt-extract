@@ -1,0 +1,362 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 17,
+  "fecha": "2026-03-21",
+  "hora": "17:30",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "LA BADALONENSE. C. SANT ANASTASI, 14. ,08911 BADALONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "76",
+      "nombre": "EUROCLIMA BADALONA",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "98",
+      "nombre": "MIRÓ GANXETS REUS",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "VICTOR FERNANDEZ VICENTE",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      },
+      "X": {
+        "nombre": "BUENO MARÍN, MARINA",
+        "licencia": "8640",
+        "id": "8640"
+      },
+      "Z": {
+        "nombre": "NÚÑEZ PROVENCIO, POL",
+        "licencia": "14077",
+        "id": "14077"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
+      "B": {
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      },
+      "C": {
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 9,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "BUENO MARÍN, MARINA",
+        "licencia": "8640",
+        "id": "8640"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 2,
+          "local": 10,
+          "visitante": 12
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 6
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "NÚÑEZ PROVENCIO, POL",
+        "licencia": "14077",
+        "id": "14077"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 3
+        },
+        {
+          "set": 2,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 3
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "BUENO MARÍN, MARINA",
+        "licencia": "8640",
+        "id": "8640"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "BUSQUETS GONZALEZ, FERRAN",
+        "licencia": "5747",
+        "id": "5747"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 2
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "RAVENTÓS MONTSERRAT, ARNAU",
+        "licencia": "11283",
+        "id": "11283"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "SANCHEZ VALIENTE, DIDAC",
+        "licencia": "6500",
+        "id": "6500"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 4,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 5,
+          "local": 11,
+          "visitante": 5
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "NÚÑEZ PROVENCIO, POL",
+        "licencia": "14077",
+        "id": "14077"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "PETROVICI, PAUL",
+        "licencia": "15006",
+        "id": "15006"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 4,
+        "visitante": 2
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "EUROCLIMA BADALONA",
+    "marcador_partidos": {
+      "local": 4,
+      "visitante": 2
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

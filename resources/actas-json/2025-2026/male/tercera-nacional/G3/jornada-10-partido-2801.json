@@ -1,0 +1,446 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 10,
+  "fecha": "2025-12-13",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "POLIESPORTIU MUNICIPAL CAN DELFÍ. C/ PRAT DE CAN DELFÍ S/N. A TOCAR DE LES PISCINES,17401 ARBÚCIES"
+  },
+  "equipos": {
+    "local": {
+      "id": "75",
+      "nombre": "CTT ARBÚCIES",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "104",
+      "nombre": "UE SANT CUGAT",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "BIEL SUBIRANA VARGAS",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "LU, MING PU",
+        "licencia": "17889",
+        "id": "17889"
+      },
+      "X": {
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "Z": {
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "CHAPALAIN, LAURENT",
+        "licencia": "4036",
+        "id": "4036"
+      },
+      "B": {
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      },
+      "C": {
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      }
+    }
+  },
+  "dobles": {
+    "local": [
+      {
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      {
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      }
+    ],
+    "visitante": [
+      {
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      },
+      {
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      }
+    ]
+  },
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LU, MING PU",
+        "licencia": "17889",
+        "id": "17889"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CHAPALAIN, LAURENT",
+        "licencia": "4036",
+        "id": "4036"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 4,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 1
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        },
+        {
+          "set": 4,
+          "local": 12,
+          "visitante": 10
+        },
+        {
+          "set": 5,
+          "local": 12,
+          "visitante": 10
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 2
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "CHAPALAIN, LAURENT",
+        "licencia": "4036",
+        "id": "4036"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 13,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "LU, MING PU",
+        "licencia": "17889",
+        "id": "17889"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARRO DOMINGO, SOFIA",
+        "licencia": "12682",
+        "id": "12682"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 13,
+          "visitante": 15
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "MORATO VILA, EDUARD",
+        "licencia": "3108",
+        "id": "3108"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "ZOU, TIANQI",
+        "licencia": "12838",
+        "id": "12838"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 12,
+          "visitante": 14
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 7,
+      "tipo": "dobles",
+      "cruce": "Db vs Db",
+      "local": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "TURA POCH, DANIEL",
+            "licencia": "10239",
+            "id": "10239"
+          },
+          {
+            "nombre": "MORATO VILA, EDUARD",
+            "licencia": "3108",
+            "id": "3108"
+          }
+        ],
+        "nombre": "TURA POCH, DANIEL",
+        "licencia": "10239",
+        "id": "10239"
+      },
+      "visitante": {
+        "letra": "Db",
+        "jugadores": [
+          {
+            "nombre": "ZOU, TIANQI",
+            "licencia": "12838",
+            "id": "12838"
+          },
+          {
+            "nombre": "CARRO DOMINGO, SOFIA",
+            "licencia": "12682",
+            "id": "12682"
+          }
+        ]
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 3,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "UE SANT CUGAT",
+    "marcador_partidos": {
+      "local": 3,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

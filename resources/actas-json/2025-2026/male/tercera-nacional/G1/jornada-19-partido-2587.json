@@ -1,0 +1,352 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 19,
+  "fecha": "2026-04-18",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "POLISPORTIU RIPOLLET. C/( MAGALLANES, 22-24. ,08291 RIPOLLET"
+  },
+  "equipos": {
+    "local": {
+      "id": "89",
+      "nombre": "CLINICA DENTAL VG. PILAR RIPOLLET",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "69",
+      "nombre": "ACCESIA - TT JOVES",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": {
+      "nombre": "ADRIÀ HERNÁNDEZ ORDOÑO",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "A": {
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "B": {
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "C": {
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      }
+    },
+    "visitante": {
+      "Y": {
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "X": {
+        "nombre": "LABARTA SERRA, ORIOL",
+        "licencia": "17277",
+        "id": "17277"
+      },
+      "Z": {
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "A",
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 13
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 9
+        },
+        {
+          "set": 4,
+          "local": 13,
+          "visitante": 15
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LABARTA SERRA, ORIOL",
+        "licencia": "17277",
+        "id": "17277"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 5,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 13
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "C",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 1,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "A",
+        "nombre": "RICO RODRIGUEZ, LIDIA",
+        "licencia": "4432",
+        "id": "4432"
+      },
+      "visitante": {
+        "letra": "X",
+        "nombre": "LABARTA SERRA, ORIOL",
+        "licencia": "17277",
+        "id": "17277"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 3,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 4
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "C",
+        "nombre": "SILVA ROMERO, ADRIAN",
+        "licencia": "10912",
+        "id": "10912"
+      },
+      "visitante": {
+        "letra": "Y",
+        "nombre": "CARMONA DE LA ROSA, ALBERT",
+        "licencia": "6952",
+        "id": "6952"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 14,
+          "visitante": 12
+        },
+        {
+          "set": 4,
+          "local": 8,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 5
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "B",
+        "nombre": "LLORENS RAMOS, VICTOR",
+        "licencia": "6247",
+        "id": "6247"
+      },
+      "visitante": {
+        "letra": "Z",
+        "nombre": "SOLER MORENO, ALBERT",
+        "licencia": "1133",
+        "id": "1133"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 9,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 10,
+          "visitante": 12
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 0,
+        "visitante": 6
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "ACCESIA - TT JOVES",
+    "marcador_partidos": {
+      "local": 0,
+      "visitante": 6
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

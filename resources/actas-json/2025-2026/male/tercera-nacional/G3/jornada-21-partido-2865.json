@@ -1,0 +1,352 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2025/2026",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 3",
+  "grupo": 3,
+  "jornada": 21,
+  "fecha": "2026-05-03",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLÓ MUNICIPAL D'ESPORTS DE LA BISBAL D'EMPORDÀ. AVINGUDA MAS CLARA S/N. ,17100 LA BISBAL D'EMPORDÀ"
+  },
+  "equipos": {
+    "local": {
+      "id": "86",
+      "nombre": "C.T.T. LA BISBAL",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "78",
+      "nombre": "CTT BARCELONA",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": false,
+  "arbitros": {
+    "principal": {
+      "nombre": "LLORENÇ VILARNAU SALIP",
+      "licencia": null
+    },
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {
+      "Y": {
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "X": {
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "Z": {
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      }
+    },
+    "visitante": {
+      "A": {
+        "nombre": "LIN CHEN, HONGXIANG",
+        "licencia": "6779",
+        "id": "6779"
+      },
+      "B": {
+        "nombre": "VANACLOCHA ESPONA, SANTI",
+        "licencia": "11633",
+        "id": "11633"
+      },
+      "C": {
+        "nombre": "CARDONA JORDAN, BIEL",
+        "licencia": "13097",
+        "id": "13097"
+      }
+    }
+  },
+  "dobles": null,
+  "partidos": [
+    {
+      "numero": 1,
+      "tipo": "individual",
+      "cruce": "A vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LIN CHEN, HONGXIANG",
+        "licencia": "6779",
+        "id": "6779"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 7
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 4
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 0
+      }
+    },
+    {
+      "numero": 2,
+      "tipo": "individual",
+      "cruce": "B vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VANACLOCHA ESPONA, SANTI",
+        "licencia": "11633",
+        "id": "11633"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 8,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 8
+        },
+        {
+          "set": 3,
+          "local": 6,
+          "visitante": 11
+        },
+        {
+          "set": 4,
+          "local": 0,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 1
+      }
+    },
+    {
+      "numero": 3,
+      "tipo": "individual",
+      "cruce": "C vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARDONA JORDAN, BIEL",
+        "licencia": "13097",
+        "id": "13097"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 7,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 5
+        },
+        {
+          "set": 4,
+          "local": 4,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 1,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 2
+      }
+    },
+    {
+      "numero": 4,
+      "tipo": "individual",
+      "cruce": "A vs X",
+      "local": {
+        "letra": "X",
+        "nombre": "ARTACHO CORTÉS, JOAN MANEL",
+        "licencia": "701",
+        "id": "701"
+      },
+      "visitante": {
+        "letra": "A",
+        "nombre": "LIN CHEN, HONGXIANG",
+        "licencia": "6779",
+        "id": "6779"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 0,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 0,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 0,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 1,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 5,
+      "tipo": "individual",
+      "cruce": "C vs Y",
+      "local": {
+        "letra": "Y",
+        "nombre": "FONTANET PÉREZ, FRANCESC",
+        "licencia": "1002",
+        "id": "1002"
+      },
+      "visitante": {
+        "letra": "C",
+        "nombre": "CARDONA JORDAN, BIEL",
+        "licencia": "13097",
+        "id": "13097"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 2,
+          "local": 11,
+          "visitante": 6
+        },
+        {
+          "set": 3,
+          "local": 11,
+          "visitante": 7
+        }
+      ],
+      "resultado_juegos": {
+        "local": 3,
+        "visitante": 0
+      },
+      "ganador": "local",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 3
+      }
+    },
+    {
+      "numero": 6,
+      "tipo": "individual",
+      "cruce": "B vs Z",
+      "local": {
+        "letra": "Z",
+        "nombre": "RIBAS XUCLÀ, JORDI",
+        "licencia": "1081",
+        "id": "1081"
+      },
+      "visitante": {
+        "letra": "B",
+        "nombre": "VANACLOCHA ESPONA, SANTI",
+        "licencia": "11633",
+        "id": "11633"
+      },
+      "sets": [
+        {
+          "set": 1,
+          "local": 3,
+          "visitante": 11
+        },
+        {
+          "set": 2,
+          "local": 4,
+          "visitante": 11
+        },
+        {
+          "set": 3,
+          "local": 5,
+          "visitante": 11
+        }
+      ],
+      "resultado_juegos": {
+        "local": 0,
+        "visitante": 3
+      },
+      "ganador": "visitante",
+      "marcador_acumulado": {
+        "local": 2,
+        "visitante": 4
+      }
+    }
+  ],
+  "resultado_final": {
+    "ganador": "CTT BARCELONA",
+    "marcador_partidos": {
+      "local": 2,
+      "visitante": 4
+    },
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
