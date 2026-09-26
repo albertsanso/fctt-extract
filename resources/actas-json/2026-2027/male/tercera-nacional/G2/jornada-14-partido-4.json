@@ -1,0 +1,45 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 14,
+  "fecha": "2027-01-30",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "CENTRE DE TECNIFICACIÓ ENRIC VALL. C/ MESTRA MARIA CODINA, 1,25400 LES BORGES BLANQUES"
+  },
+  "equipos": {
+    "local": {
+      "id": "127",
+      "nombre": "LES BORGES MASIA TERO",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "124",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": null,
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

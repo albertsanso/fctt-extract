@@ -1,0 +1,45 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 10,
+  "fecha": "2026-12-12",
+  "hora": "16:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "PAVELLO ESCOLA DE SEGONA ENSENYANÇA D'ORDINO. C/ NARCISO YEPES S/N,AD300 ANDORRA"
+  },
+  "equipos": {
+    "local": {
+      "id": "122",
+      "nombre": "CTT VALLS DEL NORD - ORX",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "129",
+      "nombre": "CTT L'HOSPITALET",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": null,
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,45 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 1",
+  "grupo": 1,
+  "jornada": 12,
+  "fecha": "2027-01-16",
+  "hora": "17:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "INSTITUT BISBE BERENGUER. APRESTADORA, 49,08901 L'HOSPITALET DEL LLOBREGAT"
+  },
+  "equipos": {
+    "local": {
+      "id": "152",
+      "nombre": "CTT L'HOSPITALET - B",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "140",
+      "nombre": "NÀSTIC DE TARRAGONA \"A\"",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": null,
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}

@@ -1,0 +1,45 @@
+{
+  "federacion": "Federació Catalana de Tennis Taula",
+  "temporada": "2026/2027",
+  "genero": "masculino",
+  "competicion": "TERCERA DIVISIÓ MASCULINA GRUP 2",
+  "grupo": 2,
+  "jornada": 9,
+  "fecha": "2026-11-29",
+  "hora": "11:00",
+  "lugar": {
+    "ciudad": null,
+    "recinto": "EL CENTRE GRACIA. CARRER ROS DE OLANO Nº 9,08012 BARCELONA"
+  },
+  "equipos": {
+    "local": {
+      "id": "153",
+      "nombre": "EL CENTRE",
+      "delegado": null,
+      "entrenador": null
+    },
+    "visitante": {
+      "id": "124",
+      "nombre": "CTT CASTELLGALÍ",
+      "delegado": null,
+      "entrenador": null
+    }
+  },
+  "abc_es_local": true,
+  "arbitros": {
+    "principal": null,
+    "asistente": null
+  },
+  "alineaciones": {
+    "local": {},
+    "visitante": {}
+  },
+  "dobles": null,
+  "partidos": [],
+  "resultado_final": {
+    "ganador": null,
+    "marcador_partidos": null,
+    "marcador_juegos": null
+  },
+  "acta_protestada": false
+}
